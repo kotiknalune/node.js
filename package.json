@@ -1,12 +1,12 @@
 {
-  "name": "rs-rest-service-starter",
+  "name": "rest-api-project",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/kotiknalune/node.js.git"
   },
   "type": "commonjs",
-  "description": "REST service starter for RS School",
+  "description": "A REST API for Node.js course",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon src/server.js",
@@ -48,6 +48,7 @@
     "cross-env": "6.0.3",
     "dotenv": "8.2.0",
     "express": "4.17.1",
+    "http-status-codes": "^2.1.4",
     "swagger-ui-express": "4.1.2",
     "uuid": "3.3.3",
     "yamljs": "0.3.0"
@@ -66,5 +67,14 @@
     "dirty-chai": "2.0.1",
     "jest": "24.9.0",
     "supertest": "4.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kotiknalune/node.js/issues"
+  },
+  "homepage": "https://github.com/kotiknalune/node.js#readme",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "author": "Katerina Railian <railian.katerina@gmail.com>"
 }
