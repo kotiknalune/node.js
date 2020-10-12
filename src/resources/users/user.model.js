@@ -1,11 +1,13 @@
 const uuid = require('uuid');
+const { userConfig } = require('../../configs/user.config');
+const { model } = userConfig;
 
 class User {
   constructor({
     id = uuid(),
-    name = 'USER',
-    login = 'user',
-    password = 'P@55w0rd'
+    name = model.name,
+    login = model.login,
+    password = model.password
   } = {}) {
     this.id = id;
     this.name = name;
