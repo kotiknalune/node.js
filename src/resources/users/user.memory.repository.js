@@ -1,7 +1,7 @@
 const { NOT_FOUND_ERROR } = require('../../errors/appError');
 const { db } = require('../../common/db.inMemory');
 
-const { userConfig } = require('../../configs/user.config');
+const { userConfig } = require('./user.config');
 const { table_name, model } = userConfig;
 
 const getAllUsers = async () => await db.getAll(table_name);

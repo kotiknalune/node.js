@@ -1,5 +1,5 @@
 const uuid = require('uuid');
-const { userConfig } = require('../../configs/user.config');
+const { userConfig } = require('./user.config');
 const { model } = userConfig;
 
 class User {

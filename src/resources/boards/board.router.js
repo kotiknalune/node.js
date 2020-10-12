@@ -5,7 +5,7 @@ const boardsService = require('./board.service');
 const { endpoints } = require('../../configs/endpoint.config');
 const { StatusCodes } = require('http-status-codes');
 const { NOT_FOUND_ERROR } = require('../../errors/appError');
-const { boardConfig } = require('../../configs/board.config');
+const { boardConfig } = require('./board.config');
 
 router
   .route(endpoints.root)
@@ -16,7 +16,7 @@ router
         .status(StatusCodes.OK)
         .json(boards.map(board => Board.toResponse(board)));
     } catch (err) {
-      res.status(StatusCodes.NOT_FOUND).send("Couldn't find any boards");
+      NOT_FOUND_ERROR(res, boardConfig.table_name);
     }
   })
   .post(async (req, res) => {
@@ -54,7 +54,9 @@ router
     } catch (err) {
       res
         .status(StatusCodes.NOT_FOUND)
-        .send(`Could not find a board with id ${req.params.id} to delete`);
+        .send(
+          `Could not find a ${boardConfig.model.name} with id ${req.params.id} to delete`
+        );
     }
   });
 

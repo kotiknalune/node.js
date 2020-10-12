@@ -5,15 +5,19 @@ const usersService = require('./user.service');
 const { endpoints } = require('../../configs/endpoint.config');
 const { StatusCodes } = require('http-status-codes');
 const { NOT_FOUND_ERROR } = require('../../errors/appError');
-const { userConfig } = require('../../configs/user.config');
+const { userConfig } = require('./user.config');
 
 router
   .route(endpoints.root)
   .get(async (req, res) => {
-    const users = await usersService.getAllUsers();
-    await res
-      .status(StatusCodes.OK)
-      .json(users.map(user => User.toResponse(user)));
+    try {
+      const users = await usersService.getAllUsers();
+      await res
+        .status(StatusCodes.OK)
+        .json(users.map(user => User.toResponse(user)));
+    } catch (err) {
+      NOT_FOUND_ERROR(res, userConfig.table_name);
+    }
   })
   .post(async (req, res) => {
     const { body } = req;
@@ -48,8 +52,16 @@ router
     res.status(StatusCodes.OK).send(User.toResponse(updatedUser));
   })
   .delete(async (req, res) => {
-    await usersService.deleteUser(req.params.id);
-    res.sendStatus(StatusCodes.NO_CONTENT);
+    try {
+      await usersService.deleteUser(req.params.id);
+      res.sendStatus(StatusCodes.NO_CONTENT);
+    } catch (err) {
+      res
+        .status(StatusCodes.NOT_FOUND)
+        .send(
+          `Could not find a ${userConfig.model.name} with id ${req.params.id} to delete`
+        );
+    }
   });
 
 module.exports = router;

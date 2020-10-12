@@ -1,5 +1,5 @@
 const uuid = require('uuid');
-const { boardConfig } = require('../../configs/board.config');
+const { boardConfig } = require('./board.config');
 
 class Board {
   constructor({
