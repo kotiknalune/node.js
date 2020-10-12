@@ -1,11 +1,14 @@
 class DB {
   constructor() {
     this.Users = [];
+    this.Tasks = [];
+    this.Boards = [];
     this.fixUsers = user => console.log(user);
+    this.fixTasks = () => {};
+    this.fixBoards = () => {};
   }
 
   getAll(tableName) {
-    console.log(this[tableName]);
     return this[tableName].filter(el => el);
   }
 

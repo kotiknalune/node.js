@@ -1,4 +1,4 @@
-const { PORT } = require('./configs/config');
+const { PORT } = require('./configs/app.config');
 const app = require('./app');
 
 app.listen(PORT, () =>

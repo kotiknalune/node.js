@@ -4,7 +4,7 @@ const { db } = require('../../common/db.inMemory');
 const { userConfig } = require('../../configs/user.config');
 const { table_name, model } = userConfig;
 
-const getAll = async () => await db.getAll(table_name);
+const getAllUsers = async () => await db.getAll(table_name);
 
 const getUserById = async id => {
   const entity = await db.getById(table_name, id);
@@ -23,7 +23,7 @@ const deleteUser = async id => {
 };
 
 module.exports = {
-  getAll,
+  getAllUsers,
   getUserById,
   createUser,
   updateUser,
