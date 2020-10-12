@@ -1,9 +1,9 @@
-const uuid = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 const { boardConfig } = require('./board.config');
 
 class Board {
   constructor({
-    id = uuid(),
+    id = uuidv4(),
     title = boardConfig.model.title,
     columns = []
   } = {}) {

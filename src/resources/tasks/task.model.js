@@ -1,10 +1,10 @@
-const uuid = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 const { taskConfig } = require('../tasks/task.config');
 const { model } = taskConfig;
 
 class Task {
   constructor({
-    id = uuid(),
+    id = uuidv4(),
     title = model.title,
     order = model.order,
     description = model.description,

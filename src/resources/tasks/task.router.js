@@ -20,14 +20,7 @@ router
     }
   })
   .post(async (req, res) => {
-    const task = new Task({
-      title: req.body.title,
-      order: req.body.order,
-      description: req.body.description,
-      userId: req.body.userId,
-      boardId: req.params.boardId,
-      columnId: req.body.columnId
-    });
+    const task = new Task({ ...req.body, boardId: req.params.boardId });
     const newTask = await tasksService.createTask(task);
     res.status(StatusCodes.OK).send(Task.toResponse(newTask));
   });
@@ -43,15 +36,7 @@ router
     }
   })
   .put(async (req, res) => {
-    const task = new Task({
-      id: req.params.id,
-      title: req.body.title,
-      order: req.body.order,
-      description: req.body.description,
-      userId: req.body.userId,
-      boardId: req.body.boardId,
-      columnId: req.body.columnId
-    });
+    const task = new Task(req.body);
     const updatedTask = await tasksService.updateTask(req.params.id, task);
     res.status(StatusCodes.OK).send(Task.toResponse(updatedTask));
   })

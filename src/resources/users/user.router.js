@@ -57,7 +57,7 @@ router
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
       res
-        .status(StatusCodes.NOT_FOUND)
+        .status(StatusCodes.NO_CONTENT)
         .send(
           `Could not find a ${userConfig.model.name} with id ${req.params.id} to delete`
         );

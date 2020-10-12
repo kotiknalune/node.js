@@ -3,9 +3,21 @@ class DB {
     this.Users = [];
     this.Tasks = [];
     this.Boards = [];
-    this.fixUsers = user => console.log(user);
-    this.fixTasks = () => {};
-    this.fixBoards = () => {};
+    this.fixUsersStructure = user => {
+      if (user) {
+        this.Tasks.filter(task => task).forEach(task => {
+          task.userId = task.userId === user.id ? null : task.userId;
+        });
+      }
+    };
+    this.fixTasksStructure = () => {};
+    this.fixBoardsStructure = board => {
+      if (board) {
+        this.Tasks.filter(task => task && task.boardId === board.id).forEach(
+          task => (this.Tasks[this.Tasks.indexOf(task)] = undefined)
+        );
+      }
+    };
   }
 
   getAll(tableName) {
@@ -13,14 +25,19 @@ class DB {
   }
 
   getById(tableName, id) {
-    const entity = this[tableName].filter(el => el.id === id)[0];
-    return entity;
+    const entity = this[tableName].filter(el => el && el.id === id);
+    if (entity.length > 1) {
+      const errorMessage = `DB is compromised! At ${tableName}, entity ID ${id}.`;
+      console.error(errorMessage);
+      throw Error(errorMessage);
+    }
+    return entity[0];
   }
 
   remove(tableName, id) {
     const entity = this.getById(tableName, id);
     if (entity) {
-      this[`fix${tableName}`](entity);
+      this[`fix${tableName}Structure`](entity);
 
       const index = this[tableName].indexOf(entity);
       this[tableName] = [
