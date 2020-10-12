@@ -5,6 +5,7 @@ const YAML = require('yamljs');
 
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
+const taskRouter = require('./resources/tasks/task.router');
 
 const { endpoints } = require('./configs/endpoint.config');
 const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
@@ -30,6 +31,7 @@ app.use(endpoints.root, (req, res, next) => {
 
 app.use(endpoints.users, userRouter);
 app.use(endpoints.boards, boardRouter);
+boardRouter.use('/:boardId/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
   res

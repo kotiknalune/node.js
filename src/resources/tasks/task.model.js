@@ -1,5 +1,5 @@
 const uuid = require('uuid');
-const { taskConfig } = require('../../configs/task.config');
+const { taskConfig } = require('../tasks/task.config');
 const { model } = taskConfig;
 
 class Task {
