@@ -6,17 +6,11 @@ class MemoryRepository {
   }
 
   async getAll() {
-    const entities = await this.db.getAll(this.tableName);
-    if (entities.length < 1) throw new Error(`No ${this.tableName} were found`);
-    return entities;
+    return await this.db.getAll(this.tableName);
   }
 
   async getById(id) {
-    const entity = await this.db.getById(this.tableName, id);
-    if (!entity) {
-      throw new Error(`The ${this.entity} with ID ${id} was not found!`);
-    }
-    return entity;
+    return await this.db.getById(this.tableName, id);
   }
 
   async create(entity) {
@@ -28,8 +22,8 @@ class MemoryRepository {
   }
 
   async delete(id) {
-    const result = await this.db.remove(this.tableName, id);
-    if (result.length > 1) throw new Error(this.entity, { id });
+    return await this.db.remove(this.tableName, id);
+    // if (result.length > 1) throw new Error(this.entity, { id });
   }
 }
 
