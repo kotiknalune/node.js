@@ -52,11 +52,7 @@ router
       await boardsService.deleteBoard(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      res
-        .status(StatusCodes.NOT_FOUND)
-        .send(
-          `Could not find a ${boardConfig.model.name} with id ${req.params.id} to delete`
-        );
+      NOT_FOUND_ERROR(res, boardConfig.table_name);
     }
   });
 
