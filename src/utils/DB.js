@@ -25,28 +25,28 @@ class DB {
   }
 
   getById(tableName, id) {
-    const entity = this[tableName].filter(el => el && el.id === id);
-    if (entity.length > 1) {
-      const errorMessage = `DB is compromised! At ${tableName}, entity ID ${id}.`;
-      console.error(errorMessage);
-      throw Error(errorMessage);
+    const entities = this[tableName].filter(el => el && el.id === id);
+    if (entities.length > 1) {
+      throw new Error(`DB is compromised ${tableName}, entity ID ${id}.`);
     }
-    return entity[0];
+    if (entities.length < 1) this.notFound(tableName, id);
+    return entities[0];
   }
 
   remove(tableName, id) {
     const entity = this.getById(tableName, id);
-    if (entity) {
-      this[`fix${tableName}Structure`](entity);
+    if (!entity) this.notFound(tableName, id);
 
-      const index = this[tableName].indexOf(entity);
-      this[tableName] = [
-        ...this[tableName].slice(0, index),
-        ...(this[tableName].length > index + 1
-          ? this[tableName].slice(index + 1)
-          : [])
-      ];
-    }
+    this[`fix${tableName}Structure`](entity);
+
+    const index = this[tableName].indexOf(entity);
+    this[tableName] = [
+      ...this[tableName].slice(0, index),
+      ...(this[tableName].length > index + 1
+        ? this[tableName].slice(index + 1)
+        : [])
+    ];
+
     return entity;
   }
 
@@ -55,12 +55,17 @@ class DB {
     return this.getById(tableName, entity.id);
   }
 
-  async update(tableName, id, entity) {
+  update(tableName, id, entity) {
     const oldEntity = this.getById(tableName, id);
-    if (oldEntity) {
-      this[tableName][this[tableName].indexOf(oldEntity)] = { ...entity };
-    }
+    if (!oldEntity) this.notFound(tableName, id);
+
+    this[tableName][this[tableName].indexOf(oldEntity)] = { ...entity };
     return this.getById(tableName, id);
+  }
+
+  notFound(tableName, id) {
+    const entityName = tableName.substring(0, tableName.length - 1);
+    throw new Error(`${entityName} with ID ${id} was not found!`);
   }
 }
 

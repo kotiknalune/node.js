@@ -3,8 +3,8 @@ const Task = require('./task.model');
 const tasksService = require('./task.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
-const { StatusCodes } = require('http-status-codes');
-const { NOT_FOUND_ERROR } = require('../../errors/appError');
+const StatusCodes = require('http-status-codes');
+const { NOT_FOUND_ERROR } = require('../../helpers/errors');
 const { taskConfig } = require('./task.config');
 
 router

@@ -3,8 +3,8 @@ const Board = require('./board.model');
 const boardsService = require('./board.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
-const { StatusCodes } = require('http-status-codes');
-const { NOT_FOUND_ERROR } = require('../../errors/appError');
+const StatusCodes = require('http-status-codes');
+const { NOT_FOUND_ERROR } = require('../../helpers/errors');
 const { boardConfig } = require('./board.config');
 
 router

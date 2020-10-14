@@ -3,8 +3,8 @@ const User = require('./user.model');
 const usersService = require('./user.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
-const { StatusCodes } = require('http-status-codes');
-const { NOT_FOUND_ERROR } = require('../../errors/appError');
+const StatusCodes = require('http-status-codes');
+const { NOT_FOUND_ERROR } = require('../../helpers/errors');
 const { userConfig } = require('./user.config');
 
 router
@@ -20,12 +20,7 @@ router
     }
   })
   .post(async (req, res) => {
-    const { body } = req;
-    const user = new User({
-      name: body.name,
-      login: body.login,
-      password: body.password
-    });
+    const user = new User(req.body);
     const newUser = await usersService.createUser(user);
     res.status(StatusCodes.OK).send(User.toResponse(newUser));
   });
@@ -41,14 +36,10 @@ router
     }
   })
   .put(async (req, res) => {
-    const { body, params } = req;
-    const user = new User({
-      id: params.id,
-      name: body.name,
-      login: body.login,
-      password: body.password
-    });
-    const updatedUser = await usersService.updateUser(params.id, user);
+    const updatedUser = await usersService.updateUser(
+      req.params.id,
+      new User(req.body)
+    );
     res.status(StatusCodes.OK).send(User.toResponse(updatedUser));
   })
   .delete(async (req, res) => {
@@ -56,11 +47,7 @@ router
       await usersService.deleteUser(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      res
-        .status(StatusCodes.NO_CONTENT)
-        .send(
-          `Could not find a ${userConfig.model.name} with id ${req.params.id} to delete`
-        );
+      NOT_FOUND_ERROR(res, userConfig.model.name, req.params);
     }
   });
 

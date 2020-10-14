@@ -3,6 +3,7 @@ const endpoints = {
   documentation: '/doc',
   users: '/users',
   boards: '/boards',
+  tasks: '/:boardId/tasks',
   id: '/:id'
 };
 
