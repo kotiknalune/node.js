@@ -26,7 +26,7 @@ app.use(
 
 app.use(endpoints.root, (req, res, next) => {
   if (req.originalUrl === endpoints.root) {
-    res.send('Service is running!');
+    res.send('Service is running');
     return;
   }
   next();
@@ -35,6 +35,18 @@ app.use(endpoints.root, (req, res, next) => {
 app.use(endpoints.users, userRouter);
 app.use(endpoints.boards, boardRouter);
 boardRouter.use(endpoints.tasks, taskRouter);
+
+// setTimeout(() => {
+//   Promise.reject(new Error('Opps...'));
+// }, 1500);
+
+process
+  .on('unhandledRejection', reason => {
+    console.error(`Unhandled rejection detected: ${reason.message}`);
+  })
+  .on('uncaughtExceptionMonitor', err => {
+    console.error(err, 'Uncaught Exception thrown');
+  });
 
 app.use(handleError);
 

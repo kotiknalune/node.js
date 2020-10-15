@@ -1,5 +1,12 @@
 const StatusCodes = require('http-status-codes');
 
+class RestError extends Error {
+  constructor(message, statusCode) {
+    super(message);
+    this.statusCode = statusCode;
+  }
+}
+
 function NotFoundError(res, entity, params) {
   let errorMessage = `Couldn't find any ${entity}`;
   if (params) {
@@ -19,7 +26,12 @@ function handleMiddlewareError(err, req, res, next) {
   });
 }
 
+const asyncHandler = fn => (req, res, next) =>
+  Promise.resolve(fn(req, res, next)).catch(next);
+
 module.exports = {
   NOT_FOUND_ERROR: NotFoundError,
-  handleMiddlewareError
+  handleMiddlewareError,
+  RestError,
+  asyncHandler
 };

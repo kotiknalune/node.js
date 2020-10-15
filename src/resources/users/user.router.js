@@ -6,6 +6,7 @@ const { endpoints } = require('../../configs/endpoint.config');
 const StatusCodes = require('http-status-codes');
 const { NOT_FOUND_ERROR } = require('../../helpers/errors');
 const { userConfig } = require('./user.config');
+const logger = require('../../helpers/logger');
 
 router
   .route(endpoints.root)
@@ -15,6 +16,8 @@ router
       await res
         .status(StatusCodes.OK)
         .json(users.map(user => User.toResponse(user)));
+
+      logger.log('info', 'Got all users');
     } catch (err) {
       NOT_FOUND_ERROR(res, userConfig.table_name);
     }
