@@ -1,4 +1,6 @@
 const StatusCodes = require('http-status-codes');
+const { exit } = require('process');
+const EXIT_CODE = 1;
 
 class RestError extends Error {
   constructor(message, statusCode) {
@@ -30,9 +32,33 @@ function handleMiddlewareError(err, req, res, next) {
 const asyncHandler = fn => (req, res, next) =>
   Promise.resolve(fn(req, res, next)).catch(next);
 
+const logError = (type, e) => {
+  console.error(
+    `${type}: `,
+    e.message ||
+      `${
+        type === 'uncaughtException'
+          ? 'Unhandled exception'
+          : 'Unhandled promise rejection'
+      } detected!`
+  );
+  console.error(e.stack);
+  console.error(`Application terminated with code: ${EXIT_CODE}`);
+  exit(EXIT_CODE);
+};
+
+const uncaughtError = {
+  type: {
+    exception: 'uncaughtException',
+    rejection: 'unhandledRejection'
+  },
+  handler: (e, type) => logError(type, e)
+};
+
 module.exports = {
   NOT_FOUND_ERROR: NotFoundError,
   handleMiddlewareError,
   RestError,
-  asyncHandler
+  asyncHandler,
+  uncaughtError
 };

@@ -1,5 +1,20 @@
-const morgan = require('morgan');
+// const url = require('url');
+const uuid = require('uuid');
+
 const { createLogger, format, transports } = require('winston');
+
+// const fullUrl = req => {
+//   return url.format({
+//     protocol: req.protocol,
+//     host: req.get('host'),
+//     pathname: req.originalUrl
+//   });
+// };
+
+function assignId(req, res, next) {
+  req.id = uuid.v4();
+  next();
+}
 
 const logger = createLogger({
   level: 'silly',
@@ -20,13 +35,19 @@ const logger = createLogger({
   exitOnError: false
 });
 
-logger.stream = {
+logger.infoStream = {
   write(message) {
     logger.info(message);
   }
 };
 
-morgan.token('body', req => JSON.stringify(req.body));
-morgan.token('params', req => JSON.stringify(req.params));
+logger.errorStream = {
+  write(message) {
+    logger.error(message);
+  }
+};
 
-module.exports = logger;
+const logParams =
+  'id::id | timestamp::date[iso] | url::url | method::method | body::body | query params::params | response time :response-time ms';
+
+module.exports = { assignId, logParams, logger };

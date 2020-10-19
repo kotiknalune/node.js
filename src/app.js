@@ -2,83 +2,59 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
-const url = require('url');
 
-// Loggers
-const morgan = require('morgan');
-const winston = require('./configs/logger');
-
+// Helpers
 const { endpoints } = require('./configs/endpoint.config');
+const assignId = require('./utils/logger').assignId;
+
+// Logger
+const morgan = require('morgan');
+const { logParams, logger } = require('./utils/logger');
 
 // Routers
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
-const { exit } = require('process');
 
-// Helpers
-const handleError = require('./helpers/errors').handleMiddlewareError;
+// Error Handling
+const errorHandler = require('./helpers/errors');
+const { StatusCodes } = require('http-status-codes');
+const { type, handler } = errorHandler.uncaughtError;
+
+// Morgan Setup
+morgan.token('id', req => req.id);
+morgan.token('body', req => JSON.stringify(req.body));
+morgan.token('params', req => JSON.stringify(req.params));
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
-
-// TODO: перенести в логгер
-const exitCode = 1;
-const logError = (type, e) => {
-  console.error(
-    `${type}: `,
-    e.message ||
-      `${
-        type === 'uncaughtException'
-          ? 'Unhandled exception'
-          : 'Unhandled promise rejection'
-      } detected!`
-  );
-  console.error(e.stack);
-  console.error(`Application terminated with code: ${exitCode}`);
-  exit(exitCode);
-};
-
-const error = {
-  type: {
-    exception: 'uncaughtException',
-    rejection: 'unhandledRejection'
-  },
-  handler: (e, type) => logError(type, e)
-};
-
-const fullUrl = req => {
-  return url.format({
-    protocol: req.protocol,
-    host: req.get('host'),
-    pathname: req.originalUrl
-  });
-};
+app.use(assignId);
 
 app.use(
   morgan(
-    'url - :url method - :method body - :body query params - :params response time - :response-time ms',
+    logParams,
     {
-      stream: winston.stream,
-      skip: (req, res) => res.statusCode >= 400
+      stream: logger.infoStream,
+      skip: (req, res) => res.statusCode >= StatusCodes.BAD_REQUEST
+    },
+    {
+      stream: logger.errorStream,
+      skip: (req, res) => res.statusCode < StatusCodes.BAD_REQUEST
     }
   )
 );
 
-// -------------------------
 process
-  .on(error.type.rejection, e => error.handler(e, error.type.rejection))
-  .on(error.type.exception, e => error.handler(e, error.type.exception));
+  .on(type.rejection, e => handler(e, type.rejection))
+  .on(type.exception, e => handler(e, type.exception));
 
 app.use(endpoints.docs, swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
-// TODO: прикрутить фулл-юрл на морагн
-
 app.use(endpoints.root, (req, res, next) => {
   if (req.originalUrl === endpoints.root) {
-    res.send(`Service is running! ${fullUrl(req)}`);
+    res.send('Service is running!');
     return;
   }
   next();
@@ -88,7 +64,7 @@ app.use(endpoints.users, userRouter);
 app.use(endpoints.boards, boardRouter);
 boardRouter.use(endpoints.tasks, taskRouter);
 
-app.use(handleError);
+app.use(errorHandler.handleMiddlewareError);
 
 // For crosscheck purposes -----------
 
