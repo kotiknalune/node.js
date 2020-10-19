@@ -1,15 +1,15 @@
-// const url = require('url');
+const url = require('url');
 const uuid = require('uuid');
 
 const { createLogger, format, transports } = require('winston');
 
-// const fullUrl = req => {
-//   return url.format({
-//     protocol: req.protocol,
-//     host: req.get('host'),
-//     pathname: req.originalUrl
-//   });
-// };
+const fullUrl = req => {
+  return url.format({
+    protocol: req.protocol,
+    host: req.get('host'),
+    pathname: req.originalUrl
+  });
+};
 
 function assignId(req, res, next) {
   req.id = uuid.v4();
@@ -48,6 +48,6 @@ logger.errorStream = {
 };
 
 const logParams =
-  'id::id | timestamp::date[iso] | url::url | method::method | body::body | query params::params | response time :response-time ms';
+  'id::id | timestamp::date[iso] | url::fullUrl | method::method | body::body | query params::params | response time :response-time ms';
 
-module.exports = { assignId, logParams, logger };
+module.exports = { assignId, logParams, logger, fullUrl };

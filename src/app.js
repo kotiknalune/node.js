@@ -9,7 +9,7 @@ const assignId = require('./utils/logger').assignId;
 
 // Logger
 const morgan = require('morgan');
-const { logParams, logger } = require('./utils/logger');
+const { logParams, logger, fullUrl } = require('./utils/logger');
 
 // Routers
 const userRouter = require('./resources/users/user.router');
@@ -25,6 +25,7 @@ const { type, handler } = errorHandler.uncaughtError;
 morgan.token('id', req => req.id);
 morgan.token('body', req => JSON.stringify(req.body));
 morgan.token('params', req => JSON.stringify(req.params));
+morgan.token('fullUrl', req => fullUrl(req));
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
