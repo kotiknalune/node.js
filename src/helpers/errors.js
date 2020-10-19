@@ -11,18 +11,19 @@ class RestError extends Error {
 }
 
 function NotFoundError(res, entity, params) {
-  let errorMessage = `Couldn't find any ${entity}`;
+  let message = `Couldn't find any ${entity}`;
   if (params) {
     const errorParams = JSON.stringify(params);
-    errorMessage = `Couldn't find ${entity} with: ${errorParams}`;
+    message = `Couldn't find ${entity} with: ${errorParams}`;
   }
-  res.status(StatusCodes.NOT_FOUND).send(errorMessage);
+  logger.error(message);
+  res.status(StatusCodes.NOT_FOUND).send(message);
 }
 
 function handleMiddlewareError(err, req, res, next) {
   const { statusCode, message } = err;
   console.error(err);
-  logger.errorStream(message);
+  logger.error(message);
 
   res.status(statusCode || StatusCodes.INTERNAL_SERVER_ERROR).json({
     status: 'error',
