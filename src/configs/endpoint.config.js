@@ -1,6 +1,6 @@
 const endpoints = {
   root: '/',
-  documentation: '/doc',
+  docs: '/doc',
   users: '/users',
   boards: '/boards',
   tasks: '/:boardId/tasks',

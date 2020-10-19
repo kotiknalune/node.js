@@ -16,14 +16,15 @@ function NotFoundError(res, entity, params) {
   res.status(StatusCodes.NOT_FOUND).send(errorMessage);
 }
 
-// eslint-disable-next-line no-unused-vars
 function handleMiddlewareError(err, req, res, next) {
   const { statusCode, message } = err;
+  console.error(err);
   res.status(statusCode || StatusCodes.INTERNAL_SERVER_ERROR).json({
     status: 'error',
     code: statusCode || `${StatusCodes.INTERNAL_SERVER_ERROR}`,
     message: statusCode ? message : 'Internal Server Error!'
   });
+  next();
 }
 
 const asyncHandler = fn => (req, res, next) =>
