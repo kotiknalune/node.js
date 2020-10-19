@@ -1,5 +1,6 @@
 const StatusCodes = require('http-status-codes');
 const { exit } = require('process');
+const { logger } = require('../utils/logger');
 const EXIT_CODE = 1;
 
 class RestError extends Error {
@@ -21,6 +22,8 @@ function NotFoundError(res, entity, params) {
 function handleMiddlewareError(err, req, res, next) {
   const { statusCode, message } = err;
   console.error(err);
+  logger.errorStream(message);
+
   res.status(statusCode || StatusCodes.INTERNAL_SERVER_ERROR).json({
     status: 'error',
     code: statusCode || `${StatusCodes.INTERNAL_SERVER_ERROR}`,
