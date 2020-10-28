@@ -4,8 +4,10 @@ const usersService = require('./user.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../helpers/errors');
-const { userConfig } = require('./user.config');
+const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
+
+const tableName = 'Users';
+const entity = 'User';
 
 router
   .route(endpoints.root)
@@ -16,12 +18,12 @@ router
         .status(StatusCodes.OK)
         .json(users.map(user => User.toResponse(user)));
     } catch (err) {
-      NOT_FOUND_ERROR(res, userConfig.table_name);
+      NOT_FOUND_ERROR(res, tableName);
     }
   })
   .post(
     asyncHandler(async (req, res) => {
-      const user = new User(req.body);
+      const user = new User.entity(req.body);
       const newUser = await usersService.createUser(user);
       res.status(StatusCodes.OK).send(User.toResponse(newUser));
     })
@@ -34,14 +36,14 @@ router
       const user = await usersService.getUserById(req.params.id);
       await res.status(StatusCodes.OK).send(User.toResponse(user));
     } catch (err) {
-      NOT_FOUND_ERROR(res, userConfig.model.name, req.params);
+      NOT_FOUND_ERROR(res, entity, req.params);
     }
   })
   .put(
     asyncHandler(async (req, res) => {
       const updatedUser = await usersService.updateUser(
         req.params.id,
-        new User(req.body)
+        new User.entity({ _id: req.params.id, ...req.body })
       );
       res.status(StatusCodes.OK).send(User.toResponse(updatedUser));
     })
@@ -51,7 +53,7 @@ router
       await usersService.deleteUser(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      NOT_FOUND_ERROR(res, userConfig.model.name, req.params);
+      NOT_FOUND_ERROR(res, entity, req.params);
     }
   });
 

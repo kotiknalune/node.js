@@ -1,7 +1,7 @@
-const { db } = require('../../common/db.inMemory');
-const MemoryRepository = require('../../utils/MemoryRepository');
+// const { db } = require('../../common/db.inMemory');
+// const MemoryRepository = require('../../common/MemoryRepository');
 
-const { boardConfig } = require('./board.config');
-const boardsRepo = new MemoryRepository(boardConfig, db);
+// const { boardConfig } = require('./board.config');
+// const boardsRepo = new MemoryRepository(boardConfig, db);
 
-module.exports = boardsRepo;
+// module.exports = boardsRepo;

@@ -4,7 +4,7 @@ const tasksService = require('./task.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../helpers/errors');
+const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
 const { taskConfig } = require('./task.config');
 
 router

@@ -1,21 +1,37 @@
 const { v4: uuidv4 } = require('uuid');
-const { boardConfig } = require('./board.config');
+const { Schema, model } = require('mongoose');
 
-class Board {
-  constructor({
-    id = uuidv4(),
-    title = boardConfig.model.title,
-    columns = []
-  } = {}) {
-    this.id = id;
-    this.title = title;
-    this.columns = [...columns];
-  }
+const boardSchema = new Schema(
+  {
+    title: String,
+    columns: [
+      {
+        _id: {
+          type: String,
+          default: uuidv4
+        },
+        title: String,
+        order: String
+      }
+    ]
+  },
+  { collection: 'boards' },
+  { versionKey: false }
+);
 
-  static toResponse(board) {
-    const { id, title, columns } = board;
-    return { id, title, columns };
-  }
-}
+const toResponse = board => {
+  const { _id, title, columns } = board;
+  return {
+    id: _id,
+    title,
+    columns: columns.map(e => ({
+      id: _id,
+      title: e.title,
+      order: Number(e.order)
+    }))
+  };
+};
 
-module.exports = Board;
+const entity = model('Board', boardSchema);
+
+module.exports = { entity, toResponse };
