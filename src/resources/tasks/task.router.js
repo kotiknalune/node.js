@@ -5,7 +5,9 @@ const tasksService = require('./task.service');
 const { endpoints } = require('../../configs/endpoint.config');
 const StatusCodes = require('http-status-codes');
 const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
-const { taskConfig } = require('./task.config');
+
+const table_name = 'Tasks';
+const entity = 'Task';
 
 router
   .route(endpoints.root)
@@ -16,12 +18,15 @@ router
         .status(StatusCodes.OK)
         .json(tasks.map(task => Task.toResponse(task)));
     } catch (err) {
-      NOT_FOUND_ERROR(res, taskConfig.table_name);
+      NOT_FOUND_ERROR(res, table_name);
     }
   })
   .post(
     asyncHandler(async (req, res) => {
-      const task = new Task({ ...req.body, boardId: req.params.boardId });
+      const task = new Task.entity({
+        ...req.body,
+        boardId: req.params.boardId
+      });
       const newTask = await tasksService.createTask(task);
       res.status(StatusCodes.OK).send(Task.toResponse(newTask));
     })
@@ -34,13 +39,15 @@ router
       const task = await tasksService.getTaskById(req.params.id);
       await res.status(StatusCodes.OK).send(Task.toResponse(task));
     } catch (err) {
-      NOT_FOUND_ERROR(res, taskConfig.model.name, req.params);
+      NOT_FOUND_ERROR(res, entity, req.params);
     }
   })
   .put(
     asyncHandler(async (req, res) => {
-      const task = new Task(req.body);
-      const updatedTask = await tasksService.updateTask(req.params.id, task);
+      const updatedTask = await tasksService.updateTask(
+        req.params.id,
+        new Task.entity({ _id: req.params.id, ...req.body })
+      );
       res.status(StatusCodes.OK).send(Task.toResponse(updatedTask));
     })
   )
@@ -49,7 +56,7 @@ router
       await tasksService.deleteTask(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      NOT_FOUND_ERROR(res, taskConfig.model.name, req.params);
+      NOT_FOUND_ERROR(res, entity, req.params);
     }
   });
 

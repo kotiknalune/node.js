@@ -1,0 +1,238 @@
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.memory.repository'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.memory.repository'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:3:22)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.memory.repository'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.memory.repository'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:3:22)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module './task.config'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\tasks\task.router.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\app.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)

@@ -7,12 +7,13 @@ class DatabaseRepository {
   }
 
   async getAll() {
-    console.log('GET ALL...', this.collection);
-    return this.collection.find({});
+    return await this.collection.find({});
   }
 
-  async getById(id) {
-    const entity = this.collection.findById(id);
+  async getById(id, subId = null) {
+    const entity = !subId
+      ? await this.collection.findById(id)
+      : await this.collection.findOne({ _id: subId, id });
     if (!entity) throw new NOT_FOUND_ERROR(this.tableName, { id });
     return entity;
   }
@@ -29,8 +30,10 @@ class DatabaseRepository {
     return entity;
   }
 
-  async delete(id) {
-    const entity = await this.collection.findOneAndDelete({ _id: id });
+  async delete(id, subId = null) {
+    const entity = !subId
+      ? await this.collection.findOneAndDelete({ _id: id })
+      : await this.collection.findOneAndDelete({ _id: subId }, id);
     if (!entity) throw new NOT_FOUND_ERROR(this.tableName, { id });
   }
 }
