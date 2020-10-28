@@ -53,7 +53,8 @@ router
       await boardsService.deleteBoard(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      NOT_FOUND_ERROR(res, table_name);
+      console.log('BOARD DELETE...', err);
+      NOT_FOUND_ERROR(res, entity);
     }
   });
 

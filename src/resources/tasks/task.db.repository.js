@@ -8,15 +8,16 @@ class DatabaseSubRepository extends DatabaseRepository {
   }
 
   async deleteBoardTasks(boardId) {
-    return this.collection.deleteMany({ boardId });
+    return await this.collection.deleteMany({ boardId });
   }
 
   async getBoardTasks(boardId) {
-    return this.collection.find({ boardId });
+    return await this.collection.find({ boardId });
   }
 
   async unassignTasks(userId) {
-    return this.collection.updateMany({ userId }, { userId: null });
+    console.log('un-assigning tasks...', userId);
+    return await this.collection.updateMany({ userId }, { userId: null });
   }
 }
 

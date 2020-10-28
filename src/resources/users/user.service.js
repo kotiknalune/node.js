@@ -6,8 +6,8 @@ const getUserById = id => usersRepo.getById(id);
 const createUser = entity => usersRepo.create(entity);
 const updateUser = (id, entity) => usersRepo.update(id, entity);
 const deleteUser = async id => {
-  usersRepo.delete(id);
-  taskService.unassignTasks(id);
+  await usersRepo.delete(id);
+  await taskService.unassignTasks(id);
 };
 
 module.exports = {

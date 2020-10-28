@@ -13,28 +13,24 @@ class DatabaseRepository {
   async getById(id, subId = null) {
     const entity = !subId
       ? await this.collection.findById(id)
-      : await this.collection.findOne({ _id: subId, id });
-    if (!entity) throw new NOT_FOUND_ERROR(this.tableName, { id });
+      : await this.collection.findOne({ _id: id, subId });
     return entity;
   }
 
   async create(entity) {
-    return this.collection.create(entity);
+    return await this.collection.create(entity);
   }
 
   async update(id, data) {
     const entity = await this.collection.findOneAndUpdate({ _id: id }, data, {
       new: true
     });
-    if (!entity) throw new NOT_FOUND_ERROR(this.tableName, { id });
     return entity;
   }
 
-  async delete(id, subId = null) {
-    const entity = !subId
-      ? await this.collection.findOneAndDelete({ _id: id })
-      : await this.collection.findOneAndDelete({ _id: subId }, id);
-    if (!entity) throw new NOT_FOUND_ERROR(this.tableName, { id });
+  async delete(id) {
+    const entity = await this.collection.findOneAndDelete({ _id: id });
+    if (!entity) throw new NOT_FOUND_ERROR({}, this.tableName, { id });
   }
 }
 
