@@ -1,9 +1,11 @@
+const { LOGS_DIR } = require('../configs/app.config');
+
 const url = require('url');
 const uuid = require('uuid');
 
 const { createLogger, format, transports } = require('winston');
 
-const fullUrl = req => {
+const formatURL = req => {
   return url.format({
     protocol: req.protocol,
     host: req.get('host'),
@@ -16,38 +18,51 @@ function assignId(req, res, next) {
   next();
 }
 
+const fileLogFormat = format.combine(
+  format.uncolorize(),
+  format.timestamp(),
+  format.prettyPrint()
+);
+
 const logger = createLogger({
   level: 'silly',
   format: format.combine(format.colorize(), format.cli()),
   transports: [
     new transports.Console(),
     new transports.File({
-      filename: 'error.log',
+      filename: `${LOGS_DIR}/error.log`,
       level: 'error',
-      format: format.combine(format.uncolorize(), format.json())
+      format: fileLogFormat
     }),
     new transports.File({
-      filename: 'info.log',
+      filename: `${LOGS_DIR}/info.log`,
       level: 'info',
-      format: format.combine(format.uncolorize(), format.json())
+      format: fileLogFormat
     })
   ],
-  exitOnError: false
+  exceptionHandlers: [
+    new transports.File({
+      filename: `${LOGS_DIR}/exceptions.log`,
+      level: 'error',
+      handleExceptions: true,
+      handleRejections: true,
+      format: fileLogFormat
+    })
+  ],
+  exitOnError: true
 });
 
+// if (NODE_ENV === 'development') logger.add(new transports.Console());
+
 logger.infoStream = {
-  write(message) {
-    logger.info(message);
-  }
+  write: message => logger.info(message)
 };
 
 logger.errorStream = {
-  write(message) {
-    logger.error(message);
-  }
+  write: message => logger.error(message)
 };
 
-const logParams =
-  'id::id | timestamp::date[iso] | url::fullUrl | method::method | body::body | query params::params | response time :response-time ms';
+const logMessage =
+  'id::id, url::fullUrl, :method, body::body, query params::params, :response-time ms';
 
-module.exports = { assignId, logParams, logger, fullUrl };
+module.exports = { assignId, logMessage, logger, formatURL };

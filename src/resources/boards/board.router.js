@@ -4,8 +4,10 @@ const boardsService = require('./board.service');
 
 const { endpoints } = require('../../configs/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../helpers/errors');
-const { boardConfig } = require('./board.config');
+const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
+
+const table_name = 'Boards';
+const entity = 'Board';
 
 router
   .route(endpoints.root)
@@ -16,15 +18,12 @@ router
         .status(StatusCodes.OK)
         .json(boards.map(board => Board.toResponse(board)));
     } catch (err) {
-      NOT_FOUND_ERROR(res, boardConfig.table_name);
+      NOT_FOUND_ERROR(res, table_name);
     }
   })
   .post(
     asyncHandler(async (req, res) => {
-      const board = new Board({
-        title: req.body.title,
-        columns: [...req.body.columns]
-      });
+      const board = new Board.entity(req.body);
       const newBoard = await boardsService.createBoard(board);
       res.status(StatusCodes.OK).send(Board.toResponse(newBoard));
     })
@@ -37,19 +36,14 @@ router
       const board = await boardsService.getBoardById(req.params.id);
       await res.status(StatusCodes.OK).send(Board.toResponse(board));
     } catch (err) {
-      NOT_FOUND_ERROR(res, boardConfig.model.name, req.params);
+      NOT_FOUND_ERROR(res, entity, req.params);
     }
   })
   .put(
     asyncHandler(async (req, res) => {
-      const board = new Board({
-        id: req.params.id,
-        title: req.body.title,
-        columns: [...req.body.columns]
-      });
       const updatedBoard = await boardsService.updateBoard(
         req.params.id,
-        board
+        new Board.entity({ _id: req.params.id, ...req.body })
       );
       res.status(StatusCodes.OK).send(Board.toResponse(updatedBoard));
     })
@@ -59,7 +53,8 @@ router
       await boardsService.deleteBoard(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
     } catch (err) {
-      NOT_FOUND_ERROR(res, boardConfig.table_name);
+      console.log('BOARD DELETE...', err);
+      NOT_FOUND_ERROR(res, entity);
     }
   });
 

@@ -1,6 +1,9 @@
 const { PORT } = require('./configs/app.config');
+const connectToDB = require('./utils/mongo');
 const app = require('./app');
 
-app.listen(PORT, () =>
-  console.log(`App is running on http://localhost:${PORT}`)
-);
+connectToDB(() => {
+  app.listen(PORT, () =>
+    console.info(`App is running on http://localhost:${PORT}`)
+  );
+});
