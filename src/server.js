@@ -1,4 +1,4 @@
-const { PORT } = require('./configs/app.config');
+const { PORT } = require('./config/app.config');
 const connectToDB = require('./utils/mongo');
 const app = require('./app');
 

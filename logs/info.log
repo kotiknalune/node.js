@@ -1,0 +1,175 @@
+{
+  message: '    id:308a6201-6a55-40a3-9bf7-eab9007fda55, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.368 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:02:31.375Z'
+}
+{
+  message: '    id:f0271306-2170-4d2b-addc-cd45664a83fd, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.261 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:03:48.128Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:55.822Z'
+}
+{
+  message: '    id:2f694aac-0c27-4f83-82e5-673f6a48f498, url:http://localhost:4000/boards/5fa314e25902a7687c3fcb4d/tasks/8306bf03-c25b-4e47-9eee-687446421a6e, GET, body:{}, query params:{"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}, 67.008 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:55.847Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa314e35902a7687c3fcb52"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.048Z'
+}
+{
+  message: '    id:bfc9f126-12ec-4db0-a55a-cc02300dd7ba, url:http://localhost:4000/boards/5fa314e35902a7687c3fcb52, GET, body:{}, query params:{"id":"5fa314e35902a7687c3fcb52"}, 64.036 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.051Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.489Z'
+}
+{
+  message: '    id:70bf0476-ab2d-4190-9576-9a5d3dae876c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/8742f4a7-ac6d-4e21-bd94-6e341353a963, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}, 57.039 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.500Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.504Z'
+}
+{
+  message: '    id:aa76c928-e0cf-47f9-b4c6-7c4f28eeb3ea, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/35dd82de-b581-4d4a-be35-f8da121cdab4, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}, 68.396 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.506Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.547Z'
+}
+{
+  message: '    id:f268e7df-cb49-4090-9459-79f77848851c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/c205e6a6-012f-475c-ac72-e0dacbb8f39d, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}, 108.304 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.600Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.601Z'
+}
+{
+  message: '    id:9b1b17e7-fc9b-4d5a-96fd-09426c99251e, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/31c8d3ed-38e7-4525-b6fe-c7d327fb26e6, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}, 159.187 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.603Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.632Z'
+}
+{
+  message: '    id:ed7d5c77-5725-4d7e-b12e-96dbf2200296, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/2ed1d3ea-89e0-4f74-9808-9611c5d273e8, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}, 188.113 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.638Z'
+}
+{
+  message: '    id:538f3999-1338-489a-ac57-845b45bfa710, url:http://localhost:4000/docs, GET, body:{}, query params:-, 1.858 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:55:05.152Z'
+}
+{
+  message: "   Cannot read property 'findOne' of undefined",
+  level: 'error',
+  timestamp: '2020-11-04T20:56:11.673Z'
+}
+{
+  message: '    id:c61383a0-6d6b-4b6e-b28c-c75482e7b4ed, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:{}, 3.067 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:56:11.701Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ac38626a51acb32362","id":"6fb39bcd-628b-47ec-9fad-6ad99a7bfd37"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.280Z'
+}
+{
+  message: '    id:d9f5f8a3-ae8b-422d-9c43-e84b26913420, url:http://localhost:4000/boards/5fa315ac38626a51acb32362/tasks/6fb39bcd-628b-47ec-9fad-6ad99a7bfd37, GET, body:{}, query params:{"boardId":"5fa315ac38626a51acb32362","id":"6fb39bcd-628b-47ec-9fad-6ad99a7bfd37"}, 60.718 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.295Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa315ad38626a51acb32366"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.435Z'
+}
+{
+  message: '    id:0a1598cf-4f57-439e-8060-aad606c90ee5, url:http://localhost:4000/boards/5fa315ad38626a51acb32366, GET, body:{}, query params:{"id":"5fa315ad38626a51acb32366"}, 68.918 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.444Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"bd51729f-99a7-443b-85f8-c18ea616953f"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.845Z'
+}
+{
+  message: '    id:f9f3f876-9778-4884-aa1a-676df51ba514, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/bd51729f-99a7-443b-85f8-c18ea616953f, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"bd51729f-99a7-443b-85f8-c18ea616953f"}, 59.184 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.862Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"f7b0a336-78de-4ed0-b457-78932824b2a5"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.866Z'
+}
+{
+  message: '    id:b571274b-c9a3-47a9-b9bd-9672c23edd2e, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/f7b0a336-78de-4ed0-b457-78932824b2a5, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"f7b0a336-78de-4ed0-b457-78932824b2a5"}, 77.961 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.868Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fe5e3c22-a4b0-482e-aeac-e989004589a3"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.869Z'
+}
+{
+  message: '    id:95226912-068b-4e6f-a27c-6e0d0b4114e6, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/fe5e3c22-a4b0-482e-aeac-e989004589a3, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"fe5e3c22-a4b0-482e-aeac-e989004589a3"}, 79.979 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.902Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fa58fa3c-4dda-4bd5-b533-fd567cdc12ed"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.945Z'
+}
+{
+  message: '    id:4bd99e6f-651b-488a-8af6-07919057f41b, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/fa58fa3c-4dda-4bd5-b533-fd567cdc12ed, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"fa58fa3c-4dda-4bd5-b533-fd567cdc12ed"}, 154.962 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.949Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"c6237df5-b323-40b7-baf8-1164e890bbe7"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.951Z'
+}
+{
+  message: '    id:866c52de-6192-4dea-838b-794a09e2bdc7, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/c6237df5-b323-40b7-baf8-1164e890bbe7, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"c6237df5-b323-40b7-baf8-1164e890bbe7"}, 154.841 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:17.953Z'
+}
+{
+  message: '   logger.info is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T20:57:27.502Z'
+}
+{
+  message: '    id:2f0ce3d3-e656-4829-bbf4-8b79cc8b5fb7, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:{}, 55.393 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:57:27.530Z'
+}

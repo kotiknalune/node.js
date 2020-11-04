@@ -2,9 +2,9 @@ const router = require('express').Router({ mergeParams: true });
 const Task = require('./task.model');
 const tasksService = require('./task.service');
 
-const { endpoints } = require('../../configs/endpoint.config');
+const { endpoints } = require('../../config/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
+const { NOT_FOUND_ERROR, asyncHandler } = require('../../error/index');
 
 const table_name = 'Tasks';
 const entity = 'Task';

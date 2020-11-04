@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
+const { hash } = require('bcrypt');
 
 const userSchema = new Schema(
   {
@@ -14,6 +15,17 @@ const userSchema = new Schema(
   { collection: 'users' },
   { versionKey: false }
 );
+
+userSchema.pre('save', function createHash(next) {
+  const user = this;
+  hash(user.password, 10, (err, encrypted) => {
+    if (err) {
+      throw new Error(err);
+    }
+    user.password = encrypted;
+    next();
+  });
+});
 
 const toResponse = user => {
   const { _id, name, login } = user;

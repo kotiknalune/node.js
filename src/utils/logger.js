@@ -1,4 +1,4 @@
-const { LOGS_DIR } = require('../configs/app.config');
+const { LOGS_DIR } = require('../config/app.config');
 
 const url = require('url');
 const uuid = require('uuid');

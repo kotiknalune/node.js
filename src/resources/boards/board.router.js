@@ -2,9 +2,9 @@ const router = require('express').Router();
 const Board = require('./board.model');
 const boardsService = require('./board.service');
 
-const { endpoints } = require('../../configs/endpoint.config');
+const { endpoints } = require('../../config/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../errors/errors');
+const { NOT_FOUND_ERROR, asyncHandler } = require('../../error');
 
 const table_name = 'Boards';
 const entity = 'Board';

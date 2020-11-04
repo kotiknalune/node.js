@@ -4,8 +4,8 @@ const { logger } = require('../utils/logger');
 const EXIT_CODE = 1;
 
 class RestError extends Error {
-  constructor(message, statusCode) {
-    super(message);
+  constructor(entity, params, statusCode) {
+    super(`Error at ${entity} with params: ${JSON.stringify(params)}`);
     this.statusCode = statusCode;
   }
 }

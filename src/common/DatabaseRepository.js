@@ -1,4 +1,4 @@
-const { NOT_FOUND_ERROR } = require('../errors/errors');
+const { NOT_FOUND_ERROR } = require('../error');
 
 class DatabaseRepository {
   constructor(entities, collection) {
