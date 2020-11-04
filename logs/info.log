@@ -1,0 +1,10 @@
+{
+  message: '    id:308a6201-6a55-40a3-9bf7-eab9007fda55, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.368 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:02:31.375Z'
+}
+{
+  message: '    id:f0271306-2170-4d2b-addc-cd45664a83fd, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.261 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:03:48.128Z'
+}

@@ -4,7 +4,7 @@ const path = require('path');
 const YAML = require('yamljs');
 
 // Helpers
-const { endpoints } = require('./configs/endpoint.config');
+const { endpoints } = require('./config/endpoint.config');
 const assignId = require('./utils/logger').assignId;
 
 // Logger
@@ -17,7 +17,7 @@ const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 
 // Error Handling
-const errorHandler = require('./errors/errors');
+const errorHandler = require('./error');
 const { StatusCodes } = require('http-status-codes');
 const { type, handler } = errorHandler.uncaughtError;
 

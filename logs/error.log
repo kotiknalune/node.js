@@ -1,0 +1,145 @@
+{
+  message: '   bcrypt.hash is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T19:58:44.730Z'
+}
+{
+  message: '   bcrypt.hash is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T19:58:44.816Z'
+}
+{
+  message: '   bcrypt.hash is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T19:58:44.893Z'
+}
+{
+  message: "   Cannot destructure property '_id' of 'user' as it is null.",
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.064Z'
+}
+{
+  message: '   bcrypt.hash is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.160Z'
+}
+{
+  message: `   Couldn't find Users with: {"id":"undefined"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.342Z'
+}
+{
+  message: `   Couldn't find User with: {"id":"undefined"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.367Z'
+}
+{
+  message: '   bcrypt.hash is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.425Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f41cb618661c3ed6d1","id":"a04eb256-4200-4123-b8f8-5dc1beb54899"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:45.985Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa307f61cb618661c3ed6d6"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.300Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f61cb618661c3ed6d7","id":"98fa93b8-5874-48d0-8a4f-dd4a054ea9c9"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.738Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f61cb618661c3ed6d7","id":"1e77adfb-dca5-4d04-a712-9da3b41fdf91"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.760Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f61cb618661c3ed6d7","id":"0c28a15b-8bdb-45b5-a600-9d57462e89f8"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.763Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f61cb618661c3ed6d7","id":"59ea12ed-7fc5-4dda-a78e-0b6c43510e08"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.807Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa307f61cb618661c3ed6d7","id":"7f0ca477-714f-4d9e-8b7a-e643ff64d312"}`,
+  level: 'error',
+  timestamp: '2020-11-04T19:58:46.812Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308724c11a20e70b9de77","id":"2f534cab-be71-4e01-bd55-6dfed2c3dde8"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:51.751Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa308734c11a20e70b9de7c"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:51.950Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308734c11a20e70b9de7d","id":"592a0dde-e6ad-49d8-adee-a4e6b405b3c0"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:52.380Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308734c11a20e70b9de7d","id":"cba839ae-3fec-4845-8fe6-a030dc7375e9"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:52.414Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308734c11a20e70b9de7d","id":"b26de951-ee47-470d-b137-ec734f897649"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:52.421Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308734c11a20e70b9de7d","id":"2c7d4409-9867-4e1c-adac-5407e888514e"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:52.451Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308734c11a20e70b9de7d","id":"db4b0af5-7880-482c-8b6e-b896a0e9de12"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:00:52.487Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308854c11a20e70b9de7f","id":"794cfe98-32ca-48a0-9117-fbdd265cca86"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:10.523Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa308864c11a20e70b9de84"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:10.665Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308864c11a20e70b9de85","id":"e4d5adaf-26c6-479f-82a5-d6902449fa3d"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:11.131Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308864c11a20e70b9de85","id":"5f4ba2db-9432-4a78-88fd-a46e2332d3fa"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:11.153Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308864c11a20e70b9de85","id":"e7c9d3b1-fc20-47c7-b6ef-6af2dc6c8b9d"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:11.157Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308864c11a20e70b9de85","id":"2f130faa-99fa-498f-ad0f-a5b556b90fb7"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:11.190Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa308864c11a20e70b9de85","id":"fe25b8d3-213a-48a1-8a24-15d9cc9bf1d9"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:01:11.215Z'
+}

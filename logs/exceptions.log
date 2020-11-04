@@ -1,0 +1,128 @@
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js:1:29)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js:1:28)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js:1:29)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js:1:28)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js:1:29)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js:1:28)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+[31m[31merror[31m[39m:   uncaughtException: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+Error: Cannot find module '../errors/errors'
+Require stack:
+- C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.service.js
+- C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.router.js
+- C:\Users\kshal\Desktop\projects\node.js\src\app.js
+- C:\Users\kshal\Desktop\projects\node.js\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1085:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:928:27)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\common\DatabaseRepository.js:1:29)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
+    at Module.require (internal/modules/cjs/loader.js:1145:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (C:\Users\kshal\Desktop\projects\node.js\src\resources\users\user.db.repository.js:1:28)
+    at Module._compile (internal/modules/cjs/loader.js:1256:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1277:10)
+    at Module.load (internal/modules/cjs/loader.js:1105:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:967:14)
