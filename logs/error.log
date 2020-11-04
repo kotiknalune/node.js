@@ -183,3 +183,43 @@
   level: 'error',
   timestamp: '2020-11-04T20:56:11.672Z'
 }
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ac38626a51acb32362","id":"6fb39bcd-628b-47ec-9fad-6ad99a7bfd37"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.277Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa315ad38626a51acb32366"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.435Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"bd51729f-99a7-443b-85f8-c18ea616953f"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.845Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"f7b0a336-78de-4ed0-b457-78932824b2a5"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.866Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fe5e3c22-a4b0-482e-aeac-e989004589a3"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.869Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fa58fa3c-4dda-4bd5-b533-fd567cdc12ed"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.945Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"c6237df5-b323-40b7-baf8-1164e890bbe7"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:57:17.950Z'
+}
+{
+  message: '   logger.info is not a function',
+  level: 'error',
+  timestamp: '2020-11-04T20:57:27.502Z'
+}

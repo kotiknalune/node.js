@@ -7,11 +7,9 @@ const { StatusCodes } = require('http-status-codes');
 const { RestError, NOT_FOUND_ERROR } = require('../../error/');
 
 const { entity } = require('../../resources/users/user.model');
-const logger = require('../../utils/logger');
 
 const login = async (userLogin, password) => {
   const user = await entity.findOne({ login: userLogin });
-  logger.info(user);
   if (!user) {
     throw new NOT_FOUND_ERROR(`User with login: ${userLogin} doesn't exist.`);
   }
