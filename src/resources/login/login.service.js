@@ -1,30 +1,37 @@
 const jwt = require('jsonwebtoken');
-const { StatusCodes } = require('http-status-codes');
-const { RestError } = require('../../error/');
+const bcrypt = require('bcrypt');
 
-const usersRepo = require('../users/user.db.repository');
 const { JWT_SECRET_KEY } = require('../../config/app.config');
-const { checkPassword } = require('../../utils/authentication/bcrypt');
 
-const signToken = async props => {
-  const { login: reqLogin, password: reqPassword } = props;
+const { StatusCodes } = require('http-status-codes');
+const { RestError, NOT_FOUND_ERROR } = require('../../error/');
 
-  const resUser = await usersRepo.getUser(reqLogin);
-  const { _id: id, login, password: hashedPassword } = resUser[0];
+const { User } = require('../../resources/users/user.model');
+const logger = require('../../utils/logger');
 
-  const resultReconciling = await checkPassword(reqPassword, hashedPassword);
-
-  if (!resultReconciling) {
-    throw new RestError(
-      'login',
-      { login: reqLogin, password: reqPassword },
-      StatusCodes.UNAUTHORIZED
-    );
+const login = async (userLogin, password) => {
+  const user = await User.findOne({ login: userLogin });
+  logger.info(user);
+  if (!user) {
+    throw new NOT_FOUND_ERROR(`User with login: ${userLogin} doesn't exist.`);
   }
 
-  const token = jwt.sign({ id, login }, JWT_SECRET_KEY, { expiresIn: '30m' });
+  const match = await bcrypt.compare(password, user.password);
+  if (!match) {
+    throw new RestError('Password', 'wrong', StatusCodes.BAD_REQUEST);
+  }
 
-  return { token };
+  const token = jwt.sign(
+    {
+      userId: user._id,
+      login: user.login
+    },
+    JWT_SECRET_KEY,
+    {
+      expiresIn: '1h'
+    }
+  );
+  return token;
 };
 
-module.exports = { signToken };
+module.exports = { login };

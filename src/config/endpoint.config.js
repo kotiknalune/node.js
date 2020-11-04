@@ -4,7 +4,8 @@ const endpoints = {
   users: '/users',
   boards: '/boards',
   tasks: '/:boardId/tasks',
-  id: '/:id'
+  id: '/:id',
+  login: '/login'
 };
 
 module.exports = { endpoints };

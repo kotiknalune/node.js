@@ -6,6 +6,7 @@ const YAML = require('yamljs');
 // Helpers
 const { endpoints } = require('./config/endpoint.config');
 const assignId = require('./utils/logger').assignId;
+const authentication = require('./utils/authentication');
 
 // Logger
 const morgan = require('morgan');
@@ -66,6 +67,11 @@ app
 app.use(endpoints.users, userRouter);
 app.use(endpoints.boards, boardRouter);
 boardRouter.use(endpoints.tasks, taskRouter);
+
+app.use('/', authentication.loginRouter);
+app.use('/users', authentication.encrypt.checkJWT, userRouter);
+app.use('/boards', authentication.encrypt.checkJWT, boardRouter);
+app.use('/boards/:boardId/tasks', authentication.encrypt.checkJWT, taskRouter);
 
 app.use(errorHandler.handleMiddlewareError);
 
