@@ -143,3 +143,43 @@
   level: 'error',
   timestamp: '2020-11-04T20:01:11.215Z'
 }
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:55.814Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa314e35902a7687c3fcb52"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.048Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.489Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.503Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.547Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.601Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.632Z'
+}
+{
+  message: "   Cannot read property 'findOne' of undefined",
+  level: 'error',
+  timestamp: '2020-11-04T20:56:11.672Z'
+}

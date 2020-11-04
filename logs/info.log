@@ -8,3 +8,88 @@
   level: 'info',
   timestamp: '2020-11-04T20:03:48.128Z'
 }
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:55.822Z'
+}
+{
+  message: '    id:2f694aac-0c27-4f83-82e5-673f6a48f498, url:http://localhost:4000/boards/5fa314e25902a7687c3fcb4d/tasks/8306bf03-c25b-4e47-9eee-687446421a6e, GET, body:{}, query params:{"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}, 67.008 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:55.847Z'
+}
+{
+  message: `   Couldn't find Board with: {"id":"5fa314e35902a7687c3fcb52"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.048Z'
+}
+{
+  message: '    id:bfc9f126-12ec-4db0-a55a-cc02300dd7ba, url:http://localhost:4000/boards/5fa314e35902a7687c3fcb52, GET, body:{}, query params:{"id":"5fa314e35902a7687c3fcb52"}, 64.036 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.051Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.489Z'
+}
+{
+  message: '    id:70bf0476-ab2d-4190-9576-9a5d3dae876c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/8742f4a7-ac6d-4e21-bd94-6e341353a963, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}, 57.039 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.500Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.504Z'
+}
+{
+  message: '    id:aa76c928-e0cf-47f9-b4c6-7c4f28eeb3ea, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/35dd82de-b581-4d4a-be35-f8da121cdab4, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}, 68.396 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.506Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.547Z'
+}
+{
+  message: '    id:f268e7df-cb49-4090-9459-79f77848851c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/c205e6a6-012f-475c-ac72-e0dacbb8f39d, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}, 108.304 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.600Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.601Z'
+}
+{
+  message: '    id:9b1b17e7-fc9b-4d5a-96fd-09426c99251e, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/31c8d3ed-38e7-4525-b6fe-c7d327fb26e6, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}, 159.187 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.603Z'
+}
+{
+  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}`,
+  level: 'error',
+  timestamp: '2020-11-04T20:53:56.632Z'
+}
+{
+  message: '    id:ed7d5c77-5725-4d7e-b12e-96dbf2200296, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/2ed1d3ea-89e0-4f74-9808-9611c5d273e8, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}, 188.113 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:53:56.638Z'
+}
+{
+  message: '    id:538f3999-1338-489a-ac57-845b45bfa710, url:http://localhost:4000/docs, GET, body:{}, query params:-, 1.858 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:55:05.152Z'
+}
+{
+  message: "   Cannot read property 'findOne' of undefined",
+  level: 'error',
+  timestamp: '2020-11-04T20:56:11.673Z'
+}
+{
+  message: '    id:c61383a0-6d6b-4b6e-b28c-c75482e7b4ed, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:{}, 3.067 ms\n',
+  level: 'info',
+  timestamp: '2020-11-04T20:56:11.701Z'
+}
