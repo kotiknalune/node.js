@@ -1,4 +1,4 @@
-const { NOT_FOUND_ERROR } = require('../error');
+const { NotFoundError, errMessage } = require('../error');
 
 class DatabaseRepository {
   constructor(entities, collection) {
@@ -30,7 +30,11 @@ class DatabaseRepository {
 
   async delete(id) {
     const entity = await this.collection.findOneAndDelete({ _id: id });
-    if (!entity) throw new NOT_FOUND_ERROR({}, this.tableName, { id });
+    if (!entity) {
+      throw new NotFoundError(
+        errMessage.notFoundParams(this.tableName, { id })
+      );
+    }
   }
 }
 

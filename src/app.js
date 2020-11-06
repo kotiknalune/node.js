@@ -6,11 +6,16 @@ const YAML = require('yamljs');
 // Helpers
 const { endpoints } = require('./config/endpoint.config');
 const assignId = require('./utils/logger').assignId;
-const authentication = require('./utils/authentication');
+const { loginRouter, encrypt } = require('./utils/authentication');
 
 // Logger
 const morgan = require('morgan');
-const { logMessage, logger, formatURL } = require('./utils/logger');
+const {
+  logMessage,
+  logger,
+  formatURL,
+  maskPassword
+} = require('./utils/logger');
 
 // Routers
 const userRouter = require('./resources/users/user.router');
@@ -18,15 +23,12 @@ const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 
 // Error Handling
-const errorHandler = require('./error');
 const { StatusCodes } = require('http-status-codes');
-const { type, handler } = errorHandler.uncaughtError;
+const errorHandler = require('./error').errorHandler;
 
 // Morgan Setup
 morgan.token('id', req => req.id);
-morgan.token('body', req =>
-  JSON.stringify(req.body).replace(/,("password":").+"/, '$1***"')
-);
+morgan.token('body', req => JSON.stringify(maskPassword(req.body)));
 morgan.token('params', req => JSON.stringify(req.params));
 morgan.token('fullUrl', req => formatURL(req));
 
@@ -50,10 +52,6 @@ app.use(
   )
 );
 
-process
-  .on(type.rejection, e => handler(e, type.rejection))
-  .on(type.exception, e => handler(e, type.exception));
-
 app
   .use(endpoints.docs, swaggerUI.serve, swaggerUI.setup(swaggerDocument))
   .use(endpoints.root, (req, res, next) => {
@@ -64,25 +62,15 @@ app
     next();
   });
 
+app.use(endpoints.users, encrypt.checkToken, userRouter);
+app.use(endpoints.boards, encrypt.checkToken, boardRouter);
+app.use(endpoints.tasks_concat, encrypt.checkToken, taskRouter);
+
+app.use(endpoints.root, loginRouter);
 app.use(endpoints.users, userRouter);
 app.use(endpoints.boards, boardRouter);
 boardRouter.use(endpoints.tasks, taskRouter);
 
-app.use('/', authentication.loginRouter);
-app.use('/users', authentication.encrypt.checkJWT, userRouter);
-app.use('/boards', authentication.encrypt.checkJWT, boardRouter);
-app.use('/boards/:boardId/tasks', authentication.encrypt.checkJWT, taskRouter);
-
-app.use(errorHandler.handleMiddlewareError);
-
-// For crosscheck purposes -----------
-
-// setTimeout(() => {
-//   Promise.reject(new Error());
-// }, 1500);
-
-// setTimeout(() => {
-//   throw new Error();
-// }, 2000);
+app.use(errorHandler);
 
 module.exports = app;

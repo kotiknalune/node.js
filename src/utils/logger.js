@@ -5,6 +5,14 @@ const uuid = require('uuid');
 
 const { createLogger, format, transports } = require('winston');
 
+const maskPassword = body => {
+  const responseBody = Object.assign({}, body);
+  if (Object.prototype.hasOwnProperty.call(body, 'password')) {
+    responseBody.password = '*'.repeat(String(responseBody.password).length);
+  }
+  return responseBody;
+};
+
 const formatURL = req => {
   return url.format({
     protocol: req.protocol,
@@ -65,4 +73,4 @@ logger.errorStream = {
 const logMessage =
   'id::id, url::fullUrl, :method, body::body, query params::params, :response-time ms';
 
-module.exports = { assignId, logMessage, logger, formatURL };
+module.exports = { assignId, logMessage, logger, formatURL, maskPassword };

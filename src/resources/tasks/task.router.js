@@ -4,23 +4,22 @@ const tasksService = require('./task.service');
 
 const { endpoints } = require('../../config/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../error/index');
+const { NotFoundError, asyncHandler, errMessage } = require('../../error');
 
-const table_name = 'Tasks';
-const entity = 'Task';
+const ENTITY = 'task';
 
 router
   .route(endpoints.root)
-  .get(async (req, res) => {
-    try {
+  .get(
+    asyncHandler(async (req, res) => {
       const tasks = await tasksService.getAllTasks();
+      if (!tasks) throw new NotFoundError(errMessage.notFound(ENTITY));
+
       await res
         .status(StatusCodes.OK)
         .json(tasks.map(task => Task.toResponse(task)));
-    } catch (err) {
-      NOT_FOUND_ERROR(res, table_name);
-    }
-  })
+    })
+  )
   .post(
     asyncHandler(async (req, res) => {
       const task = new Task.entity({
@@ -34,14 +33,15 @@ router
 
 router
   .route(endpoints.id)
-  .get(async (req, res) => {
-    try {
+  .get(
+    asyncHandler(async (req, res) => {
       const task = await tasksService.getTaskById(req.params.id);
+      if (!task) {
+        throw new NotFoundError(errMessage.notFoundParams(ENTITY, req.params));
+      }
       await res.status(StatusCodes.OK).send(Task.toResponse(task));
-    } catch (err) {
-      NOT_FOUND_ERROR(res, entity, req.params);
-    }
-  })
+    })
+  )
   .put(
     asyncHandler(async (req, res) => {
       const updatedTask = await tasksService.updateTask(
@@ -51,13 +51,11 @@ router
       res.status(StatusCodes.OK).send(Task.toResponse(updatedTask));
     })
   )
-  .delete(async (req, res) => {
-    try {
+  .delete(
+    asyncHandler(async (req, res) => {
       await tasksService.deleteTask(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
-    } catch (err) {
-      NOT_FOUND_ERROR(res, entity, req.params);
-    }
-  });
+    })
+  );
 
 module.exports = router;

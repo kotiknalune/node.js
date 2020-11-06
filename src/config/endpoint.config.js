@@ -4,6 +4,7 @@ const endpoints = {
   users: '/users',
   boards: '/boards',
   tasks: '/:boardId/tasks',
+  tasks_concat: '/boards/:boardId/tasks',
   id: '/:id',
   login: '/login'
 };
