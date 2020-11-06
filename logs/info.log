@@ -1703,3 +1703,5063 @@
   level: 'info',
   timestamp: '2020-11-06T05:43:55.774Z'
 }
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:52:10.748Z'
+}
+{
+  message: '    id:5408b58e-3e49-4b9d-b6c4-be15588f39d1, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 73.991 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.756Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.768Z'
+}
+{
+  message: '    id:3c063e5e-da73-40af-b724-5766b3224dcf, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 4.125 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.770Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.780Z'
+}
+{
+  message: '    id:8f16f095-72d5-40dd-acae-56dc29fadedf, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 5.642 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.782Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.795Z'
+}
+{
+  message: '    id:3b59985a-7199-4354-959c-41f79749c22b, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 5.716 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.797Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:52:10.801Z'
+}
+{
+  message: '    id:48e18f12-6169-4aa1-bd6d-92ae66dd0e72, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 108.990 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.803Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.816Z'
+}
+{
+  message: '    id:488cd882-5915-4581-8e2b-f08e156c52f6, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 10.283 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.818Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.830Z'
+}
+{
+  message: '    id:94f0cbd2-002e-4707-b2c3-69b29908cfb9, url:http://localhost:4000/users, GET, body:{}, query params:{}, 11.658 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.833Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.838Z'
+}
+{
+  message: '    id:af830462-7f6c-4ccf-b5bb-562f6b5b5c54, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 3.715 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.850Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.854Z'
+}
+{
+  message: '    id:39a37393-94b2-4d00-95cc-8c09737120a1, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.387 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.865Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.869Z'
+}
+{
+  message: '    id:7618ff30-019c-4256-a5a4-c6009014a33c, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 2.868 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.871Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:52:10.882Z'
+}
+{
+  message: '    id:2fdeec22-9a44-4c05-9cfa-acd810d1c90a, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 188.890 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.884Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.889Z'
+}
+{
+  message: '    id:3813f41d-fc12-42f7-b96f-b9dac4d85cc2, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 3.726 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.898Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.901Z'
+}
+{
+  message: '    id:a458fc08-1105-41aa-95ba-bdc1d06eaac1, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.154 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.903Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.915Z'
+}
+{
+  message: '    id:3c231451-b1f5-41c6-b8bd-39fe6f33943c, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 10.251 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.917Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.920Z'
+}
+{
+  message: '    id:f4b0e265-a689-4673-8291-064711ae1590, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.292 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.929Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.945Z'
+}
+{
+  message: '    id:8c03e7d5-1b81-47e3-b30d-cad6edde2fb1, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 8.936 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.948Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.951Z'
+}
+{
+  message: '    id:f4d3c771-e85c-4f5a-b17e-5f005c1e761b, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.998 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.953Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.965Z'
+}
+{
+  message: '    id:9ec63ea5-5f27-4a66-85e6-5438471ee3f9, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.989 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.967Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.979Z'
+}
+{
+  message: '    id:d252b4f2-55c9-459b-85f1-26cbfead0325, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 11.188 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.982Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:10.985Z'
+}
+{
+  message: '    id:c5183a51-e227-48ee-aaa0-65dc1e0b1e43, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.352 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:10.988Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.002Z'
+}
+{
+  message: '    id:f249330d-f090-4ca2-a960-8019e7eb5803, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 12.322 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.020Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.030Z'
+}
+{
+  message: '    id:c6918072-ee0d-4665-812f-880e07a714cb, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 7.172 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.032Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.037Z'
+}
+{
+  message: '    id:6770596b-99fe-47d4-b5ff-399d9524ac0c, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.781 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.058Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.066Z'
+}
+{
+  message: '    id:695cdf15-2067-4c79-bc2b-6fac5d062e1f, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 4.347 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.069Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.086Z'
+}
+{
+  message: '    id:e83cf7a2-ed3c-4c0f-85d3-81207acc2b40, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 17.016 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.117Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.135Z'
+}
+{
+  message: '    id:a6ec86b3-e9a6-4081-a98f-20b2d6947079, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 12.016 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.137Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.173Z'
+}
+{
+  message: '    id:108a4f55-ded2-4acc-937b-0c51d4b98269, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 32.319 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.177Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.181Z'
+}
+{
+  message: '    id:e687e862-0449-4de4-93f5-1083a771e01b, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 1.847 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.184Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:52:11.207Z'
+}
+{
+  message: '    id:356d1931-aae5-4bb3-8651-472237fe25ca, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 20.638 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.211Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.633Z'
+}
+{
+  message: '    id:6762f7a0-9acc-4603-ab1a-6c028d939c88, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 1.631 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.645Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.703Z'
+}
+{
+  message: '    id:f4963687-5423-4c37-b832-165fb7420a73, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 36.214 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.723Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.728Z'
+}
+{
+  message: '    id:b61271b7-80e8-4181-aa58-990d8f75a622, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 2.928 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.730Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.735Z'
+}
+{
+  message: '    id:53301dea-47dc-4bc8-9a71-fb0962af6aa5, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 4.363 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.763Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.767Z'
+}
+{
+  message: '    id:aee0dbbb-b2a0-487f-a723-6c26bbcfe339, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 1.273 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.769Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.784Z'
+}
+{
+  message: '    id:4d068fef-a91b-4e1f-99f9-df06498ebe28, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 15.000 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.786Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.802Z'
+}
+{
+  message: '    id:c4428f04-d29e-48a9-9211-d3c8d42eec7e, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.659 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.832Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.854Z'
+}
+{
+  message: '    id:fb39257d-1e9b-46df-89c4-d7bc040a3cd0, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 18.327 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.863Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.866Z'
+}
+{
+  message: '    id:f77a881c-d9fc-4e38-aec1-312b6c592b22, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.713 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.868Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.873Z'
+}
+{
+  message: '    id:abafb2a9-a88e-4660-89aa-e11c66f78a3f, url:http://localhost:4000/users, GET, body:{}, query params:{}, 4.698 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.885Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.897Z'
+}
+{
+  message: '    id:171f4a6a-20a6-4356-bcfb-7bb0582cc931, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 10.630 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.900Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.903Z'
+}
+{
+  message: '    id:5a34b275-5a13-4c87-9d5c-df6a1bd6f571, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 2.278 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.917Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.933Z'
+}
+{
+  message: '    id:51401b3e-66e5-4714-8532-f30206682ea6, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 14.932 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.935Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.947Z'
+}
+{
+  message: '    id:c22b7ecd-6a69-4732-8755-4b43a0bfadd0, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 10.179 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.949Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:52:11.953Z'
+}
+{
+  message: '    id:413125be-b8c2-495e-be12-386cd48f37c1, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 3.243 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:52:11.964Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:53:24.897Z'
+}
+{
+  message: '    id:9d844d23-f8f8-45b0-8aff-63e533070c58, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 52.747 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.900Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:53:24.909Z'
+}
+{
+  message: '    id:46a257f7-bab8-4f6f-8d06-a57d0afe37c1, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 55.743 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.910Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.912Z'
+}
+{
+  message: '    id:fabf27de-5657-4d2b-916a-8a107664c3ac, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 0.799 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.913Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.918Z'
+}
+{
+  message: '    id:3fa59443-81bc-4107-9963-5339fb8ceb69, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 2.053 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.921Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.924Z'
+}
+{
+  message: '    id:09f6ead1-5bd2-4367-be87-0a85922be17e, url:http://localhost:4000/users, GET, body:{}, query params:{}, 1.488 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.932Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:53:24.935Z'
+}
+{
+  message: '    id:4288cdc7-5ce6-4af5-a2c1-a6ed59c92069, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 73.897 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.937Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.938Z'
+}
+{
+  message: '    id:9a39296e-0480-480d-bc9b-5a82e7121fdd, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.292 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.941Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.959Z'
+}
+{
+  message: '    id:88f39590-1536-4967-92b6-b2e98cccfef3, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 16.624 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.975Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.978Z'
+}
+{
+  message: '    id:fa557363-ece0-4c68-a5a4-315eb46a57c8, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.466 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.981Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.982Z'
+}
+{
+  message: '    id:6f8e74de-0ad8-415f-a7fb-a0a8a467c593, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.346 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.984Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.986Z'
+}
+{
+  message: '    id:ba7e1132-dbc8-45bb-a9ba-39a02197fbb1, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.400 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.988Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.992Z'
+}
+{
+  message: '    id:5dd1dda1-6a93-4187-88f9-a0ba6935072a, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.259 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:24.996Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:24.998Z'
+}
+{
+  message: '    id:3af25a8f-29da-4c59-b5b6-403299423b3b, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.606 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.001Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.004Z'
+}
+{
+  message: '    id:6be68d1d-8baa-4519-84e1-90610a8411ad, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.816 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.007Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.012Z'
+}
+{
+  message: '    id:82ee58af-a775-44b4-9f6e-a9f63731a300, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 3.781 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.016Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.020Z'
+}
+{
+  message: '    id:2d46d47e-ae26-46d3-bd10-d0467dc15bf2, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 2.636 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.022Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.025Z'
+}
+{
+  message: '    id:1f2a8255-01a4-4493-bcc9-2e6c1e52243b, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.219 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.029Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.033Z'
+}
+{
+  message: '    id:426d2dff-0220-441f-a782-3249292690ea, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.331 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.035Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.056Z'
+}
+{
+  message: '    id:3c89b39c-1460-4654-96d3-56a0dd9a1c15, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 17.930 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.058Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.073Z'
+}
+{
+  message: '    id:2c2a58cd-093a-4927-8409-aefbd0a39d87, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 14.272 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.074Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.090Z'
+}
+{
+  message: '    id:ccb000f1-93ef-43ed-9f51-554d3a9046b9, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.010 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.092Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.105Z'
+}
+{
+  message: '    id:d2e8a7aa-6879-4455-a610-f4f13e5fbcc4, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 13.418 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.107Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.125Z'
+}
+{
+  message: '    id:8f2e7a5c-53c6-4529-87bb-44e1af4abb6a, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 15.762 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.140Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.155Z'
+}
+{
+  message: '    id:20838709-798b-415e-b48c-15061e9d2ac2, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 15.548 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.157Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.164Z'
+}
+{
+  message: '    id:0978681f-7d51-4323-8892-8001a9e24f96, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.340 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.166Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.168Z'
+}
+{
+  message: '    id:62aa8eb1-9427-49f7-a37a-e4caaf42c97e, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.608 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.172Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.177Z'
+}
+{
+  message: '    id:1895289f-1263-4004-b793-bbd484bc22dd, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 3.966 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.196Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.200Z'
+}
+{
+  message: '    id:25863dfd-975b-486c-ab0e-ef4c1082dce3, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 2.395 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.202Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:53:25.207Z'
+}
+{
+  message: '    id:2e2efd8b-7bbe-440e-b11c-7dae0c154f69, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 1.973 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.280Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:25.910Z'
+}
+{
+  message: '    id:178433db-cd0a-4b31-a955-7b2764c08811, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 4.979 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.932Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:25.935Z'
+}
+{
+  message: '    id:6c38c13d-2430-44c2-8d98-e39bfe1f105c, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 1.545 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.937Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:25.941Z'
+}
+{
+  message: '    id:ffefef0c-29d6-467f-b980-be7f89f7f3cc, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.567 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:25.958Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.009Z'
+}
+{
+  message: '    id:85da48f9-e13a-4e30-93e0-0a7a0e828fac, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 49.087 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.018Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.021Z'
+}
+{
+  message: '    id:d39bad03-9188-43ad-98d8-7f6cc3aea0cf, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 1.532 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.043Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.107Z'
+}
+{
+  message: '    id:1b8ce2be-64ab-45b6-9882-f03436a1bfdb, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 18.851 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.130Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.134Z'
+}
+{
+  message: '    id:d83102fd-412a-4fd3-94c3-19751ce80ebe, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 2.024 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.136Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.140Z'
+}
+{
+  message: '    id:c3ae8aaa-0e9c-4dbb-a9ec-7a113c28400a, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.367 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.166Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.170Z'
+}
+{
+  message: '    id:2f781b6e-2841-4484-8e03-82927ac57515, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.651 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.210Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.213Z'
+}
+{
+  message: '    id:51f928c9-7a1b-423a-b5ce-623550c4ac72, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 1.518 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.215Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.216Z'
+}
+{
+  message: '    id:618d40b4-27f1-4335-a4c0-f75086feb977, url:http://localhost:4000/users, GET, body:{}, query params:{}, 1.402 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.218Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.222Z'
+}
+{
+  message: '    id:39589b40-303c-4250-b5f5-325c3ad8d2f1, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 1.101 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.224Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.239Z'
+}
+{
+  message: '    id:b9871d97-134a-43be-ba6a-701b722cd77c, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 14.098 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.258Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.274Z'
+}
+{
+  message: '    id:f9d2790e-433e-4134-9e30-0686b86347b2, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 12.881 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.279Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:53:26.283Z'
+}
+{
+  message: '    id:84dc0871-8d53-485a-84a5-23850bb2ad99, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 1.340 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:53:26.284Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:00.094Z'
+}
+{
+  message: '    id:cfe80642-c461-4575-92d6-3efc3836023a, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 96.006 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.121Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.126Z'
+}
+{
+  message: '    id:cba5d333-688f-428a-9cc9-cb2ded97f6c3, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.037 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.128Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.132Z'
+}
+{
+  message: '    id:ab5d83d2-1c69-41e8-a068-b7ffb826292f, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.387 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.134Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.138Z'
+}
+{
+  message: '    id:770026a8-d17d-438a-9d49-304fb5aa39ab, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.547 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.141Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.148Z'
+}
+{
+  message: '    id:a68c5e71-2977-4dbf-bead-8a951b98a894, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.516 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.151Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:00.156Z'
+}
+{
+  message: '    id:9548a9ca-3df7-4657-a7f1-e85e997d131c, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 139.389 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.175Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.178Z'
+}
+{
+  message: '    id:3d26ee05-c9c4-4719-8b37-561a7e8316be, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.603 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.180Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.197Z'
+}
+{
+  message: '    id:7f67b058-1ce3-4d56-a2c4-daf997c7d06c, url:http://localhost:4000/users, GET, body:{}, query params:{}, 12.141 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.215Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.229Z'
+}
+{
+  message: '    id:8fe621bb-a868-44ac-b53a-68a791f414ff, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.369 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.231Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.245Z'
+}
+{
+  message: '    id:bfd679d3-0fb8-45e5-98cb-d9ed5245180e, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 9.365 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.246Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:00.248Z'
+}
+{
+  message: '    id:d29d4417-2430-4d58-ab0a-7b9ecfb3e032, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 228.680 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.262Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.264Z'
+}
+{
+  message: '    id:d2958848-d5f4-4d54-bce3-5d239cfbde63, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 1.128 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.278Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.282Z'
+}
+{
+  message: '    id:1eaacedf-c4ff-43b4-afb9-d799ad97d759, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.478 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.295Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.297Z'
+}
+{
+  message: '    id:ad7cf19c-131c-4ef9-a2dc-836b2a9d8134, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.104 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.298Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.315Z'
+}
+{
+  message: '    id:af228b3c-6f13-4433-8cf0-9b1e7277ccfa, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 16.247 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.328Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.332Z'
+}
+{
+  message: '    id:e55335e9-22ba-4233-a3ab-cf7dbbab9f32, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.505 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.345Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.347Z'
+}
+{
+  message: '    id:ef63de0d-27d3-4dab-94ba-b249162cfb66, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.092 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.348Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.361Z'
+}
+{
+  message: '    id:465c2987-e8e2-4cad-a469-4e65730d8285, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 12.626 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.363Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.381Z'
+}
+{
+  message: '    id:1160bdc8-fb4e-485e-94c5-9c1ecafae65c, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 16.058 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.396Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.398Z'
+}
+{
+  message: '    id:a5c36b6a-7025-4b5a-899e-c364b2959dbf, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 2.442 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.423Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.426Z'
+}
+{
+  message: '    id:8a40190a-62ad-4b16-ac5d-4cfc4ddd03b5, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.130 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.428Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.430Z'
+}
+{
+  message: '    id:2c27c3a6-7220-4480-99b9-107aaed690c0, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.733 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.461Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.464Z'
+}
+{
+  message: '    id:0c201112-9401-4adb-abfe-609cca76f539, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 1.627 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.499Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.511Z'
+}
+{
+  message: '    id:4e95b064-6b8f-4cad-9eb3-1d7f6bff93b0, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 9.292 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.513Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.516Z'
+}
+{
+  message: '    id:ade7780d-169f-49ab-aec5-7b7638e6998b, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.480 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.530Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.575Z'
+}
+{
+  message: '    id:e9eb99c7-2850-4494-87b5-1889cdea59ad, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 44.353 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.581Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.636Z'
+}
+{
+  message: '    id:4f41d62c-7b6d-4a04-b1a9-2c9e9b3f9401, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 39.280 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.665Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.675Z'
+}
+{
+  message: '    id:a90547c6-b609-4c8f-b088-222381bb74aa, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 6.804 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.677Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:00.682Z'
+}
+{
+  message: '    id:b9115a09-12bf-46fc-af5e-9386acb3f4d9, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 2.240 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.728Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:00.995Z'
+}
+{
+  message: '    id:dc4ac0b3-eed1-4599-a697-25425b8af2a7, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 2.342 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:00.999Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.051Z'
+}
+{
+  message: '    id:7fc3326d-469a-426e-b12a-9a02aff61550, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 49.139 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.059Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.073Z'
+}
+{
+  message: '    id:be3e760c-d89e-44c0-8323-de02fa11344a, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 12.446 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.087Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.090Z'
+}
+{
+  message: '    id:3accd685-6f95-4590-83e3-b3023f3e0587, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.667 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.095Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.098Z'
+}
+{
+  message: '    id:b78beec3-e715-477a-861b-c32d1238729a, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 1.678 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.126Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.193Z'
+}
+{
+  message: '    id:c057b649-5a16-4daf-ba90-3ee092b4025e, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 2.725 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.195Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.230Z'
+}
+{
+  message: '    id:a11e655e-d614-4d3f-b90d-2334124d5055, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 33.182 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.259Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.296Z'
+}
+{
+  message: '    id:b7ad7a86-cd12-4711-bde2-49b4ba462fe4, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 31.913 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.299Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.329Z'
+}
+{
+  message: '    id:bf522602-51f6-400e-9159-d09fdddc2f37, url:http://localhost:4000/users, GET, body:{}, query params:{}, 27.179 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.332Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.365Z'
+}
+{
+  message: '    id:469bc1cb-f242-4678-8184-494565c0304c, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 30.962 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.371Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.373Z'
+}
+{
+  message: '    id:ca45335a-7165-41ef-825e-3b339fc6c9b4, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 1.270 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.375Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.377Z'
+}
+{
+  message: '    id:898388c1-164d-4d03-bbdc-e2f9aa946453, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 1.232 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.379Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.381Z'
+}
+{
+  message: '    id:8b5097f1-3155-4cde-96b7-32f856051283, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.329 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.395Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.398Z'
+}
+{
+  message: '    id:8e2b1510-e3f9-48ba-b583-28028ebda52f, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.396 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.421Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:01.424Z'
+}
+{
+  message: '    id:1b5fa36a-2fe9-4e67-a1f9-b70adc2339d5, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 1.646 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:01.425Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:53.846Z'
+}
+{
+  message: '    id:638aa5fe-61c2-4d68-87dd-9a4c49e9ae59, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 77.619 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.855Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.874Z'
+}
+{
+  message: '    id:ac22bc37-ae65-46f0-b476-babbf2fedeb2, url:http://localhost:4000/users, GET, body:{}, query params:{}, 12.793 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.878Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.897Z'
+}
+{
+  message: '    id:cee0e20a-9547-41c9-bdad-6609c57b2ed7, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 10.894 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.899Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:53.923Z'
+}
+{
+  message: '    id:1cc2cdf0-a1cb-4c0c-8063-2375f5256608, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 137.489 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.929Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.936Z'
+}
+{
+  message: '    id:07c6b0ac-6041-4b36-83fd-abb15a5f027e, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 3.982 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.946Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.951Z'
+}
+{
+  message: '    id:fec49d3f-cdb7-4485-bb02-26a6be39e46d, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.385 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.952Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.965Z'
+}
+{
+  message: '    id:98433f5c-82d2-443b-b374-21f6ae231cc7, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 11.336 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.967Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:53.982Z'
+}
+{
+  message: '    id:ae2bf467-1fc5-4275-9609-f03b2a6962d5, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 12.854 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.983Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:55:53.989Z'
+}
+{
+  message: '    id:d289147e-3fd6-40bd-b61d-9d8de97dcf2e, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 195.223 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:53.998Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.015Z'
+}
+{
+  message: '    id:9a9fdbeb-8f3a-4c53-8ef6-5e221e074387, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 16.014 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.017Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.032Z'
+}
+{
+  message: '    id:49b2bbc8-468e-4478-bf7a-8dc72ba87cb1, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 6.873 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.034Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.048Z'
+}
+{
+  message: '    id:72d9e9a5-ebf4-436f-aea5-0a5db9a86910, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.309 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.049Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.064Z'
+}
+{
+  message: '    id:32c31b21-beca-4b5c-a5bb-2610c7b51a5c, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 13.256 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.066Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.080Z'
+}
+{
+  message: '    id:11c33608-978c-454d-a708-56361df46992, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 13.849 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.082Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.095Z'
+}
+{
+  message: '    id:06208ffc-c940-4368-852d-414d83092984, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 12.780 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.097Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.112Z'
+}
+{
+  message: '    id:0ffa040e-c5ef-4484-a0c1-264696bc5daa, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 12.673 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.113Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.129Z'
+}
+{
+  message: '    id:4d4a0485-4513-4d9f-8309-28532f41717f, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 13.911 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.131Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.135Z'
+}
+{
+  message: '    id:6d1baa67-adcc-4762-b925-f38f041cf411, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 3.401 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.146Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.150Z'
+}
+{
+  message: '    id:e9f8d473-2b21-4394-8831-2c98e048385d, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.879 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.151Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.165Z'
+}
+{
+  message: '    id:3a5be0df-a939-4b1f-bc6c-f32cce26a89a, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 9.616 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.168Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.183Z'
+}
+{
+  message: '    id:b1671775-4393-4695-9e75-40d4aaf789d3, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 12.292 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.185Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.202Z'
+}
+{
+  message: '    id:b94db750-fa64-4021-b698-a8c149e85573, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 13.839 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.210Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.214Z'
+}
+{
+  message: '    id:ed524fcf-f8f1-406b-899f-37c01076b7d6, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.023 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.218Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.259Z'
+}
+{
+  message: '    id:90a2a24b-0d15-4627-87da-fb3406fd60cd, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 39.800 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.261Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.266Z'
+}
+{
+  message: '    id:2e346be4-5db3-4710-88e3-37c03a9b9514, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 3.314 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.268Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.283Z'
+}
+{
+  message: '    id:b22bb9ef-8432-4f40-86b2-e80bbd8b1afd, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 14.895 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.295Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.301Z'
+}
+{
+  message: '    id:90bc040b-113c-4301-92ab-1372950e0c7a, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 4.473 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.317Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.336Z'
+}
+{
+  message: '    id:ac8dbfe6-b658-4c7c-b68c-133064377272, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 17.688 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.364Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:55:54.368Z'
+}
+{
+  message: '    id:2da932e1-39f9-47c2-819d-9e853e603d1e, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 3.014 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.393Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:54.818Z'
+}
+{
+  message: '    id:d6f08f4b-f73b-4b5c-a364-e9df46a0e514, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.613 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.824Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:54.829Z'
+}
+{
+  message: '    id:e5d802dd-1f75-4a25-827a-dc4a67887e4c, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 4.880 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.831Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:54.859Z'
+}
+{
+  message: '    id:45cfd437-e19b-4fe8-9fd2-fa50b373eef0, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 24.251 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.865Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:54.874Z'
+}
+{
+  message: '    id:7291fd3d-3fbc-4df4-864a-5720c204dd2f, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 7.527 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.890Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:54.926Z'
+}
+{
+  message: '    id:e4a042b1-5992-4ebf-87e8-51429651b996, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 33.379 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:54.928Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.014Z'
+}
+{
+  message: '    id:08687263-08f9-43cd-834a-20dcca9a41bf, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 16.857 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.017Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.035Z'
+}
+{
+  message: '    id:c783d456-36b5-466b-a0d1-7c7c95601ad2, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 17.995 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.039Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.053Z'
+}
+{
+  message: '    id:83c259a0-4565-4940-a1ba-3d2cab706124, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.111 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.064Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.087Z'
+}
+{
+  message: '    id:57df824a-e48a-4821-b673-b0f25a94d9cc, url:http://localhost:4000/users, GET, body:{}, query params:{}, 11.635 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.091Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.094Z'
+}
+{
+  message: '    id:4e98b365-39e8-4d29-bc9d-9c821250e48b, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 2.449 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.096Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.100Z'
+}
+{
+  message: '    id:a376f3ed-f178-4c2f-8f84-dd9dcd4f877a, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 3.001 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.102Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.117Z'
+}
+{
+  message: '    id:3e722b5a-49d6-40ed-ac01-925e46ea2590, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 13.189 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.119Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.133Z'
+}
+{
+  message: '    id:5aa1687a-4869-4313-b56a-6ff9f2efe34d, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 10.643 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.145Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.149Z'
+}
+{
+  message: '    id:2a92d909-0815-4b6b-a0d5-2f8851b028f0, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.847 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.151Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:55:55.167Z'
+}
+{
+  message: '    id:819450c4-f465-49ef-8742-8013fb25b544, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 15.216 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:55:55.178Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:56:27.578Z'
+}
+{
+  message: '    id:89e05c15-a37d-4098-a74e-8bccd42ad246, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 78.699 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.595Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.605Z'
+}
+{
+  message: '    id:3ff550b8-b2b4-4c7b-9a2d-f94dc3c9ab85, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 4.015 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.620Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.626Z'
+}
+{
+  message: '    id:5c3ec32e-fc8a-4efe-be86-3d235ed5a9e2, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 3.090 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.630Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:56:27.635Z'
+}
+{
+  message: '    id:839cd2ba-eeb1-41ad-a76c-c3680acd3ab8, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 117.507 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.638Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.644Z'
+}
+{
+  message: '    id:f9a41557-818a-403f-ba02-9ff82b89e498, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 2.691 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.646Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.653Z'
+}
+{
+  message: '    id:206d060d-1c7d-4807-bd48-6c2645b34ae9, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.860 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.670Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.684Z'
+}
+{
+  message: '    id:19909bd0-714e-48f8-b3de-2f65da7f9602, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 10.717 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.686Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.699Z'
+}
+{
+  message: '    id:b9f77d58-5a9c-42c2-af82-04afad1078fb, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 13.569 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.702Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.717Z'
+}
+{
+  message: '    id:76d7a7c7-6439-4cf8-8b72-771534435aec, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 9.508 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.719Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T05:56:27.732Z'
+}
+{
+  message: '    id:a1618a86-2c30-478b-bba7-634b81a5e9bf, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 190.261 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.735Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.750Z'
+}
+{
+  message: '    id:9be76bf8-525f-40e8-a386-3acbb0a16002, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 13.791 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.752Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.767Z'
+}
+{
+  message: '    id:e2f2101e-8b56-436a-a2ff-8bcfe82da466, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 11.081 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.769Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.782Z'
+}
+{
+  message: '    id:7f9baf09-c0c0-4d96-8722-d0020ff49032, url:http://localhost:4000/users, GET, body:{}, query params:{}, 12.044 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.784Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.787Z'
+}
+{
+  message: '    id:fe6a787b-c0ca-47b8-834f-86c8188a8567, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.895 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.801Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.816Z'
+}
+{
+  message: '    id:34a35dec-aa0c-4f45-9d96-31274adb022e, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 12.599 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.819Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.833Z'
+}
+{
+  message: '    id:4732d374-e813-45c1-8515-85f5ae4be63a, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 10.670 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.835Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.838Z'
+}
+{
+  message: '    id:cfa5e512-6bfa-42ff-90ed-4d0c0f88f171, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.282 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.851Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.854Z'
+}
+{
+  message: '    id:570201f0-c2f5-4bda-82dc-c87321d5febc, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 1.669 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.866Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.869Z'
+}
+{
+  message: '    id:5629d3e7-ee87-4963-ac59-79670dd535f7, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.437 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.871Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.884Z'
+}
+{
+  message: '    id:d7910049-08db-4962-ab93-0a57a0474f07, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 12.263 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.886Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.900Z'
+}
+{
+  message: '    id:6a8b0e14-fab8-4ee0-905b-5a7cb76a0d76, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 11.497 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.902Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.920Z'
+}
+{
+  message: '    id:41e2a739-2620-45d2-8031-6d940928d547, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 17.064 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.936Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.957Z'
+}
+{
+  message: '    id:184a0e94-c90a-43bb-9fcd-278476dcf926, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 18.463 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.961Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.965Z'
+}
+{
+  message: '    id:858417af-316b-4e38-b18f-4a221e79f472, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.713 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.967Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:27.970Z'
+}
+{
+  message: '    id:ca64529c-65ce-4e8c-a963-9868b9dfd48f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.830 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:27.996Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:28.002Z'
+}
+{
+  message: '    id:96901978-c252-459e-8ea6-a672b433c0a4, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 3.591 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.005Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:28.033Z'
+}
+{
+  message: '    id:8f90344e-3443-46ca-b813-77f1253506c7, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 27.544 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.035Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:28.060Z'
+}
+{
+  message: '    id:01cb8aef-7313-4687-b046-6061c1e0b601, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 22.853 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.064Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T05:56:28.103Z'
+}
+{
+  message: '    id:4e0eab41-38cd-4932-8f09-6be924aad1bc, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 27.808 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.133Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.497Z'
+}
+{
+  message: '    id:cc1e786a-ed3a-4720-a0f7-e8eb1d089c87, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 2.051 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.516Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.519Z'
+}
+{
+  message: '    id:7b896a18-4b9f-4617-8c9e-6dabb971449d, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 1.694 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.521Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.556Z'
+}
+{
+  message: '    id:d2261a0a-6823-4403-8d58-a7351887076f, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 30.609 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.563Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.565Z'
+}
+{
+  message: '    id:ed042673-1ec3-4562-a809-9d963184db45, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.270 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.568Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.571Z'
+}
+{
+  message: '    id:b488a470-6dda-4944-89fd-ca140b696c56, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 1.613 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.619Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.664Z'
+}
+{
+  message: '    id:a0de35ed-1e3d-45b5-830e-ffac195f9fee, url:http://localhost:4000/users, GET, body:{}, query params:{}, 44.181 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.668Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.697Z'
+}
+{
+  message: '    id:167e1755-89e2-40b2-81ef-cf03e9c263c7, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 26.699 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.702Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.704Z'
+}
+{
+  message: '    id:8e0f4788-a50d-460e-8ba9-88c28c7d8336, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.063 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.733Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.734Z'
+}
+{
+  message: '    id:03f9e4cb-8563-479c-af43-419353a30179, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 0.899 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.735Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.738Z'
+}
+{
+  message: '    id:82d875d2-e1a9-43a3-9f0f-c9e348473212, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 1.304 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.751Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.753Z'
+}
+{
+  message: '    id:34966d40-d984-49c0-ac71-8d1803b1cd19, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.729 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.767Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.769Z'
+}
+{
+  message: '    id:978ba2ab-979f-4704-a0a1-1c98c3e541a0, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.222 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.771Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.799Z'
+}
+{
+  message: '    id:ae37828f-c5e4-471a-a449-eb1837140d35, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 26.436 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.801Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.804Z'
+}
+{
+  message: '    id:b6d31421-e557-483b-9bc5-96c37a00d24d, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 0.996 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.820Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:56:28.837Z'
+}
+{
+  message: '    id:1d398f80-6606-453b-816c-f41145e6a16c, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 15.277 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:56:28.852Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:00:06.765Z'
+}
+{
+  message: '    id:09033138-3288-4ed8-90c1-04ad98e38ab9, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 86.294 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.784Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.803Z'
+}
+{
+  message: '    id:0e2ba6a1-f1da-4c36-8aa8-556f6baabfcf, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.437 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.809Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:00:06.815Z'
+}
+{
+  message: '    id:cdccf0af-7060-474c-95bf-91d1e8727666, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 107.861 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.817Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.831Z'
+}
+{
+  message: '    id:b2958ea2-efe4-47e6-9844-ca7e03d4cebb, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 13.334 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.833Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.848Z'
+}
+{
+  message: '    id:b2ccdfb8-e3b7-4f29-b35f-948f82ad975c, url:http://localhost:4000/users, GET, body:{}, query params:{}, 13.408 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.850Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.859Z'
+}
+{
+  message: '    id:b0a32740-816e-41e4-a6eb-ae1c9bcace88, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 7.929 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.869Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.880Z'
+}
+{
+  message: '    id:8992585f-a0bd-47f3-a070-d15b599d2470, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 7.215 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.882Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.886Z'
+}
+{
+  message: '    id:4fa8c78d-cd64-48dc-84dc-44c631b27c96, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 4.238 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.896Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:00:06.900Z'
+}
+{
+  message: '    id:30a9161c-968a-436a-bea3-650beade164f, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 88.087 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.901Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.915Z'
+}
+{
+  message: '    id:10cfab69-114d-4e8a-a8a4-84dface497ae, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 11.492 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.917Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.924Z'
+}
+{
+  message: '    id:6f03aa82-f805-4066-87b0-8a11d55a59cd, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 6.256 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.932Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.947Z'
+}
+{
+  message: '    id:70042ebd-4efd-4165-93ff-21098e38aac4, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 12.953 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.949Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.955Z'
+}
+{
+  message: '    id:117f8eda-ea35-4f53-adf1-869ce15bf87f, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 5.276 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.964Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.968Z'
+}
+{
+  message: '    id:98c2badb-b522-47a2-8efd-e292b42e69fc, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 3.396 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.980Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:06.984Z'
+}
+{
+  message: '    id:072a934c-535a-4bae-9162-5e620dcead4e, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 2.281 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:06.998Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.003Z'
+}
+{
+  message: '    id:8e47e931-7557-43fe-b396-a258dbf33329, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 4.238 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.019Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.032Z'
+}
+{
+  message: '    id:ce5e503e-92ed-473d-a814-09202400ca6a, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 11.311 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.033Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.048Z'
+}
+{
+  message: '    id:2bcfe786-41de-49df-a86d-14bb080c6872, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 7.932 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.050Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.064Z'
+}
+{
+  message: '    id:066bd354-7f70-4e81-8969-42ca91c8bf75, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 13.034 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.065Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.080Z'
+}
+{
+  message: '    id:214892a7-70a2-4619-92d4-d7a05b864c6a, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.069 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.081Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.086Z'
+}
+{
+  message: '    id:59b979a1-fa7a-42d7-a119-ca918efb4c4b, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 3.716 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.097Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.102Z'
+}
+{
+  message: '    id:b98af072-3ff1-44a2-a05b-df13754db149, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 3.695 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.114Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.118Z'
+}
+{
+  message: '    id:ec835f1b-8930-46c5-838c-9e1a5ccf08e7, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 1.965 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.129Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.134Z'
+}
+{
+  message: '    id:0d318853-d673-4909-b307-e92d6eff5b81, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 3.561 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.138Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.149Z'
+}
+{
+  message: '    id:ec1eaaba-9bc5-48a4-b146-163acc53a77c, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 8.597 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.153Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.166Z'
+}
+{
+  message: '    id:56e121d3-12d9-4964-9d4a-7e002dc433d0, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.262 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.169Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.189Z'
+}
+{
+  message: '    id:3c5e9f3a-ab5d-42af-a098-73cf5bce1e76, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 14.041 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.192Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.196Z'
+}
+{
+  message: '    id:35b595c2-1867-4875-9768-2044f67df9f4, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 1.585 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.198Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:00:07.219Z'
+}
+{
+  message: '    id:5611537e-69ef-4db8-866c-5bef8dd3fe81, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 19.019 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.258Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.701Z'
+}
+{
+  message: '    id:2652a13b-d5b1-4e9f-b0e4-5b4710a58065, url:http://localhost:4000/users, GET, body:{}, query params:{}, 7.800 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.712Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.718Z'
+}
+{
+  message: '    id:b548820d-286b-4430-8079-3fee7d99e24b, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 3.824 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.732Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.762Z'
+}
+{
+  message: '    id:a60bb6b4-7855-4d04-8819-0310bf78ac20, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 29.399 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.766Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.794Z'
+}
+{
+  message: '    id:aa2c2ebf-5d5c-4726-bd74-4b317b2b7875, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 26.276 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.800Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.825Z'
+}
+{
+  message: '    id:dfc84514-689b-4b32-8dee-a2c5404628d2, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 23.793 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.828Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.833Z'
+}
+{
+  message: '    id:0cfa7516-1dea-4af7-9c39-1f0dc746db48, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 2.806 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.835Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.862Z'
+}
+{
+  message: '    id:e1a91aff-8ce2-4969-b075-a0098fb5b2ba, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 23.319 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.864Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.868Z'
+}
+{
+  message: '    id:05db9d57-3928-49bb-9ce7-7b66ca3804c9, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 3.085 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.883Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.894Z'
+}
+{
+  message: '    id:84af256b-f0e7-43be-a235-974d5540a4ed, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 9.868 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.897Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.900Z'
+}
+{
+  message: '    id:3bf181f8-377b-4cf9-ad2d-f74b1a6b759e, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 3.241 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.902Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.914Z'
+}
+{
+  message: '    id:02250159-19af-4a7e-9c67-25c24d957e17, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 10.502 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.916Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.920Z'
+}
+{
+  message: '    id:748bb494-abb1-4fb7-8259-1d39928e9041, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 3.403 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.930Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.933Z'
+}
+{
+  message: '    id:afa8ba9f-8fd2-4d9b-acfa-fca3e068bc87, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 1.969 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.935Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.949Z'
+}
+{
+  message: '    id:d651b291-fda9-4fb9-aed3-b834935d19c4, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 12.753 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.951Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:00:07.966Z'
+}
+{
+  message: '    id:8ffa3e77-523d-4a75-bb96-640502d43a85, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 13.090 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:00:07.967Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:01:16.333Z'
+}
+{
+  message: '    id:9a41aeb0-aa69-4d85-b7bf-3abf33f27059, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 54.758 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.334Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.348Z'
+}
+{
+  message: '    id:90efaa25-a683-45f2-aa42-a40993cb8d7b, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 3.711 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.356Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:01:16.365Z'
+}
+{
+  message: '    id:6d76494b-9128-4e97-8824-97e09bfd6c92, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 69.216 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.367Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.369Z'
+}
+{
+  message: '    id:512a7d03-1a38-4034-ae59-fa4d4daa24b5, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.486 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.371Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.412Z'
+}
+{
+  message: '    id:ce47f45b-3c72-444f-82c5-3d08c346d309, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 33.564 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.417Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.421Z'
+}
+{
+  message: '    id:ad579113-d704-46b9-a04b-cc36d72e0e45, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.836 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.425Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:01:16.432Z'
+}
+{
+  message: '    id:760367af-581d-4533-8e25-8d375ffe5c6d, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 107.584 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.451Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.485Z'
+}
+{
+  message: '    id:9fea04ee-77f8-4e36-add2-0530778fb77b, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 32.476 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.496Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.506Z'
+}
+{
+  message: '    id:679256f5-bc1c-4249-9b5d-27ffc0afdf96, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 7.567 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.516Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.517Z'
+}
+{
+  message: '    id:598ade1e-9bc3-43c5-9846-22fe6997fec6, url:http://localhost:4000/users, GET, body:{}, query params:{}, 1.254 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.519Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.523Z'
+}
+{
+  message: '    id:b5a22334-0fa8-44ef-9ac2-1c04637a6fcc, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.343 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.553Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.556Z'
+}
+{
+  message: '    id:8a75b7a2-c602-4175-bb21-90d9d07e68c4, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.093 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.574Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.580Z'
+}
+{
+  message: '    id:24c2f524-de57-4be5-b4b3-2901a1fe7755, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 4.133 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.582Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.584Z'
+}
+{
+  message: '    id:dbd01322-e027-4b25-8d21-eb8d25936093, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.711 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.585Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.606Z'
+}
+{
+  message: '    id:09582116-a978-45f3-aefe-1dcb18d6fc59, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 12.900 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.622Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.623Z'
+}
+{
+  message: '    id:953c169c-818a-48bd-b376-f801d731f93b, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 0.924 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.640Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.646Z'
+}
+{
+  message: '    id:382fdbb3-5de2-47bf-b7fd-89d83a9a1ec5, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 2.369 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.647Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.651Z'
+}
+{
+  message: '    id:bf84272f-ea87-4d65-af36-90dec83868e7, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 1.441 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.653Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.654Z'
+}
+{
+  message: '    id:9a747bd4-1d95-46f8-9d17-e7ddfa84774b, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.311 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.656Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.673Z'
+}
+{
+  message: '    id:a8bdbeed-bf70-4ccf-a8c5-76c7da6e08e5, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.245 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.689Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.703Z'
+}
+{
+  message: '    id:39149eb1-72ab-4f35-a2d3-0b3b3c8edbc1, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 13.342 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.704Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.706Z'
+}
+{
+  message: '    id:aa8d4121-66bf-496a-b8d8-adefebd95f59, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.682 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.722Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.738Z'
+}
+{
+  message: '    id:46ff18b9-30d2-4ef4-8589-bf64e93dda44, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 11.665 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.755Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.756Z'
+}
+{
+  message: '    id:ed345368-becf-42ad-acde-058278191fff, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 1.254 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.796Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.798Z'
+}
+{
+  message: '    id:bf578f02-d33f-4256-9e90-4cb3219d5eed, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.203 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.802Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.805Z'
+}
+{
+  message: '    id:31fdf77a-6eed-4af6-bcb5-b47d59603af7, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 1.353 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.843Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.872Z'
+}
+{
+  message: '    id:d0913fce-34bd-4079-b631-f90ff45a0672, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 27.752 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.919Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.922Z'
+}
+{
+  message: '    id:ff4a135c-9ec8-4d72-a339-f85f23271850, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 1.140 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.929Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:01:16.961Z'
+}
+{
+  message: '    id:5d8f526d-13fa-4117-a23c-8f7b0131f020, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 30.000 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:16.967Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.419Z'
+}
+{
+  message: '    id:dba4ef65-025a-4905-bc40-ead2ef7c9619, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 1.480 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.441Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.466Z'
+}
+{
+  message: '    id:355a6c8b-ddd0-4c52-b459-beb8fd1b94ec, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 23.716 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.469Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.473Z'
+}
+{
+  message: '    id:b33bc8c8-526c-4628-9e84-cbb7c6473e7b, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 2.256 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.500Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.505Z'
+}
+{
+  message: '    id:bcb411a9-53e2-467d-92ff-fec5d6fea840, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 3.599 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.539Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.571Z'
+}
+{
+  message: '    id:6aaa74da-1af7-4e29-84e7-203c013e45cf, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 30.434 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.581Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.612Z'
+}
+{
+  message: '    id:d82a3042-a738-41fc-aaa5-8518e39886ac, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 30.989 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.654Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.696Z'
+}
+{
+  message: '    id:db68beec-3e54-4649-8e8e-9e6dbbb057c2, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 36.575 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.698Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.702Z'
+}
+{
+  message: '    id:c2ee422b-a77b-476a-bac5-b7896363863d, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 1.412 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.704Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.706Z'
+}
+{
+  message: '    id:549227f4-8687-4f6b-8ac5-8ae7a75299ec, url:http://localhost:4000/users, GET, body:{}, query params:{}, 1.129 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.722Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.739Z'
+}
+{
+  message: '    id:6e2757c3-ef61-4908-8592-8a8fca117835, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 14.661 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.762Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.763Z'
+}
+{
+  message: '    id:b1130013-b2fe-420d-b1d5-639163ee0b00, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 1.134 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.766Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.768Z'
+}
+{
+  message: '    id:5c0525bb-bebc-46ef-b9c9-41afe711f750, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 1.332 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.770Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.772Z'
+}
+{
+  message: '    id:7827e35e-6fb4-4c78-a2c7-3314499ec5b5, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 0.917 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.773Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.805Z'
+}
+{
+  message: '    id:579a9844-2934-4a37-81f1-dbbfe70ed7ae, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 25.777 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.806Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:01:17.850Z'
+}
+{
+  message: '    id:4d238707-4df0-46d8-8e05-eb3662741224, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 40.018 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:01:17.852Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:05:39.013Z'
+}
+{
+  message: '    id:6ca8d08e-4e10-4ff6-96c1-e1a34396353a, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 74.209 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.022Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.036Z'
+}
+{
+  message: '    id:7ab50c16-6497-400d-a45d-0f296b91601c, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 7.455 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.039Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.054Z'
+}
+{
+  message: '    id:7c24082e-f5b8-40c5-baac-79f4a5c8aa0d, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 11.872 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.057Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:05:39.068Z'
+}
+{
+  message: '    id:2bd938f0-c492-49d9-8d47-eb9ce5f4c2c6, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 112.269 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.071Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.089Z'
+}
+{
+  message: '    id:93cacb73-9460-47d6-8a02-3c8f718cc811, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 16.331 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.092Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.108Z'
+}
+{
+  message: '    id:8f52c8cf-9a2c-4117-8c56-f7de22c29dfc, url:http://localhost:4000/users, GET, body:{}, query params:{}, 13.859 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.123Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.136Z'
+}
+{
+  message: '    id:227c6822-c469-4d2e-97c0-79630ac3a2a8, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 9.843 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.139Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.143Z'
+}
+{
+  message: '    id:998dd460-4ec3-4cee-a4bd-816b67da5d4a, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 4.039 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.153Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:05:39.157Z'
+}
+{
+  message: '    id:4f5c3104-a26f-4931-9514-abef2b7ee6a9, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 170.560 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.158Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.174Z'
+}
+{
+  message: '    id:689331fd-c756-4838-82a3-d728c4b664af, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 12.676 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.186Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.189Z'
+}
+{
+  message: '    id:6c387b71-de1e-4461-b505-6433d81e9dad, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 1.836 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.191Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.205Z'
+}
+{
+  message: '    id:c5241c9d-3ba3-4d20-8cf1-29442a75ee63, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 12.551 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.207Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.212Z'
+}
+{
+  message: '    id:37a25200-1e55-45bf-abb1-8c7ab94c9c37, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 4.954 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.222Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.238Z'
+}
+{
+  message: '    id:e22c55c9-36a7-4cfe-b0d4-31f141ef43d4, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 9.755 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.241Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.254Z'
+}
+{
+  message: '    id:31bd5e3f-9758-491d-a9cd-a471f1dc809e, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 12.629 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.257Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.271Z'
+}
+{
+  message: '    id:5541cb4d-ed35-4364-8706-aa01a1c54e4a, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 14.063 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.274Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.288Z'
+}
+{
+  message: '    id:212dab50-49c5-4737-83b6-77c1de0643a1, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 11.836 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.291Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.304Z'
+}
+{
+  message: '    id:f035ce55-1dd3-49f7-99a5-cbee87a32f56, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 13.457 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.307Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.322Z'
+}
+{
+  message: '    id:56f69136-2229-413f-98a4-46fd1d6e8507, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 11.248 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.324Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.340Z'
+}
+{
+  message: '    id:faf49d23-d935-470a-b5fc-dc8f17731154, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 15.662 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.356Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.372Z'
+}
+{
+  message: '    id:e2947764-caf6-428f-920b-a6a1db42fa1b, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 14.121 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.375Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.387Z'
+}
+{
+  message: '    id:c463695d-ac78-40d4-a088-a9415a5a995e, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 10.559 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.389Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.403Z'
+}
+{
+  message: '    id:c7e7228f-9b33-4735-a117-2e2d6b6b801c, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 14.150 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.406Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.423Z'
+}
+{
+  message: '    id:7e7c2b0c-3189-4f5e-b15f-e507a318032f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 14.987 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.439Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.460Z'
+}
+{
+  message: '    id:04ffce9c-0593-4774-904c-a52a54c97346, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 18.932 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.486Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.488Z'
+}
+{
+  message: '    id:00c074c9-17bc-4095-8ce8-70e82312ec62, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 1.616 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.492Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.518Z'
+}
+{
+  message: '    id:a3ba94eb-8e99-4225-beed-c3f4482d2108, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 22.453 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.523Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.546Z'
+}
+{
+  message: '    id:5ad7613c-a484-46a6-928f-23e1f7726515, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 22.638 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.558Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:05:39.581Z'
+}
+{
+  message: '    id:d87beb97-6a03-49d4-84c8-76b6dedb76ae, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 22.467 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:39.585Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:39.980Z'
+}
+{
+  message: '    id:a87e2537-6d8d-4bec-b939-e967e3e8ba05, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 1.993 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.002Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.006Z'
+}
+{
+  message: '    id:7b82731a-26a5-4a8f-adac-45d1f6828730, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 1.865 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.008Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.031Z'
+}
+{
+  message: '    id:478fe423-704c-4152-b3d1-f89372a8b3ab, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 20.400 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.033Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.037Z'
+}
+{
+  message: '    id:08615115-466e-474a-b752-00d0425356a5, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 2.317 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.039Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.061Z'
+}
+{
+  message: '    id:b9dbbe3c-cc1d-43a4-8a69-ae0a81e4f772, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 19.070 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.067Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.073Z'
+}
+{
+  message: '    id:164f3a94-f035-4e9e-a095-c37e6c5c7c4e, url:http://localhost:4000/users, GET, body:{}, query params:{}, 4.555 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.075Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.101Z'
+}
+{
+  message: '    id:d6c6dfd2-38ef-493c-bf72-6d4dc39cf793, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 22.832 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.103Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.134Z'
+}
+{
+  message: '    id:8044beb7-af86-42ac-9893-2bb2a66d1054, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 29.676 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.141Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.172Z'
+}
+{
+  message: '    id:b56a0a6a-7c99-4ad0-b429-b2dbee5b426b, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 19.212 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.174Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.207Z'
+}
+{
+  message: '    id:9a6ac97d-f82f-4377-927c-43918fd8bd96, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 18.491 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.223Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.241Z'
+}
+{
+  message: '    id:7e676f94-3850-4bb9-9c47-02051f807724, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 17.039 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.248Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.251Z'
+}
+{
+  message: '    id:54a8bd19-9325-449c-a640-555130a24f4f, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 2.676 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.253Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.258Z'
+}
+{
+  message: '    id:9ee54cbb-3a0f-40de-8b59-89054ae89409, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 3.106 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.276Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.283Z'
+}
+{
+  message: '    id:c3ba54c9-4844-4ff9-bb65-3c05299e83d2, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 4.516 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.285Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:05:40.289Z'
+}
+{
+  message: '    id:d8fd09c0-c883-40c4-84cc-24531ca52ac9, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 3.208 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:05:40.291Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:09:41.084Z'
+}
+{
+  message: '    id:d43961ea-2c9a-45d5-938e-0dffe671594e, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 84.491 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.090Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.103Z'
+}
+{
+  message: '    id:2021ce47-c7f7-43ee-8586-25f58ec123b6, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 3.137 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.106Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.121Z'
+}
+{
+  message: '    id:9328ec9a-49df-4baf-ae3b-d53b412be7b8, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 15.051 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.124Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:09:41.140Z'
+}
+{
+  message: '    id:f77419c9-9773-43f1-b229-c1a33c5f0ed7, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 123.968 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.142Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.171Z'
+}
+{
+  message: '    id:f31cf4ce-0b6e-4d4a-9729-4b1fc6bf71c9, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 28.932 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.174Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.198Z'
+}
+{
+  message: '    id:c097b878-6fad-427f-95ab-880818e30e5c, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 14.267 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.200Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.206Z'
+}
+{
+  message: '    id:9bb5e920-d4ac-46e0-af4d-21225bc390e3, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 1.635 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.207Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:09:41.225Z'
+}
+{
+  message: '    id:86d62677-b5d8-48a0-b5df-3dfee60ac519, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 207.074 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.238Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.254Z'
+}
+{
+  message: '    id:3ef09876-38af-413b-81d9-ea577eb98aae, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 15.087 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.257Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.273Z'
+}
+{
+  message: '    id:d2264e47-86ca-43f6-844f-23a940e32529, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 9.411 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.286Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.289Z'
+}
+{
+  message: '    id:78f7f81a-1fdb-44c2-97fb-e5ffba7e2e1b, url:http://localhost:4000/users, GET, body:{}, query params:{}, 2.575 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.290Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.320Z'
+}
+{
+  message: '    id:b34f8943-5f99-406b-8fce-d390d1701198, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 28.192 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.323Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.336Z'
+}
+{
+  message: '    id:694c8e41-e3c1-4800-bb9f-6b58865a0416, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 13.281 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.339Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.355Z'
+}
+{
+  message: '    id:8bca38e3-b8fd-4c29-aebe-21876d8ef987, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 11.716 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.357Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.373Z'
+}
+{
+  message: '    id:873ae0c3-942f-42df-b090-6410cedf391f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 15.900 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.387Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.391Z'
+}
+{
+  message: '    id:1cfe3e59-a60c-4d1e-a4e0-9a8f1dc3d8a8, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 2.569 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.404Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.419Z'
+}
+{
+  message: '    id:2d51b085-1ebc-4d6a-aab8-23d71867a281, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 13.581 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.422Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.437Z'
+}
+{
+  message: '    id:f132f4c9-ebea-44a0-ab42-3b22729c88be, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 14.893 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.439Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.455Z'
+}
+{
+  message: '    id:7787228f-4ea5-4a0e-bcf0-3e6775da6c6a, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 14.572 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.457Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.473Z'
+}
+{
+  message: '    id:6f5ebfa3-0a4d-4eef-8897-c48850d99b5b, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 14.532 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.475Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.490Z'
+}
+{
+  message: '    id:51b8b78d-45a4-469e-a180-a2c5cab174ae, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 13.657 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.506Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.523Z'
+}
+{
+  message: '    id:124c864b-5974-47fb-8b54-e8421491b8fc, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 16.403 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.542Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.558Z'
+}
+{
+  message: '    id:8952e2bb-3d01-4f39-a99e-0e1c5c5ed961, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 13.287 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.573Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.591Z'
+}
+{
+  message: '    id:480b0bb2-8243-4709-92a0-ec688607fa2f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 17.101 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.617Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.624Z'
+}
+{
+  message: '    id:49a1ce4a-da82-4156-9436-b6beb132f32e, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 2.091 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.696Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.702Z'
+}
+{
+  message: '    id:d7fd0f02-7beb-414a-8d9a-6ac9bd7199f0, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 5.107 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.704Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.725Z'
+}
+{
+  message: '    id:d3c70196-11b2-4970-bdbc-078f23bbda20, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 18.987 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.744Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.765Z'
+}
+{
+  message: '    id:30c67fc6-e51d-4f4b-a864-effefcca2885, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 20.051 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.768Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:09:41.775Z'
+}
+{
+  message: '    id:b1ba3c41-fd34-436a-928e-86cd0ab87ef0, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 5.885 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:41.792Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.208Z'
+}
+{
+  message: '    id:11ecc204-d276-4ee0-a7f4-117b8f3c6b3b, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 8.721 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.216Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.223Z'
+}
+{
+  message: '    id:b2b1557c-5041-4bd5-a0fe-61aee863f631, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 4.789 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.225Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.253Z'
+}
+{
+  message: '    id:3386afd6-3bd8-48bc-b0c9-9fdc4b910ef7, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 24.374 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.255Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.279Z'
+}
+{
+  message: '    id:d3f8189e-4e6b-4d9d-ba97-c72d8d3aceb9, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 21.580 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.282Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.288Z'
+}
+{
+  message: '    id:92df6762-b4ce-455c-9f3d-43a346104182, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 4.789 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.291Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.402Z'
+}
+{
+  message: '    id:70ec16c0-a47b-4bfb-9cff-b9130cd81ae2, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 6.242 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.405Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.425Z'
+}
+{
+  message: '    id:e684e965-e549-4935-aec5-5e1139dea74a, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 18.330 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.433Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.437Z'
+}
+{
+  message: '    id:e5aaea06-dae2-4f0e-b10a-7f79536e2018, url:http://localhost:4000/users, GET, body:{}, query params:{}, 3.020 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.439Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.455Z'
+}
+{
+  message: '    id:3e02c5f1-918c-47bb-80c7-927f4d091e12, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 15.575 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.458Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.472Z'
+}
+{
+  message: '    id:0315bc2c-3e3f-46d7-81e2-2c6e571aa92a, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 10.118 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.473Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.488Z'
+}
+{
+  message: '    id:5ccf2af0-9c39-4997-93db-4e6dc832d4d5, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 14.176 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.490Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.505Z'
+}
+{
+  message: '    id:43f4f7fd-5785-41e9-a2ae-93be8b0d4da9, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 12.188 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.507Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.522Z'
+}
+{
+  message: '    id:040d1bdf-7c81-4ef0-8fe1-101fe2aeed90, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 12.917 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.523Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.539Z'
+}
+{
+  message: '    id:aa71cbe4-441c-453b-9078-5e8979573b75, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 15.289 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.556Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:09:42.573Z'
+}
+{
+  message: '    id:74e16525-936e-4e47-bd17-9ea714e788d8, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 14.928 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:09:42.575Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:10:05.675Z'
+}
+{
+  message: '    id:20cb6fe9-7955-4f84-be84-862f7518bccf, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 80.788 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.702Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:05.773Z'
+}
+{
+  message: '    id:82fa62e0-42e9-4e42-abfd-928cb25096ed, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 65.720 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.774Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:10:05.804Z'
+}
+{
+  message: '    id:56018d6b-ec4b-40b4-952f-6ac9c8a95811, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 191.795 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.806Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:05.866Z'
+}
+{
+  message: '    id:20607baa-677c-4994-a5eb-aa44917d8d7e, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 60.016 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.868Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:05.891Z'
+}
+{
+  message: '    id:58efc35b-e251-441c-b850-667e2d0594d3, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 19.038 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.893Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T06:10:05.910Z'
+}
+{
+  message: '    id:76726da8-ff02-4c1c-889c-4ce668cda66c, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 295.186 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:05.955Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.007Z'
+}
+{
+  message: '    id:dd5ab061-d6f0-46e3-bc35-4a63ece4fb09, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 50.080 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.009Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.054Z'
+}
+{
+  message: '    id:2e622edb-ea12-4d9b-8715-382602df55e4, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 35.615 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.056Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.076Z'
+}
+{
+  message: '    id:7b746128-e480-48d9-a885-366721bdb4ca, url:http://localhost:4000/users, GET, body:{}, query params:{}, 19.982 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.108Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.138Z'
+}
+{
+  message: '    id:779862f9-27cf-49d7-86ec-a98f5f9f6847, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 28.826 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.139Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.171Z'
+}
+{
+  message: '    id:3b6435f2-06f7-4e0c-84d2-b0b32f8a4adb, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 28.371 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.173Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.237Z'
+}
+{
+  message: '    id:2edf5b01-0453-4fba-8e28-a93764a14391, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 61.801 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.241Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.269Z'
+}
+{
+  message: '    id:e1596c39-aa44-476e-ac74-5d6f37773e24, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 21.990 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.272Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.292Z'
+}
+{
+  message: '    id:29a4a65e-ccd5-41ab-af21-9cc7576c161a, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 20.499 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.347Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.356Z'
+}
+{
+  message: '    id:1abedaae-90ef-41a8-afc3-c6905541e6f4, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 6.899 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.358Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.423Z'
+}
+{
+  message: '    id:4e5c194e-93e9-49ba-994f-fc4be92f8023, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 59.992 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.425Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.460Z'
+}
+{
+  message: '    id:b9e82eca-b3a9-4fc7-a9a7-b3d2bf61528c, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 37.047 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.486Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.512Z'
+}
+{
+  message: '    id:c4075711-6289-4919-8e58-2ef1011cc074, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 24.564 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.525Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.576Z'
+}
+{
+  message: '    id:252a66d2-bd1c-4516-b712-e4767c29f365, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 51.059 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.594Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.686Z'
+}
+{
+  message: '    id:cbb6d3fa-daff-4e07-b0c6-13ac9142e3c8, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 89.997 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.688Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.717Z'
+}
+{
+  message: '    id:e55a0794-f50c-455d-8cca-01b45e32cedb, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 28.058 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.719Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.725Z'
+}
+{
+  message: '    id:83c287ba-2756-4b66-bc57-7b1443d5a66c, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 5.229 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.767Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.801Z'
+}
+{
+  message: '    id:c10e666b-5494-4251-8923-3770f0090450, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 32.135 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.803Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.814Z'
+}
+{
+  message: '    id:ee9451ab-5597-4ba3-ae90-32d7e091e339, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 9.425 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.827Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.893Z'
+}
+{
+  message: '    id:cc221ff6-3ced-41a9-bd56-9eb4bcc47349, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 64.574 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.899Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.908Z'
+}
+{
+  message: '    id:09f4a678-5ef2-4d23-a614-746e128576a2, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 6.990 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:06.929Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:06.958Z'
+}
+{
+  message: '    id:ff3e9e2b-fe28-490a-924f-92cb39df0de5, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 27.312 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.016Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:07.041Z'
+}
+{
+  message: '    id:4ac11add-c2a0-4112-94b8-8fdb71bd65d9, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 22.186 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.043Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T06:10:07.404Z'
+}
+{
+  message: '    id:6368928a-01e5-427e-b5a5-3abe254684f4, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 358.249 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.407Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:07.625Z'
+}
+{
+  message: '    id:595c4543-8c90-4851-998c-db00abc66b17, url:http://localhost:4000/users, GET, body:{}, query params:{}, 33.614 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.673Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:07.896Z'
+}
+{
+  message: '    id:ca78c76a-49a7-49bf-b504-89a5677adf91, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 222.589 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.922Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:07.987Z'
+}
+{
+  message: '    id:a1245ae6-4acc-43a4-b6e3-de13cd6ea9dd, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 63.604 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:07.989Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.082Z'
+}
+{
+  message: '    id:93a230b0-dc5b-4fce-b066-bf7ceb784272, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 90.774 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.088Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.174Z'
+}
+{
+  message: '    id:8622ecbf-e294-45fe-95cf-b52dfb65cbbc, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 85.107 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.177Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.204Z'
+}
+{
+  message: '    id:07679af9-de9e-49b5-b56d-3a109cfdcca6, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 26.604 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.207Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.276Z'
+}
+{
+  message: '    id:51826eb3-60b6-4355-a95a-09cce6cd8d84, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 68.058 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.281Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.289Z'
+}
+{
+  message: '    id:6cd33540-52bc-4ad3-8a87-4c859e70f839, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 7.116 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.291Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.308Z'
+}
+{
+  message: '    id:5c77dd57-df36-4deb-ae63-b51567dcd37e, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 16.860 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.322Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.525Z'
+}
+{
+  message: '    id:adec4f90-76d0-4082-b833-7f3694a8c408, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 200.819 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.529Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.553Z'
+}
+{
+  message: '    id:0be901e4-67af-470a-b5a8-31903d909f3a, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 20.969 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.554Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.600Z'
+}
+{
+  message: '    id:6afbb978-747b-4e6c-b269-c88ba3c12b74, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 44.913 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.603Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.609Z'
+}
+{
+  message: '    id:72e5e9fd-aba2-4eff-9f02-fa626272bad9, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 5.380 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.640Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.693Z'
+}
+{
+  message: '    id:a246402f-ed92-400e-88d2-c50c4ec4d811, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 50.972 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.702Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T06:10:08.709Z'
+}
+{
+  message: '    id:bdaf44f1-8c99-4e1b-b703-77c43bd8bce9, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 6.793 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T06:10:08.784Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T08:43:12.917Z'
+}
+{
+  message: '    id:1e7fd113-978b-40d3-a4c0-7d19e62b5be0, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 496.973 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:12.967Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.028Z'
+}
+{
+  message: '    id:2c23cb52-d23f-40fb-b6a9-1af708ba507f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 59.501 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.030Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T08:43:13.035Z'
+}
+{
+  message: '    id:ed22b884-da01-4eb5-9125-c9369e6c292b, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 584.617 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.037Z'
+}
+{
+  level: 'error',
+  message: `   User with login "admin" doesn't exist.`,
+  timestamp: '2020-11-06T08:43:13.087Z'
+}
+{
+  message: '    id:0516e918-410a-49d7-a6ee-9fba9e8e1b1b, url:http://localhost:4000/login, POST, body:{"login":"admin","password":"*****"}, query params:{}, 615.058 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.111Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.142Z'
+}
+{
+  message: '    id:d1c81178-8f75-40a3-a716-11d248bcd529, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 29.257 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.146Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.153Z'
+}
+{
+  message: '    id:069bd884-0162-412e-acca-6dd9992e9e67, url:http://localhost:4000/users, GET, body:{}, query params:{}, 6.888 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.185Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.222Z'
+}
+{
+  message: '    id:bbaa9f46-b5cd-452a-b8e6-a20df09d9f52, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 36.708 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.240Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.250Z'
+}
+{
+  message: '    id:ee10ced7-0bc8-42cb-8d33-3b2b0074ddd7, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 7.570 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.251Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.319Z'
+}
+{
+  message: '    id:96506bff-f72b-4bac-a382-b461252079a7, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 66.993 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.336Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.367Z'
+}
+{
+  message: '    id:81b56cf4-2bb3-4847-b3f5-f1673cad2ae4, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 29.631 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.369Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.420Z'
+}
+{
+  message: '    id:81a43f83-7f87-4917-9b04-b78d988814c1, url:http://localhost:4000/boards/undefined/tasks, GET, body:{}, query params:{}, 49.977 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.442Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.453Z'
+}
+{
+  message: '    id:411bee04-18bc-4b7b-b05a-18e4f9cf10e3, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 9.479 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.473Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.498Z'
+}
+{
+  message: '    id:1fb54d6e-d6f4-4032-b9af-9727a46dc4ae, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 23.376 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.500Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.553Z'
+}
+{
+  message: '    id:acd5d816-b47e-44c8-b491-706485912c87, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 52.441 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.586Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.653Z'
+}
+{
+  message: '    id:fe2897bd-76e3-4716-ac0c-d7a460e23e99, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 65.371 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.672Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.699Z'
+}
+{
+  message: '    id:2b5191a4-e1d5-4f59-8b41-29063623a01f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 23.637 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.700Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.753Z'
+}
+{
+  message: '    id:b2459fa7-3444-4e00-b4e8-7d0fe7ab4ca0, url:http://localhost:4000/boards/undefined/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 52.912 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.768Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.801Z'
+}
+{
+  message: '    id:6e296636-046b-4f8f-ba2b-92977234eb7d, url:http://localhost:4000/users/undefined, PUT, body:{"name":"Autotest updated TEST_USER","login":"test_user","password":"*************"}, query params:{}, 32.340 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.803Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.837Z'
+}
+{
+  message: '    id:ac47e89f-db22-4719-b8a6-2d9bd8a3ecad, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 30.781 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.850Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.870Z'
+}
+{
+  message: '    id:0fef68df-2bdd-4694-a4f5-e76c36cd4d9e, url:http://localhost:4000/boards/undefined/tasks/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated task"}, query params:{}, 18.588 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.887Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.919Z'
+}
+{
+  message: '    id:0b88cf00-6507-4e42-a11b-fe2ac9d82558, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 28.940 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.920Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.950Z'
+}
+{
+  message: '    id:1483da80-7b69-4591-83d4-2adf4afd8283, url:http://localhost:4000/boards/undefined, PUT, body:{"status":"error","code":"500","message":"Internal Server Error!","title":"Autotest updated board"}, query params:{}, 29.047 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.952Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:13.989Z'
+}
+{
+  message: '    id:4706fe84-c77a-48e5-8903-9073741f9549, url:http://localhost:4000/boards/undefined/tasks/undefined, GET, body:{}, query params:{}, 36.513 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:13.991Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.000Z'
+}
+{
+  message: '    id:4bd40859-bc57-4a70-b654-1b21c534c4d9, url:http://localhost:4000/users/undefined, DELETE, body:{}, query params:{}, 7.247 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.001Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.052Z'
+}
+{
+  message: '    id:12ddc3b7-80c3-4263-ad11-e5bfa36eebd2, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 49.820 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.053Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.083Z'
+}
+{
+  message: '    id:19ed5491-c66f-4fce-9f01-8cb3fce615c3, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 28.237 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.085Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.126Z'
+}
+{
+  message: '    id:98fb40ca-3b4b-4be9-ad23-614f00d5b2c0, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 40.630 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.128Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.164Z'
+}
+{
+  message: '    id:220a14c9-2162-4a9d-a2b0-fef25a049873, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 34.955 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.167Z'
+}
+{
+  level: 'error',
+  message: '   jwt malformed',
+  timestamp: '2020-11-06T08:43:14.198Z'
+}
+{
+  message: '    id:52b8a3aa-e229-473f-8925-6c4793ff7a51, url:http://localhost:4000/boards/undefined, DELETE, body:{}, query params:{}, 27.846 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.200Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:14.852Z'
+}
+{
+  message: '    id:5df94952-fbbf-4452-bacc-07ea806fd513, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 54.850 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:14.950Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.049Z'
+}
+{
+  message: '    id:ef86347d-e084-4560-8e19-e3493930bbbd, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 97.502 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.100Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.150Z'
+}
+{
+  message: '    id:07e57274-cafa-4cb8-8eb5-daa7283c9fe9, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 47.965 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.151Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.186Z'
+}
+{
+  message: '    id:5d3f91ad-8878-4a3b-9cfc-1c1ab34ff27a, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 34.093 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.200Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.219Z'
+}
+{
+  message: '    id:9444cc31-c16d-4ff8-9f0b-66fd8f4e5715, url:http://localhost:4000/users, GET, body:{}, query params:{}, 18.882 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.235Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.253Z'
+}
+{
+  message: '    id:788f2d4b-0829-4c16-9b0a-8ed388cf3e99, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 17.123 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.269Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.280Z'
+}
+{
+  message: '    id:edf67355-0183-433e-9550-90a0ea21ef16, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 10.430 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.282Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.335Z'
+}
+{
+  message: '    id:b5688390-c6c2-403b-b5e4-823494f84d88, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 52.503 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.336Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.384Z'
+}
+{
+  message: '    id:861c38ba-19fb-494f-9746-0c65f344614f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 43.266 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.387Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.431Z'
+}
+{
+  message: '    id:e168a75b-d918-4bce-a63b-c535ed0f8338, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 40.928 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.432Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.496Z'
+}
+{
+  message: '    id:027edf6c-f037-4000-b05e-a36cf0d2b3d1, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 60.896 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.497Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.520Z'
+}
+{
+  message: '    id:2a5cce95-323c-45da-b65a-3add598d1e69, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 22.353 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.540Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.549Z'
+}
+{
+  message: '    id:5bc82321-4ad7-466d-b06b-2b3b4990ff16, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 6.289 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.550Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.581Z'
+}
+{
+  message: '    id:e4bf73fe-47c4-4657-bd1b-6df7e6d66330, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 30.696 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.583Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T08:43:15.620Z'
+}
+{
+  message: '    id:d905ec09-618d-48de-abc4-d26fe2bf606c, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 33.114 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T08:43:15.674Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51175f0d874fd44b17448","id":"0f673146-2016-42cd-873a-381f34625731"}`,
+  timestamp: '2020-11-06T09:03:50.814Z'
+}
+{
+  message: '    id:4847f1b7-57f2-4241-9674-361e4012394c, url:http://localhost:4000/boards/5fa51175f0d874fd44b17448/tasks/0f673146-2016-42cd-873a-381f34625731, GET, body:{}, query params:{}, 70.756 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:50.818Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa51176f0d874fd44b1744d"}`,
+  timestamp: '2020-11-06T09:03:51.122Z'
+}
+{
+  message: '    id:216d70ec-b73c-42c0-ad0e-556d1e807bb3, url:http://localhost:4000/boards/5fa51176f0d874fd44b1744d, GET, body:{}, query params:{}, 64.859 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.144Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:51.501Z'
+}
+{
+  message: '    id:bd9cb4da-24ee-49d0-85b9-445c6accd98d, url:http://localhost:4000/users, GET, body:{}, query params:{}, 46.884 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.503Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:51.589Z'
+}
+{
+  message: '    id:b31ed83f-4cc9-4de8-a29f-927282cba585, url:http://localhost:4000/users/123, GET, body:{}, query params:{}, 70.202 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.592Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:51.634Z'
+}
+{
+  message: '    id:f195bb89-ebf7-4df5-acd2-51fee3f86fb6, url:http://localhost:4000/users, POST, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 32.487 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.636Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:51.732Z'
+}
+{
+  message: '    id:724da6bd-c18e-41e9-9850-229a9c20a52e, url:http://localhost:4000/users/12345, PUT, body:{"name":"TEST_USER","login":"test_user","password":"*************"}, query params:{}, 90.979 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.735Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:51.771Z'
+}
+{
+  message: '    id:2a4bcd04-9bbc-412e-a5f4-bd06ad59555b, url:http://localhost:4000/users/12345, DELETE, body:{}, query params:{}, 29.129 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.791Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51177f0d874fd44b1744e","id":"e719b3eb-d423-42c3-b2fa-1a0d172ae4fa"}`,
+  timestamp: '2020-11-06T09:03:51.919Z'
+}
+{
+  message: '    id:0e7e412d-37b3-48e1-b65a-9b04d0652ec7, url:http://localhost:4000/boards/5fa51177f0d874fd44b1744e/tasks/e719b3eb-d423-42c3-b2fa-1a0d172ae4fa, GET, body:{}, query params:{}, 58.398 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.936Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51177f0d874fd44b1744e","id":"3ac71ab2-1504-4b3e-9cc7-42e42638db82"}`,
+  timestamp: '2020-11-06T09:03:51.963Z'
+}
+{
+  message: '    id:6e0e245e-aa8a-43ed-aa62-bc3594d06af4, url:http://localhost:4000/boards/5fa51177f0d874fd44b1744e/tasks/3ac71ab2-1504-4b3e-9cc7-42e42638db82, GET, body:{}, query params:{}, 98.683 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:51.965Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51177f0d874fd44b1744e","id":"eccb9ae6-20c5-48a3-baa7-07bd54674c79"}`,
+  timestamp: '2020-11-06T09:03:52.019Z'
+}
+{
+  message: '    id:b1c6dd17-d08d-4b63-89d7-28a1f6e6c403, url:http://localhost:4000/boards/5fa51177f0d874fd44b1744e/tasks/eccb9ae6-20c5-48a3-baa7-07bd54674c79, GET, body:{}, query params:{}, 153.986 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.036Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51177f0d874fd44b1744e","id":"f85cf1ab-ccb1-4749-8fbe-aab5024d34f3"}`,
+  timestamp: '2020-11-06T09:03:52.077Z'
+}
+{
+  message: '    id:1c88051e-f11c-4095-aad1-8c5b75356768, url:http://localhost:4000/boards/5fa51177f0d874fd44b1744e/tasks/f85cf1ab-ccb1-4749-8fbe-aab5024d34f3, GET, body:{}, query params:{}, 214.178 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.080Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa51177f0d874fd44b1744e","id":"fa333e8f-3c33-47f0-87c0-ec083153db03"}`,
+  timestamp: '2020-11-06T09:03:52.117Z'
+}
+{
+  message: '    id:e0a84e76-2cbf-4811-8ce7-dd8ce4d89f34, url:http://localhost:4000/boards/5fa51177f0d874fd44b1744e/tasks/fa333e8f-3c33-47f0-87c0-ec083153db03, GET, body:{}, query params:{}, 255.020 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.121Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.237Z'
+}
+{
+  message: '    id:78bf4a30-1b36-4eab-ad68-4bff5cac8b14, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 29.516 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.258Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.324Z'
+}
+{
+  message: '    id:a3e3bda0-97e2-42d2-b002-971998a05539, url:http://localhost:4000/boards/12345, GET, body:{}, query params:{}, 57.195 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.327Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.398Z'
+}
+{
+  message: '    id:81a805d0-b781-4d0d-adb8-33915d26928f, url:http://localhost:4000/boards, POST, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 67.635 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.401Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.465Z'
+}
+{
+  message: '    id:e8b86369-2ce8-4e3c-88ad-5771e965299f, url:http://localhost:4000/boards/12345, PUT, body:{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}, query params:{}, 62.859 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.470Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.575Z'
+}
+{
+  message: '    id:96b01646-73d4-4eef-90e3-840d51eb86b1, url:http://localhost:4000/boards/12345, DELETE, body:{}, query params:{}, 102.038 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.578Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.781Z'
+}
+{
+  message: '    id:93ca1ec0-911f-48fb-95ca-da225e0b8dbd, url:http://localhost:4000/boards/12345/tasks, GET, body:{}, query params:{}, 41.070 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.783Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.871Z'
+}
+{
+  message: '    id:e69e0680-8549-4863-9a24-469042b4adda, url:http://localhost:4000/boards/12345/tasks/12345, GET, body:{}, query params:{}, 87.478 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.884Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:52.977Z'
+}
+{
+  message: '    id:6f844c20-206d-488d-baaf-556d98511651, url:http://localhost:4000/boards/12345/tasks, POST, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 89.382 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:52.979Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:53.069Z'
+}
+{
+  message: '    id:0d6f3ebc-4f1a-443f-a57d-cea2d43b28e0, url:http://localhost:4000/boards/12345/tasks/12345, PUT, body:{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}, query params:{}, 88.188 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:53.071Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T09:03:53.144Z'
+}
+{
+  message: '    id:dee6f0e3-ac27-4839-a0bd-009f27649c09, url:http://localhost:4000/boards/12345/tasks/12345, DELETE, body:{}, query params:{}, 70.616 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T09:03:53.147Z'
+}

@@ -4,25 +4,21 @@ const bcrypt = require('bcrypt');
 const { JWT_SECRET_KEY } = require('../../config/app.config');
 
 const { NotFoundError, ForbiddenError, errMessage } = require('../../error/');
-const { entity } = require('../../resources/users/user.model');
+const User = require('../../resources/users/user.model');
 
 const login = async (userLogin, password) => {
-  const user = await entity.findOne({ login: userLogin });
+  const user = await User.entity.findOne({ login: userLogin });
   if (!user) throw new NotFoundError(errMessage.noLogin(userLogin));
 
   const match = await bcrypt.compare(password, user.password);
   if (!match) throw new ForbiddenError(errMessage.wrongPass);
 
-  const token = jwt.sign(
-    {
-      userId: user._id,
-      login: user.login
-    },
-    JWT_SECRET_KEY,
-    {
-      expiresIn: '1h'
-    }
-  );
+  const payload = {
+    userId: user._id,
+    login: user.login
+  };
+
+  const token = jwt.sign(payload, JWT_SECRET_KEY, { expiresIn: 3600 });
   return token;
 };
 
