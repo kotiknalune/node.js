@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
-const { hash } = require('bcrypt');
+const createHash = require('../../utils/authentication/bcrypt');
 
 const userSchema = new Schema(
   {
@@ -16,16 +16,7 @@ const userSchema = new Schema(
   { versionKey: false }
 );
 
-userSchema.pre('save', function createHash(next) {
-  const user = this;
-  hash(user.password, 10, (err, encrypted) => {
-    if (err) {
-      throw new Error(err);
-    }
-    user.password = encrypted;
-    next();
-  });
-});
+userSchema.pre('save', createHash);
 
 const toResponse = user => {
   const { _id, name, login } = user;

@@ -1,12 +1,12 @@
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
+const { hash } = require('bcrypt');
+const { RestError } = require('../../error');
 
-const hashPassword = async password => await bcrypt.hash(password, saltRounds);
+// rounds=10: ~10 hashes/sec
+async function createHash() {
+  await hash(this.password, 10, (err, encrypted) => {
+    if (err) throw new RestError(err.message);
+    this.password = encrypted;
+  });
+}
 
-const checkPassword = async (password, hash) =>
-  await bcrypt.compare(password, hash);
-
-module.exports = {
-  hashPassword,
-  checkPassword
-};
+module.exports = createHash;

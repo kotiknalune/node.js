@@ -4,23 +4,25 @@ const usersService = require('./user.service');
 
 const { endpoints } = require('../../config/endpoint.config');
 const StatusCodes = require('http-status-codes');
-const { NOT_FOUND_ERROR, asyncHandler } = require('../../error');
+const {
+  NotFoundError,
+  asyncHandler,
+  errMessage
+} = require('../../error/index');
 
-const tableName = 'Users';
-const entity = 'User';
+const ENTITY = 'user';
 
 router
   .route(endpoints.root)
-  .get(async (req, res) => {
-    try {
+  .get(
+    asyncHandler(async (req, res) => {
       const users = await usersService.getAllUsers();
+      if (!users) throw new NotFoundError(errMessage.notFound(ENTITY));
       await res
         .status(StatusCodes.OK)
         .json(users.map(user => User.toResponse(user)));
-    } catch (err) {
-      NOT_FOUND_ERROR(res, tableName);
-    }
-  })
+    })
+  )
   .post(
     asyncHandler(async (req, res) => {
       const user = new User.entity(req.body);
@@ -31,14 +33,15 @@ router
 
 router
   .route(endpoints.id)
-  .get(async (req, res) => {
-    try {
+  .get(
+    asyncHandler(async (req, res) => {
       const user = await usersService.getUserById(req.params.id);
+      if (!user) {
+        throw new NotFoundError(errMessage.notFoundParams(ENTITY, req.params));
+      }
       await res.status(StatusCodes.OK).send(User.toResponse(user));
-    } catch (err) {
-      NOT_FOUND_ERROR(res, entity, req.params);
-    }
-  })
+    })
+  )
   .put(
     asyncHandler(async (req, res) => {
       const updatedUser = await usersService.updateUser(
@@ -48,13 +51,15 @@ router
       res.status(StatusCodes.OK).send(User.toResponse(updatedUser));
     })
   )
-  .delete(async (req, res) => {
-    try {
+  .delete(
+    asyncHandler(async (req, res) => {
+      const user = await usersService.getUserById(req.params.id);
+      if (!user) {
+        throw new NotFoundError(errMessage.notFoundParams(ENTITY, req.params));
+      }
       await usersService.deleteUser(req.params.id);
       res.sendStatus(StatusCodes.NO_CONTENT);
-    } catch (err) {
-      NOT_FOUND_ERROR(res, entity, req.params);
-    }
-  });
+    })
+  );
 
 module.exports = router;

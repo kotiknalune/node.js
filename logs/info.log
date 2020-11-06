@@ -1,175 +1,1705 @@
 {
-  message: '    id:308a6201-6a55-40a3-9bf7-eab9007fda55, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.368 ms\n',
-  level: 'info',
-  timestamp: '2020-11-04T20:02:31.375Z'
-}
-{
-  message: '    id:f0271306-2170-4d2b-addc-cd45664a83fd, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:-, 0.261 ms\n',
-  level: 'info',
-  timestamp: '2020-11-04T20:03:48.128Z'
-}
-{
-  message: `   Couldn't find Task with: {"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:55.822Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:50.400Z'
 }
 {
-  message: '    id:2f694aac-0c27-4f83-82e5-673f6a48f498, url:http://localhost:4000/boards/5fa314e25902a7687c3fcb4d/tasks/8306bf03-c25b-4e47-9eee-687446421a6e, GET, body:{}, query params:{"boardId":"5fa314e25902a7687c3fcb4d","id":"8306bf03-c25b-4e47-9eee-687446421a6e"}, 67.008 ms\n',
+  message: '    id:6d4049bf-6222-4d73-b573-e522055e508b, url:http://localhost:4000/boards/5fa4d8f918cbd6df9c14678c/tasks/c20ba486-738d-4b0f-ba80-bc52a8d0ebad, GET, body:{}, query params:{}, 75.438 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:55.847Z'
+  timestamp: '2020-11-06T05:02:50.408Z'
 }
 {
-  message: `   Couldn't find Board with: {"id":"5fa314e35902a7687c3fcb52"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.048Z'
+  message: "   Couldn't find board with params: [object Object]",
+  timestamp: '2020-11-06T05:02:50.554Z'
 }
 {
-  message: '    id:bfc9f126-12ec-4db0-a55a-cc02300dd7ba, url:http://localhost:4000/boards/5fa314e35902a7687c3fcb52, GET, body:{}, query params:{"id":"5fa314e35902a7687c3fcb52"}, 64.036 ms\n',
+  message: '    id:221fcb0f-33e4-47b8-8880-6ae4a2ce5be5, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146790, GET, body:{}, query params:{}, 51.841 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.051Z'
+  timestamp: '2020-11-06T05:02:50.566Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.489Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:51.050Z'
 }
 {
-  message: '    id:70bf0476-ab2d-4190-9576-9a5d3dae876c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/8742f4a7-ac6d-4e21-bd94-6e341353a963, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"8742f4a7-ac6d-4e21-bd94-6e341353a963"}, 57.039 ms\n',
+  message: '    id:dc2a7731-48b2-4747-8614-c91fdf930212, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146791/tasks/c3203d72-9668-4924-90f5-189ad358b95d, GET, body:{}, query params:{}, 68.650 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.500Z'
+  timestamp: '2020-11-06T05:02:51.077Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.504Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:51.080Z'
 }
 {
-  message: '    id:aa76c928-e0cf-47f9-b4c6-7c4f28eeb3ea, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/35dd82de-b581-4d4a-be35-f8da121cdab4, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"35dd82de-b581-4d4a-be35-f8da121cdab4"}, 68.396 ms\n',
+  message: '    id:e633575d-d643-4686-88e2-3db4c28edaec, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146791/tasks/f1be6e56-2749-4d48-a5da-04451e324590, GET, body:{}, query params:{}, 98.024 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.506Z'
+  timestamp: '2020-11-06T05:02:51.082Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.547Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:51.084Z'
 }
 {
-  message: '    id:f268e7df-cb49-4090-9459-79f77848851c, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/c205e6a6-012f-475c-ac72-e0dacbb8f39d, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"c205e6a6-012f-475c-ac72-e0dacbb8f39d"}, 108.304 ms\n',
+  message: '    id:60a9ec09-8f3e-4f1b-8356-c8bf42cc5c63, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146791/tasks/81d14657-2cf4-4819-a1d5-8baa83756181, GET, body:{}, query params:{}, 102.680 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.600Z'
+  timestamp: '2020-11-06T05:02:51.099Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.601Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:51.100Z'
 }
 {
-  message: '    id:9b1b17e7-fc9b-4d5a-96fd-09426c99251e, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/31c8d3ed-38e7-4525-b6fe-c7d327fb26e6, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"31c8d3ed-38e7-4525-b6fe-c7d327fb26e6"}, 159.187 ms\n',
+  message: '    id:d6891521-5389-4920-940b-0d5a45e10816, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146791/tasks/18c5fcec-7cf1-49d7-be31-e0f02afaf7f9, GET, body:{}, query params:{}, 120.227 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.603Z'
+  timestamp: '2020-11-06T05:02:51.102Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:53:56.632Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:02:51.116Z'
 }
 {
-  message: '    id:ed7d5c77-5725-4d7e-b12e-96dbf2200296, url:http://localhost:4000/boards/5fa314e45902a7687c3fcb53/tasks/2ed1d3ea-89e0-4f74-9808-9611c5d273e8, GET, body:{}, query params:{"boardId":"5fa314e45902a7687c3fcb53","id":"2ed1d3ea-89e0-4f74-9808-9611c5d273e8"}, 188.113 ms\n',
+  message: '    id:e836ba26-eafd-4d3c-93a6-c608dca8dce3, url:http://localhost:4000/boards/5fa4d8fa18cbd6df9c146791/tasks/209e681d-216d-40ba-a823-c79c5ffbba18, GET, body:{}, query params:{}, 135.313 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:53:56.638Z'
+  timestamp: '2020-11-06T05:02:51.118Z'
 }
 {
-  message: '    id:538f3999-1338-489a-ac57-845b45bfa710, url:http://localhost:4000/docs, GET, body:{}, query params:-, 1.858 ms\n',
-  level: 'info',
-  timestamp: '2020-11-04T20:55:05.152Z'
-}
-{
-  message: "   Cannot read property 'findOne' of undefined",
   level: 'error',
-  timestamp: '2020-11-04T20:56:11.673Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:29.270Z'
 }
 {
-  message: '    id:c61383a0-6d6b-4b6e-b28c-c75482e7b4ed, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:{}, 3.067 ms\n',
+  message: '    id:e0a2f29d-bc91-44fb-98f4-438c70b4f39a, url:http://localhost:4000/boards/5fa4d9208fe09164740c7e06/tasks/8b5be746-bcec-40ab-9a51-bd1c05d32963, GET, body:{}, query params:{}, 58.518 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:56:11.701Z'
+  timestamp: '2020-11-06T05:03:29.282Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ac38626a51acb32362","id":"6fb39bcd-628b-47ec-9fad-6ad99a7bfd37"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.280Z'
+  message: "   Couldn't find board with params: [object Object]",
+  timestamp: '2020-11-06T05:03:29.520Z'
 }
 {
-  message: '    id:d9f5f8a3-ae8b-422d-9c43-e84b26913420, url:http://localhost:4000/boards/5fa315ac38626a51acb32362/tasks/6fb39bcd-628b-47ec-9fad-6ad99a7bfd37, GET, body:{}, query params:{"boardId":"5fa315ac38626a51acb32362","id":"6fb39bcd-628b-47ec-9fad-6ad99a7bfd37"}, 60.718 ms\n',
+  message: '    id:160577eb-54df-456d-b67b-01cca89601a8, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0a, GET, body:{}, query params:{}, 59.402 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.295Z'
+  timestamp: '2020-11-06T05:03:29.523Z'
 }
 {
-  message: `   Couldn't find Board with: {"id":"5fa315ad38626a51acb32366"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.435Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:29.995Z'
 }
 {
-  message: '    id:0a1598cf-4f57-439e-8060-aad606c90ee5, url:http://localhost:4000/boards/5fa315ad38626a51acb32366, GET, body:{}, query params:{"id":"5fa315ad38626a51acb32366"}, 68.918 ms\n',
+  message: '    id:526be1a2-67eb-4c00-8eb0-2dd46288a408, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0b/tasks/ca5ecb28-e6ea-406a-9045-aa82f289379f, GET, body:{}, query params:{}, 52.191 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.444Z'
+  timestamp: '2020-11-06T05:03:29.997Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"bd51729f-99a7-443b-85f8-c18ea616953f"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.845Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:30.003Z'
 }
 {
-  message: '    id:f9f3f876-9778-4884-aa1a-676df51ba514, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/bd51729f-99a7-443b-85f8-c18ea616953f, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"bd51729f-99a7-443b-85f8-c18ea616953f"}, 59.184 ms\n',
+  message: '    id:c6b395a6-0138-4d93-864f-38b1c05afc78, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0b/tasks/6d82e71f-684a-4b20-8d18-a791b1f19a7d, GET, body:{}, query params:{}, 63.283 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.862Z'
+  timestamp: '2020-11-06T05:03:30.004Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"f7b0a336-78de-4ed0-b457-78932824b2a5"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.866Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:30.018Z'
 }
 {
-  message: '    id:b571274b-c9a3-47a9-b9bd-9672c23edd2e, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/f7b0a336-78de-4ed0-b457-78932824b2a5, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"f7b0a336-78de-4ed0-b457-78932824b2a5"}, 77.961 ms\n',
+  message: '    id:d2244543-850f-42c9-bbc0-6012623ff12d, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0b/tasks/b32ddabd-cd24-4d2a-bc31-1b90c382cd74, GET, body:{}, query params:{}, 74.471 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.868Z'
+  timestamp: '2020-11-06T05:03:30.020Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fe5e3c22-a4b0-482e-aeac-e989004589a3"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.869Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:30.036Z'
 }
 {
-  message: '    id:95226912-068b-4e6f-a27c-6e0d0b4114e6, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/fe5e3c22-a4b0-482e-aeac-e989004589a3, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"fe5e3c22-a4b0-482e-aeac-e989004589a3"}, 79.979 ms\n',
+  message: '    id:c89d8462-3eee-446f-8206-0c42ba117637, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0b/tasks/b8f94859-4466-4b13-9ba9-13e7997ca8c0, GET, body:{}, query params:{}, 94.829 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.902Z'
+  timestamp: '2020-11-06T05:03:30.052Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"fa58fa3c-4dda-4bd5-b533-fd567cdc12ed"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.945Z'
+  message: "   Couldn't find task with params: [object Object]",
+  timestamp: '2020-11-06T05:03:30.068Z'
 }
 {
-  message: '    id:4bd99e6f-651b-488a-8af6-07919057f41b, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/fa58fa3c-4dda-4bd5-b533-fd567cdc12ed, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"fa58fa3c-4dda-4bd5-b533-fd567cdc12ed"}, 154.962 ms\n',
+  message: '    id:28a5f618-cea2-4233-af91-177d2f5f03ef, url:http://localhost:4000/boards/5fa4d9218fe09164740c7e0b/tasks/4e5414c1-0702-466a-9293-70974b3ae70c, GET, body:{}, query params:{}, 126.371 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.949Z'
+  timestamp: '2020-11-06T05:03:30.071Z'
 }
 {
-  message: `   Couldn't find Task with: {"boardId":"5fa315ad38626a51acb32367","id":"c6237df5-b323-40b7-baf8-1164e890bbe7"}`,
   level: 'error',
-  timestamp: '2020-11-04T20:57:17.951Z'
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf3e36041ac28b6798d","id":"c92554e1-9fc4-471f-b87f-e26ee089dc92"}`,
+  timestamp: '2020-11-06T05:11:16.980Z'
 }
 {
-  message: '    id:866c52de-6192-4dea-838b-794a09e2bdc7, url:http://localhost:4000/boards/5fa315ad38626a51acb32367/tasks/c6237df5-b323-40b7-baf8-1164e890bbe7, GET, body:{}, query params:{"boardId":"5fa315ad38626a51acb32367","id":"c6237df5-b323-40b7-baf8-1164e890bbe7"}, 154.841 ms\n',
+  message: '    id:a83a3edf-6115-46ae-95ae-6324b6cf73f0, url:http://localhost:4000/boards/5fa4daf3e36041ac28b6798d/tasks/c92554e1-9fc4-471f-b87f-e26ee089dc92, GET, body:{}, query params:{}, 77.133 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:17.953Z'
+  timestamp: '2020-11-06T05:11:17.019Z'
 }
 {
-  message: '   logger.info is not a function',
   level: 'error',
-  timestamp: '2020-11-04T20:57:27.502Z'
+  message: `   Couldn't find board with params: {"id":"5fa4daf4e36041ac28b67992"}`,
+  timestamp: '2020-11-06T05:11:17.218Z'
 }
 {
-  message: '    id:2f0ce3d3-e656-4829-bbf4-8b79cc8b5fb7, url:http://localhost:4000/login, POST, body:{"login":"string""password":"***"}, query params:{}, 55.393 ms\n',
+  message: '    id:12e3ec3f-bbac-4935-ab5a-ab4fc1deffe5, url:http://localhost:4000/boards/5fa4daf4e36041ac28b67992, GET, body:{}, query params:{}, 55.787 ms\n',
   level: 'info',
-  timestamp: '2020-11-04T20:57:27.530Z'
+  timestamp: '2020-11-06T05:11:17.236Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf5e36041ac28b67993","id":"2b829552-38e7-4ed3-ad40-50c5e61df2be"}`,
+  timestamp: '2020-11-06T05:11:17.700Z'
+}
+{
+  message: '    id:fabaa978-79ff-40e1-9582-fc2296c16fcb, url:http://localhost:4000/boards/5fa4daf5e36041ac28b67993/tasks/2b829552-38e7-4ed3-ad40-50c5e61df2be, GET, body:{}, query params:{}, 52.365 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:11:17.702Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf5e36041ac28b67993","id":"711950e6-f562-4373-8f38-c990c60a4067"}`,
+  timestamp: '2020-11-06T05:11:17.720Z'
+}
+{
+  message: '    id:49e25a9e-c518-40f8-84d5-e4839574cff4, url:http://localhost:4000/boards/5fa4daf5e36041ac28b67993/tasks/711950e6-f562-4373-8f38-c990c60a4067, GET, body:{}, query params:{}, 70.796 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:11:17.723Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf5e36041ac28b67993","id":"ad1c349a-871e-484e-b86e-9e229e67a0a2"}`,
+  timestamp: '2020-11-06T05:11:17.725Z'
+}
+{
+  message: '    id:48bf90e9-70c9-4578-a15e-6a57e1958a1d, url:http://localhost:4000/boards/5fa4daf5e36041ac28b67993/tasks/ad1c349a-871e-484e-b86e-9e229e67a0a2, GET, body:{}, query params:{}, 75.848 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:11:17.727Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf5e36041ac28b67993","id":"e68af372-d57a-46c3-878b-bf88286c2209"}`,
+  timestamp: '2020-11-06T05:11:17.730Z'
+}
+{
+  message: '    id:b0822d82-1bcb-4971-848d-2a064a5592e6, url:http://localhost:4000/boards/5fa4daf5e36041ac28b67993/tasks/e68af372-d57a-46c3-878b-bf88286c2209, GET, body:{}, query params:{}, 83.166 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:11:17.732Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4daf5e36041ac28b67993","id":"0b2ac0c6-823b-4ab4-8e80-b0a382cfedec"}`,
+  timestamp: '2020-11-06T05:11:17.734Z'
+}
+{
+  message: '    id:1f43bff7-56ab-4260-a772-3b90a4fd58cd, url:http://localhost:4000/boards/5fa4daf5e36041ac28b67993/tasks/0b2ac0c6-823b-4ab4-8e80-b0a382cfedec, GET, body:{}, query params:{}, 87.229 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:11:17.736Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2e9c61f3bad0e4e1df","id":"e3982415-9a96-4697-999d-65a8e340b453"}`,
+  timestamp: '2020-11-06T05:12:15.265Z'
+}
+{
+  message: '    id:e6f3c230-8ff2-4030-95c9-419cd945e03c, url:http://localhost:4000/boards/5fa4db2e9c61f3bad0e4e1df/tasks/e3982415-9a96-4697-999d-65a8e340b453, GET, body:{}, query params:{}, 59.642 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.280Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4db2f9c61f3bad0e4e1e4"}`,
+  timestamp: '2020-11-06T05:12:15.518Z'
+}
+{
+  message: '    id:1c86eabe-2989-413f-88e3-856e3459f805, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e4, GET, body:{}, query params:{}, 52.377 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.520Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2f9c61f3bad0e4e1e5","id":"062a901b-2505-4774-8310-7ee4a9a96671"}`,
+  timestamp: '2020-11-06T05:12:15.960Z'
+}
+{
+  message: '    id:cad66117-6aa3-4749-a10c-f26c7af1e08f, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e5/tasks/062a901b-2505-4774-8310-7ee4a9a96671, GET, body:{}, query params:{}, 55.979 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.976Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2f9c61f3bad0e4e1e5","id":"4659f63b-6d8b-4196-ab5b-0523b94acee7"}`,
+  timestamp: '2020-11-06T05:12:15.981Z'
+}
+{
+  message: '    id:907fc3dd-60ee-4349-8d0f-08909ad08d7b, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e5/tasks/4659f63b-6d8b-4196-ab5b-0523b94acee7, GET, body:{}, query params:{}, 75.924 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.983Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2f9c61f3bad0e4e1e5","id":"2f4b0a3e-7673-43de-b426-cbb9a8943b96"}`,
+  timestamp: '2020-11-06T05:12:15.984Z'
+}
+{
+  message: '    id:bb166f36-667e-4a7c-ac60-45812392c144, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e5/tasks/2f4b0a3e-7673-43de-b426-cbb9a8943b96, GET, body:{}, query params:{}, 77.826 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.986Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2f9c61f3bad0e4e1e5","id":"e39b8938-8eab-46f6-8f52-1f1759a70758"}`,
+  timestamp: '2020-11-06T05:12:15.987Z'
+}
+{
+  message: '    id:ed369436-6e8b-49bf-bb7a-51a182053e78, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e5/tasks/e39b8938-8eab-46f6-8f52-1f1759a70758, GET, body:{}, query params:{}, 79.217 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:15.989Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4db2f9c61f3bad0e4e1e5","id":"d3bc6680-f9a8-4163-a52c-5ad5772da8e1"}`,
+  timestamp: '2020-11-06T05:12:16.006Z'
+}
+{
+  message: '    id:a294f58e-bf03-4d87-9617-5c97ff1c62e2, url:http://localhost:4000/boards/5fa4db2f9c61f3bad0e4e1e5/tasks/d3bc6680-f9a8-4163-a52c-5ad5772da8e1, GET, body:{}, query params:{}, 102.799 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:12:16.026Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbaf1fbc30d5b47aec40"}`,
+  timestamp: '2020-11-06T05:14:23.925Z'
+}
+{
+  message: '    id:f60c4d68-8b38-4990-93fe-9503cdebcbb7, url:http://localhost:4000/boards/5fa4dbaf1fbc30d5b47aec40, DELETE, body:{}, query params:{}, 123.240 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:23.929Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbaf1fbc30d5b47aec41"}`,
+  timestamp: '2020-11-06T05:14:24.244Z'
+}
+{
+  message: '    id:bcd70b83-6a15-40bf-b408-3bb9db1fe8bd, url:http://localhost:4000/boards/5fa4dbaf1fbc30d5b47aec41, DELETE, body:{}, query params:{}, 118.855 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.246Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbaf1fbc30d5b47aec3e","id":"b0ee0e82-7dff-4c81-8fd7-e25a8eb43262"}`,
+  timestamp: '2020-11-06T05:14:24.350Z'
+}
+{
+  message: '    id:11775fe5-8841-456a-a623-f23acd72e362, url:http://localhost:4000/boards/5fa4dbaf1fbc30d5b47aec3e/tasks/b0ee0e82-7dff-4c81-8fd7-e25a8eb43262, GET, body:{}, query params:{}, 51.185 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.370Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbb01fbc30d5b47aec43"}`,
+  timestamp: '2020-11-06T05:14:24.423Z'
+}
+{
+  message: '    id:9f8dd3a6-6e79-4a28-baf7-3d2c2b508695, url:http://localhost:4000/boards/5fa4dbb01fbc30d5b47aec43, DELETE, body:{}, query params:{}, 118.275 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.425Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbaf1fbc30d5b47aec3e"}`,
+  timestamp: '2020-11-06T05:14:24.493Z'
+}
+{
+  message: '    id:500ea227-5b35-45ad-9107-4cf547ca709d, url:http://localhost:4000/boards/5fa4dbaf1fbc30d5b47aec3e, DELETE, body:{}, query params:{}, 119.980 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.495Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbb01fbc30d5b47aec44"}`,
+  timestamp: '2020-11-06T05:14:24.768Z'
+}
+{
+  message: '    id:a502a7e7-9b18-476b-ad3a-11d6b0842b65, url:http://localhost:4000/boards/5fa4dbb01fbc30d5b47aec44, DELETE, body:{}, query params:{}, 120.924 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.790Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbaf1fbc30d5b47aec3f"}`,
+  timestamp: '2020-11-06T05:14:24.910Z'
+}
+{
+  message: '    id:90ec847f-bb26-414f-b27d-00b41e3cf1fa, url:http://localhost:4000/boards/5fa4dbaf1fbc30d5b47aec3f, DELETE, body:{}, query params:{}, 117.901 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:24.912Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbb01fbc30d5b47aec45"}`,
+  timestamp: '2020-11-06T05:14:25.400Z'
+}
+{
+  message: '    id:43b35f1f-d917-4ec4-ba97-2851ddb76a53, url:http://localhost:4000/boards/5fa4dbb01fbc30d5b47aec45, DELETE, body:{}, query params:{}, 115.033 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:25.444Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc6843b11dcc8459b21","id":"b36765da-be41-4113-a5b0-044179db7b03"}`,
+  timestamp: '2020-11-06T05:14:47.535Z'
+}
+{
+  message: '    id:9c0c0840-4044-4a13-b87a-e5a8251ded52, url:http://localhost:4000/boards/5fa4dbc6843b11dcc8459b21/tasks/b36765da-be41-4113-a5b0-044179db7b03, GET, body:{}, query params:{}, 60.956 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:47.554Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dbc7843b11dcc8459b26"}`,
+  timestamp: '2020-11-06T05:14:47.812Z'
+}
+{
+  message: '    id:b6c3ad49-2f8e-4c30-a4ee-9042a24b511a, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b26, GET, body:{}, query params:{}, 60.063 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:47.814Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc7843b11dcc8459b27","id":"d9d87c8c-ed00-447b-91f5-7d739641faf7"}`,
+  timestamp: '2020-11-06T05:14:48.327Z'
+}
+{
+  message: '    id:21a7a40d-de28-4ef9-89fb-25de8e84088a, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b27/tasks/d9d87c8c-ed00-447b-91f5-7d739641faf7, GET, body:{}, query params:{}, 58.268 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:48.332Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc7843b11dcc8459b27","id":"0eb072a8-413e-4d9e-9537-0b43e46ee4dc"}`,
+  timestamp: '2020-11-06T05:14:48.349Z'
+}
+{
+  message: '    id:d93ec663-cc44-4fae-ae3d-2d4ab9cb3967, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b27/tasks/0eb072a8-413e-4d9e-9537-0b43e46ee4dc, GET, body:{}, query params:{}, 79.444 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:48.363Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc7843b11dcc8459b27","id":"877b5400-b277-4060-92e7-902f3bff86d3"}`,
+  timestamp: '2020-11-06T05:14:48.379Z'
+}
+{
+  message: '    id:d6fe1e23-e24b-4c13-bfeb-b328ff10c180, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b27/tasks/877b5400-b277-4060-92e7-902f3bff86d3, GET, body:{}, query params:{}, 112.091 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:48.383Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc7843b11dcc8459b27","id":"cfead754-743c-431e-b88c-7a10dd58a83c"}`,
+  timestamp: '2020-11-06T05:14:48.410Z'
+}
+{
+  message: '    id:dfc047ba-bcbf-48df-9008-e22e6c1ef65e, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b27/tasks/cfead754-743c-431e-b88c-7a10dd58a83c, GET, body:{}, query params:{}, 139.361 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:48.412Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbc7843b11dcc8459b27","id":"4682a980-502b-4d57-bbaf-47f906721e2f"}`,
+  timestamp: '2020-11-06T05:14:48.429Z'
+}
+{
+  message: '    id:9793adc0-4a00-4b54-9ab6-d3c540599dbc, url:http://localhost:4000/boards/5fa4dbc7843b11dcc8459b27/tasks/4682a980-502b-4d57-bbaf-47f906721e2f, GET, body:{}, query params:{}, 157.841 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:14:48.433Z'
+}
+{
+  message: '    id:4ed82c0d-ec68-419b-8ce8-49bf57492e66, url:http://localhost:4000/boards/5fa4dbe379ba38e958b5f4a9, DELETE, body:{}, query params:{"id":"5fa4dbe379ba38e958b5f4a9"}, 186.031 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:15.372Z'
+}
+{
+  message: '    id:1ad45114-19d3-4bc0-b8d4-707cca0a6ad7, url:http://localhost:4000/boards/5fa4dbe379ba38e958b5f4aa, DELETE, body:{}, query params:{"id":"5fa4dbe379ba38e958b5f4aa"}, 171.620 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:15.781Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dbe279ba38e958b5f4a8","id":"30eddf8f-883d-485e-8fd5-c0e542014e7e"}`,
+  timestamp: '2020-11-06T05:15:15.887Z'
+}
+{
+  message: '    id:5ce4c90b-d52c-429f-9728-7782dc94414e, url:http://localhost:4000/boards/5fa4dbe279ba38e958b5f4a8/tasks/30eddf8f-883d-485e-8fd5-c0e542014e7e, GET, body:{}, query params:{}, 57.862 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:15.893Z'
+}
+{
+  message: '    id:d7042b84-ed9a-44ef-8b5d-c83a4975eaee, url:http://localhost:4000/boards/5fa4dbe379ba38e958b5f4ac, DELETE, body:{}, query params:{"id":"5fa4dbe379ba38e958b5f4ac"}, 192.475 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:16.053Z'
+}
+{
+  message: '    id:6dec8cf9-0b5a-439b-824b-316f897800e1, url:http://localhost:4000/boards/5fa4dbe279ba38e958b5f4a8, DELETE, body:{}, query params:{"id":"5fa4dbe279ba38e958b5f4a8"}, 179.925 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:16.076Z'
+}
+{
+  message: '    id:2e4674bc-90ac-44df-b3a1-1ae76709cb11, url:http://localhost:4000/boards/5fa4dbe479ba38e958b5f4ad, DELETE, body:{}, query params:{"id":"5fa4dbe479ba38e958b5f4ad"}, 176.957 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:16.460Z'
+}
+{
+  message: '    id:643857db-76ee-49d7-a49a-62aff5f0d34c, url:http://localhost:4000/boards/5fa4dbe279ba38e958b5f4a7, DELETE, body:{}, query params:{"id":"5fa4dbe279ba38e958b5f4a7"}, 172.733 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:16.642Z'
+}
+{
+  message: '    id:5bf93849-660b-4bd3-aa80-58daebd11f6d, url:http://localhost:4000/boards/5fa4dbe479ba38e958b5f4ae, DELETE, body:{}, query params:{"id":"5fa4dbe479ba38e958b5f4ae"}, 169.910 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:15:16.988Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc0fd70637e99c535d55","id":"f20f151b-6bee-48d9-a0d4-060c4115ec65"}`,
+  timestamp: '2020-11-06T05:16:00.412Z'
+}
+{
+  message: '    id:dc4d0206-6458-4f76-85a9-ab2973150f2b, url:http://localhost:4000/boards/5fa4dc0fd70637e99c535d55/tasks/f20f151b-6bee-48d9-a0d4-060c4115ec65, GET, body:{}, query params:{}, 63.789 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:00.423Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dc10d70637e99c535d59"}`,
+  timestamp: '2020-11-06T05:16:00.724Z'
+}
+{
+  message: '    id:ce2c642f-a154-48d0-ad8c-d40596f3babc, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d59, GET, body:{}, query params:{}, 59.341 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:00.743Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc10d70637e99c535d5a","id":"be2b27e1-d645-459b-82a4-b11446fa5007"}`,
+  timestamp: '2020-11-06T05:16:01.244Z'
+}
+{
+  message: '    id:f3d76eba-042f-45aa-b757-1585eef801e4, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d5a/tasks/be2b27e1-d645-459b-82a4-b11446fa5007, GET, body:{}, query params:{}, 58.625 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:01.249Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc10d70637e99c535d5a","id":"e8d712f1-d356-44e1-b100-68f004d5baba"}`,
+  timestamp: '2020-11-06T05:16:01.255Z'
+}
+{
+  message: '    id:c5a063aa-82f7-42ef-8ec8-c116d0b3341e, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d5a/tasks/e8d712f1-d356-44e1-b100-68f004d5baba, GET, body:{}, query params:{}, 64.595 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:01.270Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc10d70637e99c535d5a","id":"e7d6db5d-ef85-41c2-a19e-ba218e24cba8"}`,
+  timestamp: '2020-11-06T05:16:01.286Z'
+}
+{
+  message: '    id:87b3a66a-e0cb-46c9-8dd6-89087b71647b, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d5a/tasks/e7d6db5d-ef85-41c2-a19e-ba218e24cba8, GET, body:{}, query params:{}, 90.943 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:01.304Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc10d70637e99c535d5a","id":"ee930474-faeb-46dd-b4cd-3cb45dbd6aaa"}`,
+  timestamp: '2020-11-06T05:16:01.327Z'
+}
+{
+  message: '    id:01cfa717-1e45-4948-8032-ac95f3db3968, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d5a/tasks/ee930474-faeb-46dd-b4cd-3cb45dbd6aaa, GET, body:{}, query params:{}, 139.561 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:01.331Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc10d70637e99c535d5a","id":"16c9eb61-301b-47cf-a20a-4f75f9ead9ee"}`,
+  timestamp: '2020-11-06T05:16:01.335Z'
+}
+{
+  message: '    id:26713bdb-ec8e-4806-a275-4dec88327e80, url:http://localhost:4000/boards/5fa4dc10d70637e99c535d5a/tasks/16c9eb61-301b-47cf-a20a-4f75f9ead9ee, GET, body:{}, query params:{}, 151.660 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:01.339Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2519b652ecb8df753a","id":"8bc20f27-d176-4d0c-b6ad-8e9b0cd15d7f"}`,
+  timestamp: '2020-11-06T05:16:22.812Z'
+}
+{
+  message: '    id:9d6aae6c-0218-4d71-95d6-6219eb9754d5, url:http://localhost:4000/boards/5fa4dc2519b652ecb8df753a/tasks/8bc20f27-d176-4d0c-b6ad-8e9b0cd15d7f, GET, body:{}, query params:{}, 59.942 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:22.816Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dc2619b652ecb8df753f"}`,
+  timestamp: '2020-11-06T05:16:23.001Z'
+}
+{
+  message: '    id:f2f88e38-dedc-409b-ace3-ae3f6532bdb6, url:http://localhost:4000/boards/5fa4dc2619b652ecb8df753f, GET, body:{}, query params:{}, 58.275 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.003Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2719b652ecb8df7540","id":"c9a033da-8db5-4ace-8208-c6cbbce22ca4"}`,
+  timestamp: '2020-11-06T05:16:23.456Z'
+}
+{
+  message: '    id:ec2d4d89-7853-46d4-aea9-4f375ae0fe2d, url:http://localhost:4000/boards/5fa4dc2719b652ecb8df7540/tasks/c9a033da-8db5-4ace-8208-c6cbbce22ca4, GET, body:{}, query params:{}, 79.294 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.490Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2719b652ecb8df7540","id":"ead2a2f7-a01e-402f-9ab6-30c207374f74"}`,
+  timestamp: '2020-11-06T05:16:23.521Z'
+}
+{
+  message: '    id:1bc147e2-082c-4c09-a2ca-891ac8ff59bc, url:http://localhost:4000/boards/5fa4dc2719b652ecb8df7540/tasks/ead2a2f7-a01e-402f-9ab6-30c207374f74, GET, body:{}, query params:{}, 143.811 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.546Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2719b652ecb8df7540","id":"d6a4e5e1-5d67-47ab-b6bf-a073e23b44ce"}`,
+  timestamp: '2020-11-06T05:16:23.550Z'
+}
+{
+  message: '    id:ec3a19e0-2702-49a9-bb37-ac718df16cbe, url:http://localhost:4000/boards/5fa4dc2719b652ecb8df7540/tasks/d6a4e5e1-5d67-47ab-b6bf-a073e23b44ce, GET, body:{}, query params:{}, 171.521 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.553Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2719b652ecb8df7540","id":"f6dedc7c-a077-4478-bd7f-87073fb61459"}`,
+  timestamp: '2020-11-06T05:16:23.571Z'
+}
+{
+  message: '    id:02a3fb02-c46d-4ad2-80a1-e8abc0318510, url:http://localhost:4000/boards/5fa4dc2719b652ecb8df7540/tasks/f6dedc7c-a077-4478-bd7f-87073fb61459, GET, body:{}, query params:{}, 191.761 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.590Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc2719b652ecb8df7540","id":"c967dc7f-c3b7-430f-aab3-71f5d492e3c9"}`,
+  timestamp: '2020-11-06T05:16:23.600Z'
+}
+{
+  message: '    id:4a1f6042-f4c3-44ec-a4fc-9b010a774bb0, url:http://localhost:4000/boards/5fa4dc2719b652ecb8df7540/tasks/c967dc7f-c3b7-430f-aab3-71f5d492e3c9, GET, body:{}, query params:{}, 220.290 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:16:23.603Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8d8e2c1be30c289ab8","id":"a42c43be-7f48-4b76-af5a-a1697738b8ac"}`,
+  timestamp: '2020-11-06T05:18:06.157Z'
+}
+{
+  message: '    id:3c7daa88-2ecb-4024-af3d-31e5ca3467ea, url:http://localhost:4000/boards/5fa4dc8d8e2c1be30c289ab8/tasks/a42c43be-7f48-4b76-af5a-a1697738b8ac, GET, body:{}, query params:{}, 59.448 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.171Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dc8e8e2c1be30c289abd"}`,
+  timestamp: '2020-11-06T05:18:06.355Z'
+}
+{
+  message: '    id:60936f63-40bf-4b17-8e52-8531c1549dcc, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abd, GET, body:{}, query params:{}, 58.044 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.368Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8e8e2c1be30c289abe","id":"16fc531b-c781-492e-8ffc-5d0e60d83dec"}`,
+  timestamp: '2020-11-06T05:18:06.786Z'
+}
+{
+  message: '    id:25a7e43b-5736-414e-ae35-bf0809defdb9, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abe/tasks/16fc531b-c781-492e-8ffc-5d0e60d83dec, GET, body:{}, query params:{}, 58.192 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.801Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8e8e2c1be30c289abe","id":"0cafa648-3ac0-45b3-a3bc-b8f921dc3877"}`,
+  timestamp: '2020-11-06T05:18:06.809Z'
+}
+{
+  message: '    id:414512ac-a31b-44fe-a43f-fd848bc3f10c, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abe/tasks/0cafa648-3ac0-45b3-a3bc-b8f921dc3877, GET, body:{}, query params:{}, 79.996 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.812Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8e8e2c1be30c289abe","id":"1ff345f8-1a3c-4957-8617-f37b9f595c6e"}`,
+  timestamp: '2020-11-06T05:18:06.834Z'
+}
+{
+  message: '    id:a9223e01-5c5f-4dea-9f04-027ddd60dd0d, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abe/tasks/1ff345f8-1a3c-4957-8617-f37b9f595c6e, GET, body:{}, query params:{}, 103.482 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.841Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8e8e2c1be30c289abe","id":"7857a24e-2106-4e81-ace7-05f0a53f5c61"}`,
+  timestamp: '2020-11-06T05:18:06.845Z'
+}
+{
+  message: '    id:84f5a2a8-8136-43bd-afd8-26d356fd602a, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abe/tasks/7857a24e-2106-4e81-ace7-05f0a53f5c61, GET, body:{}, query params:{}, 113.995 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.867Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dc8e8e2c1be30c289abe","id":"9afe109b-d846-47ab-ae71-e341e7ac7b77"}`,
+  timestamp: '2020-11-06T05:18:06.884Z'
+}
+{
+  message: '    id:cbe721a7-9cb6-4c71-a246-fadde3d6dce3, url:http://localhost:4000/boards/5fa4dc8e8e2c1be30c289abe/tasks/9afe109b-d846-47ab-ae71-e341e7ac7b77, GET, body:{}, query params:{}, 153.262 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:06.889Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb420d07edefcb52f26","id":"9efbb848-3bb6-461a-b311-6f0448553f1b"}`,
+  timestamp: '2020-11-06T05:18:45.469Z'
+}
+{
+  message: '    id:e054e5dc-61b7-4982-84ff-fb2e47fbabec, url:http://localhost:4000/boards/5fa4dcb420d07edefcb52f26/tasks/9efbb848-3bb6-461a-b311-6f0448553f1b, GET, body:{}, query params:{}, 77.079 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:45.487Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dcb520d07edefcb52f2a"}`,
+  timestamp: '2020-11-06T05:18:45.672Z'
+}
+{
+  message: '    id:de815e1f-0a72-4874-99de-df22b3cb8782, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2a, GET, body:{}, query params:{}, 60.055 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:45.675Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb520d07edefcb52f2b","id":"f79f1b93-43bd-4dc1-af1c-a1cea67a381c"}`,
+  timestamp: '2020-11-06T05:18:46.060Z'
+}
+{
+  message: '    id:dafb9091-921a-45b7-bbb2-b5a966820e9b, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2b/tasks/f79f1b93-43bd-4dc1-af1c-a1cea67a381c, GET, body:{}, query params:{}, 57.002 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:46.074Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb520d07edefcb52f2b","id":"e9bc2e88-7dd1-4960-b4fb-8c6747065396"}`,
+  timestamp: '2020-11-06T05:18:46.080Z'
+}
+{
+  message: '    id:b25bcc82-733d-42a8-9e61-bd0df5d3dd90, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2b/tasks/e9bc2e88-7dd1-4960-b4fb-8c6747065396, GET, body:{}, query params:{}, 74.322 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:46.083Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb520d07edefcb52f2b","id":"7727a784-77d6-45ce-9fad-76aaea130eb7"}`,
+  timestamp: '2020-11-06T05:18:46.100Z'
+}
+{
+  message: '    id:be4d6367-4355-49c1-96c2-4255c8ed1cd5, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2b/tasks/7727a784-77d6-45ce-9fad-76aaea130eb7, GET, body:{}, query params:{}, 95.422 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:46.114Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb520d07edefcb52f2b","id":"0366a19e-ee23-44d0-b9f3-bd1e264efdad"}`,
+  timestamp: '2020-11-06T05:18:46.140Z'
+}
+{
+  message: '    id:a162ac01-5f83-437c-bb76-10fe87d593e1, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2b/tasks/0366a19e-ee23-44d0-b9f3-bd1e264efdad, GET, body:{}, query params:{}, 131.790 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:46.146Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcb520d07edefcb52f2b","id":"96e8d802-c48d-4544-a560-3d5cbddc69aa"}`,
+  timestamp: '2020-11-06T05:18:46.162Z'
+}
+{
+  message: '    id:413d6234-5d71-4814-a152-f43f6b779558, url:http://localhost:4000/boards/5fa4dcb520d07edefcb52f2b/tasks/96e8d802-c48d-4544-a560-3d5cbddc69aa, GET, body:{}, query params:{}, 156.197 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:18:46.179Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfbcfb20aefc07144c8","id":"7c313124-98f8-4c4a-b425-06c1dfbcfc98"}`,
+  timestamp: '2020-11-06T05:19:56.474Z'
+}
+{
+  message: '    id:542baf06-f5fb-4859-ba2b-801062fffb66, url:http://localhost:4000/boards/5fa4dcfbcfb20aefc07144c8/tasks/7c313124-98f8-4c4a-b425-06c1dfbcfc98, GET, body:{}, query params:{}, 62.221 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:56.490Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dcfccfb20aefc07144cd"}`,
+  timestamp: '2020-11-06T05:19:56.683Z'
+}
+{
+  message: '    id:36a36656-5098-4256-ab5c-f46d5ee083b6, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144cd, GET, body:{}, query params:{}, 58.155 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:56.685Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfccfb20aefc07144ce","id":"4fddf381-aac0-4331-88bf-064a35dd9ea4"}`,
+  timestamp: '2020-11-06T05:19:57.097Z'
+}
+{
+  message: '    id:d76b3b75-3351-402b-b0c1-0278ccfd86e0, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144ce/tasks/4fddf381-aac0-4331-88bf-064a35dd9ea4, GET, body:{}, query params:{}, 52.398 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:57.099Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfccfb20aefc07144ce","id":"8a5fe68f-321b-470d-ad18-78baa9978fa7"}`,
+  timestamp: '2020-11-06T05:19:57.136Z'
+}
+{
+  message: '    id:e92f7ef4-2184-4bbf-80a5-005ccd31c990, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144ce/tasks/8a5fe68f-321b-470d-ad18-78baa9978fa7, GET, body:{}, query params:{}, 96.368 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:57.142Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfccfb20aefc07144ce","id":"623a8e46-4c1b-4412-aabc-edb2d6c9b2b6"}`,
+  timestamp: '2020-11-06T05:19:57.144Z'
+}
+{
+  message: '    id:f48a046b-8bb0-428f-bf21-e723d4b2fd61, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144ce/tasks/623a8e46-4c1b-4412-aabc-edb2d6c9b2b6, GET, body:{}, query params:{}, 102.174 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:57.146Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfccfb20aefc07144ce","id":"4144bb07-3ce5-40e9-ac8e-4ae0d61f0365"}`,
+  timestamp: '2020-11-06T05:19:57.147Z'
+}
+{
+  message: '    id:3ccf5d11-a5ad-4c57-ac27-31bb6116a6b2, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144ce/tasks/4144bb07-3ce5-40e9-ac8e-4ae0d61f0365, GET, body:{}, query params:{}, 104.917 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:57.150Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dcfccfb20aefc07144ce","id":"dc005cdf-599d-484a-bdf8-2ce8d8fbabb2"}`,
+  timestamp: '2020-11-06T05:19:57.152Z'
+}
+{
+  message: '    id:79f1f3c0-4659-40d2-a2d5-3c7bedef2da5, url:http://localhost:4000/boards/5fa4dcfccfb20aefc07144ce/tasks/dc005cdf-599d-484a-bdf8-2ce8d8fbabb2, GET, body:{}, query params:{}, 107.778 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:19:57.154Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd454f208794b0c48b03","id":"3ade3a31-92ce-4231-8ca0-a74c45c820e8"}`,
+  timestamp: '2020-11-06T05:21:10.190Z'
+}
+{
+  message: '    id:383728e8-7825-48b9-b892-941b2fcc469c, url:http://localhost:4000/boards/5fa4dd454f208794b0c48b03/tasks/3ade3a31-92ce-4231-8ca0-a74c45c820e8, GET, body:{}, query params:{}, 71.204 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:10.202Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dd464f208794b0c48b08"}`,
+  timestamp: '2020-11-06T05:21:10.562Z'
+}
+{
+  message: '    id:e3711ace-ee94-4b46-be23-ad630152805f, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b08, GET, body:{}, query params:{}, 54.684 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:10.575Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd464f208794b0c48b09","id":"d8089367-daa2-4bd5-88d2-63d167a1f263"}`,
+  timestamp: '2020-11-06T05:21:11.035Z'
+}
+{
+  message: '    id:6aab8476-d4b7-4584-954b-18d671c47d73, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b09/tasks/d8089367-daa2-4bd5-88d2-63d167a1f263, GET, body:{}, query params:{}, 54.651 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:11.052Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd464f208794b0c48b09","id":"1c5a192d-3b4c-403c-9488-bcc9e95d6220"}`,
+  timestamp: '2020-11-06T05:21:11.060Z'
+}
+{
+  message: '    id:8ffe1ed3-729b-4aa0-8436-31989173dae3, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b09/tasks/1c5a192d-3b4c-403c-9488-bcc9e95d6220, GET, body:{}, query params:{}, 78.094 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:11.074Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd464f208794b0c48b09","id":"31a3f0d0-e13c-4074-b0ff-a31295f91503"}`,
+  timestamp: '2020-11-06T05:21:11.092Z'
+}
+{
+  message: '    id:157b5ec2-18e9-468c-87cb-183afa7d74ae, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b09/tasks/31a3f0d0-e13c-4074-b0ff-a31295f91503, GET, body:{}, query params:{}, 110.394 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:11.109Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd464f208794b0c48b09","id":"6fd51b6d-ff30-45df-8ef4-bb2e0fba7185"}`,
+  timestamp: '2020-11-06T05:21:11.126Z'
+}
+{
+  message: '    id:b48c0554-0a6d-4449-9659-b5a7474ddcbf, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b09/tasks/6fd51b6d-ff30-45df-8ef4-bb2e0fba7185, GET, body:{}, query params:{}, 143.531 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:11.143Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dd464f208794b0c48b09","id":"84315b3a-93ae-4f6f-873f-9a5f3749262a"}`,
+  timestamp: '2020-11-06T05:21:11.157Z'
+}
+{
+  message: '    id:8e4040f3-82a5-4d48-b91f-788e69a28054, url:http://localhost:4000/boards/5fa4dd464f208794b0c48b09/tasks/84315b3a-93ae-4f6f-873f-9a5f3749262a, GET, body:{}, query params:{}, 173.755 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:21:11.173Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda869e021e554b1b90b","id":"7841e047-17fa-4a41-af90-a528c432ec51"}`,
+  timestamp: '2020-11-06T05:22:49.468Z'
+}
+{
+  message: '    id:3fe28410-12f1-4ce1-9748-bc606a6af761, url:http://localhost:4000/boards/5fa4dda869e021e554b1b90b/tasks/7841e047-17fa-4a41-af90-a528c432ec51, GET, body:{}, query params:{}, 57.400 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:49.483Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dda969e021e554b1b90f"}`,
+  timestamp: '2020-11-06T05:22:49.745Z'
+}
+{
+  message: '    id:9b5e8083-9ae6-4811-92c3-95f919a99cef, url:http://localhost:4000/boards/5fa4dda969e021e554b1b90f, GET, body:{}, query params:{}, 68.601 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:49.747Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda969e021e554b1b910","id":"c0e535e5-bf41-4c98-9b50-936e96a69a74"}`,
+  timestamp: '2020-11-06T05:22:50.185Z'
+}
+{
+  message: '    id:a8346940-d3e1-4e7a-854f-045991640912, url:http://localhost:4000/boards/5fa4dda969e021e554b1b910/tasks/c0e535e5-bf41-4c98-9b50-936e96a69a74, GET, body:{}, query params:{}, 51.465 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:50.193Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda969e021e554b1b910","id":"e7611a99-74d2-4ef7-bb4b-6f7825b3c934"}`,
+  timestamp: '2020-11-06T05:22:50.199Z'
+}
+{
+  message: '    id:a74712e4-f940-4fbf-9560-9a50cff30c09, url:http://localhost:4000/boards/5fa4dda969e021e554b1b910/tasks/e7611a99-74d2-4ef7-bb4b-6f7825b3c934, GET, body:{}, query params:{}, 62.491 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:50.215Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda969e021e554b1b910","id":"6a7dfc3f-97aa-434b-b965-70938e52382d"}`,
+  timestamp: '2020-11-06T05:22:50.231Z'
+}
+{
+  message: '    id:57f777b0-1657-4684-9d6b-9e3e98104fae, url:http://localhost:4000/boards/5fa4dda969e021e554b1b910/tasks/6a7dfc3f-97aa-434b-b965-70938e52382d, GET, body:{}, query params:{}, 98.581 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:50.247Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda969e021e554b1b910","id":"60d00f55-45b2-4060-80c2-b034a39f1552"}`,
+  timestamp: '2020-11-06T05:22:50.274Z'
+}
+{
+  message: '    id:4ddf2839-f2bd-4258-87af-d0dc17b63be2, url:http://localhost:4000/boards/5fa4dda969e021e554b1b910/tasks/60d00f55-45b2-4060-80c2-b034a39f1552, GET, body:{}, query params:{}, 135.802 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:50.279Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dda969e021e554b1b910","id":"075d5f3f-496f-4f3c-8471-8c81509bab0d"}`,
+  timestamp: '2020-11-06T05:22:50.304Z'
+}
+{
+  message: '    id:006ab220-6639-4f40-9245-4c95969a5149, url:http://localhost:4000/boards/5fa4dda969e021e554b1b910/tasks/075d5f3f-496f-4f3c-8471-8c81509bab0d, GET, body:{}, query params:{}, 163.994 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:22:50.309Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddcf692421b5146c1e78","id":"acc50dff-be0f-4279-9793-1557bfc7c402"}`,
+  timestamp: '2020-11-06T05:23:28.934Z'
+}
+{
+  message: '    id:2e7fd2bb-4b2c-433e-b0c6-fae062b47434, url:http://localhost:4000/boards/5fa4ddcf692421b5146c1e78/tasks/acc50dff-be0f-4279-9793-1557bfc7c402, GET, body:{}, query params:{}, 61.486 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:28.949Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4ddd0692421b5146c1e7c"}`,
+  timestamp: '2020-11-06T05:23:29.250Z'
+}
+{
+  message: '    id:bb5bda86-d15f-44c9-8d45-c4416dad4d93, url:http://localhost:4000/boards/5fa4ddd0692421b5146c1e7c, GET, body:{}, query params:{}, 55.601 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.252Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddd1692421b5146c1e7d","id":"8634cf16-1f25-48d2-b6aa-a4c8ac4e94f1"}`,
+  timestamp: '2020-11-06T05:23:29.706Z'
+}
+{
+  message: '    id:191869e8-1797-4021-9263-dcdc0ed190b4, url:http://localhost:4000/boards/5fa4ddd1692421b5146c1e7d/tasks/8634cf16-1f25-48d2-b6aa-a4c8ac4e94f1, GET, body:{}, query params:{}, 49.751 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.711Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddd1692421b5146c1e7d","id":"bfea8420-6db5-4fae-80ac-141fb994c3ba"}`,
+  timestamp: '2020-11-06T05:23:29.716Z'
+}
+{
+  message: '    id:0a8b364d-fd1f-4dbf-b65b-65526a73cd31, url:http://localhost:4000/boards/5fa4ddd1692421b5146c1e7d/tasks/bfea8420-6db5-4fae-80ac-141fb994c3ba, GET, body:{}, query params:{}, 61.028 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.731Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddd1692421b5146c1e7d","id":"7fa5279e-1965-4f06-802d-73ec2268a96c"}`,
+  timestamp: '2020-11-06T05:23:29.736Z'
+}
+{
+  message: '    id:f581a99d-7b6a-4ad8-8f45-74779cfc2899, url:http://localhost:4000/boards/5fa4ddd1692421b5146c1e7d/tasks/7fa5279e-1965-4f06-802d-73ec2268a96c, GET, body:{}, query params:{}, 78.619 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.751Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddd1692421b5146c1e7d","id":"fa75155f-21c9-4e53-8d92-47e8550862ed"}`,
+  timestamp: '2020-11-06T05:23:29.766Z'
+}
+{
+  message: '    id:66ba8585-1151-45ff-9309-81489ba62031, url:http://localhost:4000/boards/5fa4ddd1692421b5146c1e7d/tasks/fa75155f-21c9-4e53-8d92-47e8550862ed, GET, body:{}, query params:{}, 108.638 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.790Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4ddd1692421b5146c1e7d","id":"8f5103b6-f099-4d8a-8397-820112d787c6"}`,
+  timestamp: '2020-11-06T05:23:29.796Z'
+}
+{
+  message: '    id:bc1ff6f7-7bc8-4a48-85fb-659af1d4f7a9, url:http://localhost:4000/boards/5fa4ddd1692421b5146c1e7d/tasks/8f5103b6-f099-4d8a-8397-820112d787c6, GET, body:{}, query params:{}, 137.425 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:23:29.800Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7be7bf7cd9b478d06b","id":"9b71bdf0-c2d1-4958-a2d2-c24871740567"}`,
+  timestamp: '2020-11-06T05:26:20.343Z'
+}
+{
+  message: '    id:7c6adcce-4bac-4c12-8df1-8d3cc9428a87, url:http://localhost:4000/boards/5fa4de7be7bf7cd9b478d06b/tasks/9b71bdf0-c2d1-4958-a2d2-c24871740567, GET, body:{}, query params:{}, 57.293 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:20.355Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4de7ce7bf7cd9b478d070"}`,
+  timestamp: '2020-11-06T05:26:20.651Z'
+}
+{
+  message: '    id:ed9d221f-0e00-403a-98af-11e5a810e512, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d070, GET, body:{}, query params:{}, 60.956 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:20.673Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7ce7bf7cd9b478d071","id":"7dc06f4b-a44b-49d2-bcb1-662b03d9741f"}`,
+  timestamp: '2020-11-06T05:26:21.136Z'
+}
+{
+  message: '    id:71780cc6-91d6-428c-befe-a56f73c8638a, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d071/tasks/7dc06f4b-a44b-49d2-bcb1-662b03d9741f, GET, body:{}, query params:{}, 53.994 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:21.174Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7ce7bf7cd9b478d071","id":"ff8bb9bc-5893-4ccd-ad7a-8d33544d311e"}`,
+  timestamp: '2020-11-06T05:26:21.178Z'
+}
+{
+  message: '    id:d964860a-23d9-4fdb-a671-5b234893e4cf, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d071/tasks/ff8bb9bc-5893-4ccd-ad7a-8d33544d311e, GET, body:{}, query params:{}, 99.088 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:21.193Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7ce7bf7cd9b478d071","id":"b74a496d-3987-4b4a-a7b9-d144974f8291"}`,
+  timestamp: '2020-11-06T05:26:21.218Z'
+}
+{
+  message: '    id:ea01c8c9-4db5-4c99-8e52-cb62be643076, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d071/tasks/b74a496d-3987-4b4a-a7b9-d144974f8291, GET, body:{}, query params:{}, 137.879 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:21.224Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7ce7bf7cd9b478d071","id":"553af294-b320-490e-9032-4319e05438ee"}`,
+  timestamp: '2020-11-06T05:26:21.228Z'
+}
+{
+  message: '    id:24c09267-9444-442a-8ed4-cdbedf27159c, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d071/tasks/553af294-b320-490e-9032-4319e05438ee, GET, body:{}, query params:{}, 146.421 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:21.246Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4de7ce7bf7cd9b478d071","id":"6137d606-79bf-4949-9a3a-f4116b2f9587"}`,
+  timestamp: '2020-11-06T05:26:21.261Z'
+}
+{
+  message: '    id:f0bdf9a7-da24-4794-8a1e-2d7543ecb1e4, url:http://localhost:4000/boards/5fa4de7ce7bf7cd9b478d071/tasks/6137d606-79bf-4949-9a3a-f4116b2f9587, GET, body:{}, query params:{}, 182.814 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:26:21.277Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea83e9ebce7e0e9fa0e","id":"1211ce3a-d316-4368-a265-5ae5d0290123"}`,
+  timestamp: '2020-11-06T05:27:05.315Z'
+}
+{
+  message: '    id:4a837838-7a80-409a-aff8-7179a7b031ba, url:http://localhost:4000/boards/5fa4dea83e9ebce7e0e9fa0e/tasks/1211ce3a-d316-4368-a265-5ae5d0290123, GET, body:{}, query params:{}, 78.625 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:05.331Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dea93e9ebce7e0e9fa13"}`,
+  timestamp: '2020-11-06T05:27:05.743Z'
+}
+{
+  message: '    id:ccce976b-6649-4e80-9deb-5ee5d5301276, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa13, GET, body:{}, query params:{}, 67.319 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:05.756Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea93e9ebce7e0e9fa14","id":"0858e5c4-f796-4d34-ae17-9a2a996ffc1b"}`,
+  timestamp: '2020-11-06T05:27:06.246Z'
+}
+{
+  message: '    id:74ae7df2-2f15-4f57-887d-7fba65c460ed, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa14/tasks/0858e5c4-f796-4d34-ae17-9a2a996ffc1b, GET, body:{}, query params:{}, 62.912 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:06.266Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea93e9ebce7e0e9fa14","id":"ad56122c-8fb9-465a-9b41-a7b446f3ccf5"}`,
+  timestamp: '2020-11-06T05:27:06.288Z'
+}
+{
+  message: '    id:65bdc204-46a2-4e0e-aefa-c5eedec5cff1, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa14/tasks/ad56122c-8fb9-465a-9b41-a7b446f3ccf5, GET, body:{}, query params:{}, 107.462 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:06.296Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea93e9ebce7e0e9fa14","id":"2b10b1fd-2198-4047-abc0-869715b0acfd"}`,
+  timestamp: '2020-11-06T05:27:06.301Z'
+}
+{
+  message: '    id:81460fd7-517f-4cee-b7e8-344e1d3f7968, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa14/tasks/2b10b1fd-2198-4047-abc0-869715b0acfd, GET, body:{}, query params:{}, 119.068 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:06.334Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea93e9ebce7e0e9fa14","id":"80ff6c80-b508-4926-b2d3-00cde0b31fa8"}`,
+  timestamp: '2020-11-06T05:27:06.352Z'
+}
+{
+  message: '    id:745f496f-af34-4108-9a45-7ba5cf51f628, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa14/tasks/80ff6c80-b508-4926-b2d3-00cde0b31fa8, GET, body:{}, query params:{}, 165.847 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:06.365Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dea93e9ebce7e0e9fa14","id":"b1ad4a26-4f24-4eac-bacb-0e42cef9f1ac"}`,
+  timestamp: '2020-11-06T05:27:06.383Z'
+}
+{
+  message: '    id:3a11734b-0dff-4ea7-8b2d-6bfced1e9fe0, url:http://localhost:4000/boards/5fa4dea93e9ebce7e0e9fa14/tasks/b1ad4a26-4f24-4eac-bacb-0e42cef9f1ac, GET, body:{}, query params:{}, 198.012 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:27:06.399Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee0c465dcef90d8a3cc","id":"59069e7e-3dde-4bcf-a710-1b0f35f11f6b"}`,
+  timestamp: '2020-11-06T05:28:01.766Z'
+}
+{
+  message: '    id:e25e3794-33e1-4569-812f-b7bbd77aa2a1, url:http://localhost:4000/boards/5fa4dee0c465dcef90d8a3cc/tasks/59069e7e-3dde-4bcf-a710-1b0f35f11f6b, GET, body:{}, query params:{}, 72.247 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:01.769Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4dee1c465dcef90d8a3d1"}`,
+  timestamp: '2020-11-06T05:28:02.144Z'
+}
+{
+  message: '    id:194b4893-11f7-4e79-946b-38ab883c107d, url:http://localhost:4000/boards/5fa4dee1c465dcef90d8a3d1, GET, body:{}, query params:{}, 59.028 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.147Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee2c465dcef90d8a3d2","id":"a75fa868-6bdf-4fbd-9d62-c10b6270b62e"}`,
+  timestamp: '2020-11-06T05:28:02.574Z'
+}
+{
+  message: '    id:1a89e702-39d0-43df-93d0-426761935fd4, url:http://localhost:4000/boards/5fa4dee2c465dcef90d8a3d2/tasks/a75fa868-6bdf-4fbd-9d62-c10b6270b62e, GET, body:{}, query params:{}, 50.126 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.586Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee2c465dcef90d8a3d2","id":"5c235512-44e7-4e7a-913a-d356af33c1e0"}`,
+  timestamp: '2020-11-06T05:28:02.602Z'
+}
+{
+  message: '    id:bbb91410-e57d-4e8e-9832-509c6a16ac97, url:http://localhost:4000/boards/5fa4dee2c465dcef90d8a3d2/tasks/5c235512-44e7-4e7a-913a-d356af33c1e0, GET, body:{}, query params:{}, 77.023 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.616Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee2c465dcef90d8a3d2","id":"9f7d8acc-b1f0-4dac-a6d8-a1bf493bb629"}`,
+  timestamp: '2020-11-06T05:28:02.632Z'
+}
+{
+  message: '    id:4b774691-b375-4397-9899-39cf0217cff9, url:http://localhost:4000/boards/5fa4dee2c465dcef90d8a3d2/tasks/9f7d8acc-b1f0-4dac-a6d8-a1bf493bb629, GET, body:{}, query params:{}, 109.348 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.637Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee2c465dcef90d8a3d2","id":"a014c5e8-4f0a-4ee2-bf8e-59af536ff99d"}`,
+  timestamp: '2020-11-06T05:28:02.669Z'
+}
+{
+  message: '    id:1d9042ab-78d9-457b-ac6c-5acd11bbdab1, url:http://localhost:4000/boards/5fa4dee2c465dcef90d8a3d2/tasks/a014c5e8-4f0a-4ee2-bf8e-59af536ff99d, GET, body:{}, query params:{}, 142.292 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.687Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4dee2c465dcef90d8a3d2","id":"295a2c7f-486d-47ee-a919-0be4fcace1b0"}`,
+  timestamp: '2020-11-06T05:28:02.705Z'
+}
+{
+  message: '    id:457781e2-f234-47d1-9330-f706aab825f0, url:http://localhost:4000/boards/5fa4dee2c465dcef90d8a3d2/tasks/295a2c7f-486d-47ee-a919-0be4fcace1b0, GET, body:{}, query params:{}, 179.445 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:02.718Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def6750926a7f4b6846b","id":"ad9fcbeb-58d8-4d07-88d9-08dd20591b0b"}`,
+  timestamp: '2020-11-06T05:28:23.641Z'
+}
+{
+  message: '    id:edb3cf48-8fca-49a8-8007-a010f6265db5, url:http://localhost:4000/boards/5fa4def6750926a7f4b6846b/tasks/ad9fcbeb-58d8-4d07-88d9-08dd20591b0b, GET, body:{}, query params:{}, 108.604 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:23.646Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4def7750926a7f4b6846f"}`,
+  timestamp: '2020-11-06T05:28:23.971Z'
+}
+{
+  message: '    id:640b8b2e-e36e-4059-a033-de489501abbb, url:http://localhost:4000/boards/5fa4def7750926a7f4b6846f, GET, body:{}, query params:{}, 59.183 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:23.990Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def7750926a7f4b68470","id":"f052653a-639f-40bd-a8a9-6e1d26573e41"}`,
+  timestamp: '2020-11-06T05:28:24.477Z'
+}
+{
+  message: '    id:d0102ca4-dbe2-4590-91a6-672f545bb258, url:http://localhost:4000/boards/5fa4def7750926a7f4b68470/tasks/f052653a-639f-40bd-a8a9-6e1d26573e41, GET, body:{}, query params:{}, 74.910 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:24.482Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def7750926a7f4b68470","id":"66a1443b-5344-40a9-b84d-f77ed6bed8f9"}`,
+  timestamp: '2020-11-06T05:28:24.520Z'
+}
+{
+  message: '    id:d5733bee-c4d9-444d-bfed-d1b41e26ccd7, url:http://localhost:4000/boards/5fa4def7750926a7f4b68470/tasks/66a1443b-5344-40a9-b84d-f77ed6bed8f9, GET, body:{}, query params:{}, 118.976 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:24.542Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def7750926a7f4b68470","id":"cab3d4e1-419b-488c-abb9-0076a9cc512b"}`,
+  timestamp: '2020-11-06T05:28:24.571Z'
+}
+{
+  message: '    id:54eabcda-30f0-4bec-9cad-9ec423046f89, url:http://localhost:4000/boards/5fa4def7750926a7f4b68470/tasks/cab3d4e1-419b-488c-abb9-0076a9cc512b, GET, body:{}, query params:{}, 168.078 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:24.592Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def7750926a7f4b68470","id":"f1e38563-ae4e-4644-a1de-e531468eed0d"}`,
+  timestamp: '2020-11-06T05:28:24.601Z'
+}
+{
+  message: '    id:049d2615-c45c-4f3e-8ad3-7cfdceb0d930, url:http://localhost:4000/boards/5fa4def7750926a7f4b68470/tasks/f1e38563-ae4e-4644-a1de-e531468eed0d, GET, body:{}, query params:{}, 197.058 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:24.604Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4def7750926a7f4b68470","id":"6b594521-4d2c-41dd-8c7c-63d63baa0d2e"}`,
+  timestamp: '2020-11-06T05:28:24.635Z'
+}
+{
+  message: '    id:4d7f4093-f82a-4587-9675-ca3cf3a77a61, url:http://localhost:4000/boards/5fa4def7750926a7f4b68470/tasks/6b594521-4d2c-41dd-8c7c-63d63baa0d2e, GET, body:{}, query params:{}, 233.853 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:28:24.639Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df30baf60decd81ec633","id":"04bd7d6a-6bfc-42af-8394-598f291dbd8b"}`,
+  timestamp: '2020-11-06T05:29:21.244Z'
+}
+{
+  message: '    id:57ebfadb-7dba-4a07-9c49-8c37e2648c85, url:http://localhost:4000/boards/5fa4df30baf60decd81ec633/tasks/04bd7d6a-6bfc-42af-8394-598f291dbd8b, GET, body:{}, query params:{}, 77.985 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:21.257Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4df31baf60decd81ec638"}`,
+  timestamp: '2020-11-06T05:29:21.622Z'
+}
+{
+  message: '    id:76ade6b8-307e-46eb-b147-ba16855cd140, url:http://localhost:4000/boards/5fa4df31baf60decd81ec638, GET, body:{}, query params:{}, 52.339 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:21.634Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df31baf60decd81ec639","id":"cc9d0164-ae36-4239-9a26-a18997c33687"}`,
+  timestamp: '2020-11-06T05:29:22.106Z'
+}
+{
+  message: '    id:1c2259af-babf-4e4a-91ef-b0e55bf5030b, url:http://localhost:4000/boards/5fa4df31baf60decd81ec639/tasks/cc9d0164-ae36-4239-9a26-a18997c33687, GET, body:{}, query params:{}, 52.179 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:22.120Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df31baf60decd81ec639","id":"bb98627f-7ad5-4231-bf6c-fa5b26c58274"}`,
+  timestamp: '2020-11-06T05:29:22.142Z'
+}
+{
+  message: '    id:ae9d5851-4601-410f-ab25-bc586581da64, url:http://localhost:4000/boards/5fa4df31baf60decd81ec639/tasks/bb98627f-7ad5-4231-bf6c-fa5b26c58274, GET, body:{}, query params:{}, 87.000 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:22.158Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df31baf60decd81ec639","id":"46f79a45-3b57-4798-843f-f4faf5b4e12b"}`,
+  timestamp: '2020-11-06T05:29:22.183Z'
+}
+{
+  message: '    id:34b0d1ea-373a-451b-b8fe-51810fa0e216, url:http://localhost:4000/boards/5fa4df31baf60decd81ec639/tasks/46f79a45-3b57-4798-843f-f4faf5b4e12b, GET, body:{}, query params:{}, 129.917 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:22.187Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df31baf60decd81ec639","id":"7937412a-a53c-48de-b22d-8df1863dd441"}`,
+  timestamp: '2020-11-06T05:29:22.191Z'
+}
+{
+  message: '    id:01c8eab9-ad8d-4b23-9a22-d7fa312fc20e, url:http://localhost:4000/boards/5fa4df31baf60decd81ec639/tasks/7937412a-a53c-48de-b22d-8df1863dd441, GET, body:{}, query params:{}, 136.221 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:22.205Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df31baf60decd81ec639","id":"fa279298-fa48-4fef-b840-7008297fe361"}`,
+  timestamp: '2020-11-06T05:29:22.226Z'
+}
+{
+  message: '    id:672dbccc-321b-4219-80ae-efefaa5fab53, url:http://localhost:4000/boards/5fa4df31baf60decd81ec639/tasks/fa279298-fa48-4fef-b840-7008297fe361, GET, body:{}, query params:{}, 171.467 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:22.242Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df47a67cbde0209a18ca","id":"cd0a9e37-5301-4692-9b6f-7ae6bc46f4ec"}`,
+  timestamp: '2020-11-06T05:29:44.309Z'
+}
+{
+  message: '    id:146e62fa-cd7a-4646-a825-3684db7c0612, url:http://localhost:4000/boards/5fa4df47a67cbde0209a18ca/tasks/cd0a9e37-5301-4692-9b6f-7ae6bc46f4ec, GET, body:{}, query params:{}, 63.937 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:44.323Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4df48a67cbde0209a18cf"}`,
+  timestamp: '2020-11-06T05:29:44.654Z'
+}
+{
+  message: '    id:2adc5b07-162b-4345-8340-41a2205b5180, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18cf, GET, body:{}, query params:{}, 67.320 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:44.656Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df48a67cbde0209a18d0","id":"ffed62c9-b75f-40c6-bb1d-ad43abdd3695"}`,
+  timestamp: '2020-11-06T05:29:45.103Z'
+}
+{
+  message: '    id:27b4e2a4-0363-4749-a5eb-71743569b2e7, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18d0/tasks/ffed62c9-b75f-40c6-bb1d-ad43abdd3695, GET, body:{}, query params:{}, 57.088 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:45.116Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df48a67cbde0209a18d0","id":"ec2be39b-7480-476c-a25b-2c3471eaedc5"}`,
+  timestamp: '2020-11-06T05:29:45.122Z'
+}
+{
+  message: '    id:5b03a850-c30d-43e8-8761-f24b455341da, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18d0/tasks/ec2be39b-7480-476c-a25b-2c3471eaedc5, GET, body:{}, query params:{}, 70.921 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:45.125Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df48a67cbde0209a18d0","id":"55e6437a-7a51-4410-9925-1aa02b8a2c6b"}`,
+  timestamp: '2020-11-06T05:29:45.139Z'
+}
+{
+  message: '    id:b7341d87-4b92-483c-87d2-94c918d66549, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18d0/tasks/55e6437a-7a51-4410-9925-1aa02b8a2c6b, GET, body:{}, query params:{}, 89.113 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:45.143Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df48a67cbde0209a18d0","id":"be51ea62-5136-48a7-a0a0-392e57cbe850"}`,
+  timestamp: '2020-11-06T05:29:45.158Z'
+}
+{
+  message: '    id:1ab72555-c47c-4751-8503-1d80e9ee379e, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18d0/tasks/be51ea62-5136-48a7-a0a0-392e57cbe850, GET, body:{}, query params:{}, 110.286 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:45.176Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df48a67cbde0209a18d0","id":"50979a5d-de05-4557-a8ab-ab4428bd71c2"}`,
+  timestamp: '2020-11-06T05:29:45.193Z'
+}
+{
+  message: '    id:c471b35d-9a69-4be5-bb90-0f443faaaf52, url:http://localhost:4000/boards/5fa4df48a67cbde0209a18d0/tasks/50979a5d-de05-4557-a8ab-ab4428bd71c2, GET, body:{}, query params:{}, 145.080 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:29:45.207Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df63a93b4fd9b47b5068","id":"2270e778-7c7f-4f31-a91b-1fc087c6c3df"}`,
+  timestamp: '2020-11-06T05:30:13.056Z'
+}
+{
+  message: '    id:5fa62876-a37c-4bba-b037-072bdb6431c0, url:http://localhost:4000/boards/5fa4df63a93b4fd9b47b5068/tasks/2270e778-7c7f-4f31-a91b-1fc087c6c3df, GET, body:{}, query params:{}, 77.476 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.059Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4df65a93b4fd9b47b506c"}`,
+  timestamp: '2020-11-06T05:30:13.314Z'
+}
+{
+  message: '    id:843febf6-93e0-4ac6-ae58-c9f98aacf3bf, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506c, GET, body:{}, query params:{}, 58.649 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.327Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df65a93b4fd9b47b506d","id":"2a382282-323a-4deb-ba11-6e3a74cc03ec"}`,
+  timestamp: '2020-11-06T05:30:13.832Z'
+}
+{
+  message: '    id:d210d27b-1d7f-4e15-97bf-02a33a60c064, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506d/tasks/2a382282-323a-4deb-ba11-6e3a74cc03ec, GET, body:{}, query params:{}, 91.630 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.844Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df65a93b4fd9b47b506d","id":"30f86bea-2b99-472f-b4a0-a3119d64107c"}`,
+  timestamp: '2020-11-06T05:30:13.862Z'
+}
+{
+  message: '    id:c8fe80b1-004b-491d-ac71-3bb5e15f9fcd, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506d/tasks/30f86bea-2b99-472f-b4a0-a3119d64107c, GET, body:{}, query params:{}, 125.224 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.883Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df65a93b4fd9b47b506d","id":"7db5e2eb-f6a7-4dd4-b9c4-8345329c1ebd"}`,
+  timestamp: '2020-11-06T05:30:13.912Z'
+}
+{
+  message: '    id:3130bc53-5c83-4e1f-a34d-a940de69ab68, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506d/tasks/7db5e2eb-f6a7-4dd4-b9c4-8345329c1ebd, GET, body:{}, query params:{}, 171.873 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.926Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df65a93b4fd9b47b506d","id":"5cb476c8-2624-4d12-9254-3ab847c94542"}`,
+  timestamp: '2020-11-06T05:30:13.931Z'
+}
+{
+  message: '    id:656907b4-0a31-4a17-ae15-5371180cd02f, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506d/tasks/5cb476c8-2624-4d12-9254-3ab847c94542, GET, body:{}, query params:{}, 190.266 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.947Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df65a93b4fd9b47b506d","id":"cdb44dc6-0a0d-4b1b-84f7-26a86d3fe29a"}`,
+  timestamp: '2020-11-06T05:30:13.967Z'
+}
+{
+  message: '    id:d1d27150-ef7e-477b-998e-08b8b4f7d3d0, url:http://localhost:4000/boards/5fa4df65a93b4fd9b47b506d/tasks/cdb44dc6-0a0d-4b1b-84f7-26a86d3fe29a, GET, body:{}, query params:{}, 228.630 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:13.994Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df84e69ba3716ce9dccd","id":"25b5e135-b8ee-430e-8c51-9670e6daf127"}`,
+  timestamp: '2020-11-06T05:30:45.292Z'
+}
+{
+  message: '    id:ab27230f-62d5-4171-b291-0fc401c1dfa3, url:http://localhost:4000/boards/5fa4df84e69ba3716ce9dccd/tasks/25b5e135-b8ee-430e-8c51-9670e6daf127, GET, body:{}, query params:{}, 86.649 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:45.309Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4df85e69ba3716ce9dcd1"}`,
+  timestamp: '2020-11-06T05:30:45.597Z'
+}
+{
+  message: '    id:f46ce9d4-30d2-40c0-bd91-05d2ceeeceb6, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd1, GET, body:{}, query params:{}, 61.011 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:45.608Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df85e69ba3716ce9dcd2","id":"e609388b-7a3f-443c-8f1a-d1f5f2ccb1d8"}`,
+  timestamp: '2020-11-06T05:30:46.068Z'
+}
+{
+  message: '    id:e96b922c-d5b7-4347-80ca-cf0b05199fdb, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd2/tasks/e609388b-7a3f-443c-8f1a-d1f5f2ccb1d8, GET, body:{}, query params:{}, 51.508 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:46.081Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df85e69ba3716ce9dcd2","id":"ab2bb6c8-d9f0-4fd6-9a6c-d572abdb437b"}`,
+  timestamp: '2020-11-06T05:30:46.095Z'
+}
+{
+  message: '    id:fdce71da-0742-405b-a066-f0fb6d6639aa, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd2/tasks/ab2bb6c8-d9f0-4fd6-9a6c-d572abdb437b, GET, body:{}, query params:{}, 77.257 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:46.099Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df85e69ba3716ce9dcd2","id":"64cb5f03-7350-4eb0-9ca7-c4ccfed51578"}`,
+  timestamp: '2020-11-06T05:30:46.113Z'
+}
+{
+  message: '    id:8a939554-266d-47f5-9f6d-ec9079a4cbcd, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd2/tasks/64cb5f03-7350-4eb0-9ca7-c4ccfed51578, GET, body:{}, query params:{}, 99.332 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:46.116Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df85e69ba3716ce9dcd2","id":"a7a99eb4-3eb3-4947-97f3-f6bf4ac59017"}`,
+  timestamp: '2020-11-06T05:30:46.131Z'
+}
+{
+  message: '    id:9400f2ca-60aa-48de-9717-da328d7d4570, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd2/tasks/a7a99eb4-3eb3-4947-97f3-f6bf4ac59017, GET, body:{}, query params:{}, 115.497 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:46.178Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4df85e69ba3716ce9dcd2","id":"9af81c5c-9121-4b9a-94f7-4ce1adbb3b0d"}`,
+  timestamp: '2020-11-06T05:30:46.180Z'
+}
+{
+  message: '    id:ebca63b0-ac2e-493e-84fc-da59e2dbeb95, url:http://localhost:4000/boards/5fa4df85e69ba3716ce9dcd2/tasks/9af81c5c-9121-4b9a-94f7-4ce1adbb3b0d, GET, body:{}, query params:{}, 165.548 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:30:46.195Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0df02a015f2b8d86d77","id":"14ab514a-fa41-473b-9297-953ab4dd69c1"}`,
+  timestamp: '2020-11-06T05:36:32.385Z'
+}
+{
+  message: '    id:665608e3-5270-4c1a-ace8-6b5bf40b57ab, url:http://localhost:4000/boards/5fa4e0df02a015f2b8d86d77/tasks/14ab514a-fa41-473b-9297-953ab4dd69c1, GET, body:{}, query params:{}, 69.799 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:32.398Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find board with params: {"id":"5fa4e0e002a015f2b8d86d7c"}`,
+  timestamp: '2020-11-06T05:36:32.716Z'
+}
+{
+  message: '    id:a5fbc4f4-70a8-4039-a722-392f6735606b, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7c, GET, body:{}, query params:{}, 56.632 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:32.717Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0e002a015f2b8d86d7d","id":"a86030ae-9b8f-46de-b17b-d6dbf5b35c1c"}`,
+  timestamp: '2020-11-06T05:36:33.192Z'
+}
+{
+  message: '    id:7dcb04d4-e55e-453c-9788-ac3b59bb6e3d, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7d/tasks/a86030ae-9b8f-46de-b17b-d6dbf5b35c1c, GET, body:{}, query params:{}, 55.230 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:33.211Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0e002a015f2b8d86d7d","id":"86365803-540f-4e55-94f6-47bdc5d2ecb4"}`,
+  timestamp: '2020-11-06T05:36:33.216Z'
+}
+{
+  message: '    id:ac4d8913-5e6e-4134-a006-054d2727d46e, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7d/tasks/86365803-540f-4e55-94f6-47bdc5d2ecb4, GET, body:{}, query params:{}, 73.481 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:33.220Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0e002a015f2b8d86d7d","id":"f26b2824-b694-4c80-b89f-f2ceacc91681"}`,
+  timestamp: '2020-11-06T05:36:33.237Z'
+}
+{
+  message: '    id:77d49c30-da0f-4f2d-b0e3-cfb003eae932, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7d/tasks/f26b2824-b694-4c80-b89f-f2ceacc91681, GET, body:{}, query params:{}, 82.761 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:33.281Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0e002a015f2b8d86d7d","id":"57bf8497-360b-47ef-b43a-66177e3ccd9c"}`,
+  timestamp: '2020-11-06T05:36:33.288Z'
+}
+{
+  message: '    id:abaa33d9-73ff-4184-8eff-9f0873bbb29b, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7d/tasks/57bf8497-360b-47ef-b43a-66177e3ccd9c, GET, body:{}, query params:{}, 141.745 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:33.307Z'
+}
+{
+  level: 'error',
+  message: `   Couldn't find task with params: {"boardId":"5fa4e0e002a015f2b8d86d7d","id":"0b683d57-6ba0-4272-83c7-e5bd4d18bf91"}`,
+  timestamp: '2020-11-06T05:36:33.326Z'
+}
+{
+  message: '    id:e585c27c-388b-4bf6-a3f0-4eff30d22d84, url:http://localhost:4000/boards/5fa4e0e002a015f2b8d86d7d/tasks/0b683d57-6ba0-4272-83c7-e5bd4d18bf91, GET, body:{}, query params:{}, 173.875 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:36:33.332Z'
+}
+{
+  level: 'error',
+  message: "   Cannot read property 'split' of undefined",
+  timestamp: '2020-11-06T05:38:03.433Z'
+}
+{
+  message: '    id:2a543b85-4b47-4027-b1f0-c4452b8bcb42, url:http://localhost:4000/users, GET, body:{}, query params:{}, 13.379 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:38:03.447Z'
+}
+{
+  level: 'error',
+  message: "   Cannot read property 'split' of undefined",
+  timestamp: '2020-11-06T05:39:00.845Z'
+}
+{
+  message: '    id:f7b0a431-6929-48b7-958d-efb74b1042aa, url:http://localhost:4000/users, GET, body:{}, query params:{}, 63.644 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:39:00.886Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:41:52.048Z'
+}
+{
+  message: '    id:cee471d1-6aa6-4185-9573-2fab9020bee1, url:http://localhost:4000/users, GET, body:{}, query params:{}, 35.562 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:41:52.059Z'
+}
+{
+  level: 'error',
+  message: '   Unauthorized access! Log-in to continue',
+  timestamp: '2020-11-06T05:43:55.756Z'
+}
+{
+  message: '    id:b70befce-4d8f-4b41-9091-2b93df98000d, url:http://localhost:4000/boards, GET, body:{}, query params:{}, 18.020 ms\n',
+  level: 'info',
+  timestamp: '2020-11-06T05:43:55.774Z'
 }
